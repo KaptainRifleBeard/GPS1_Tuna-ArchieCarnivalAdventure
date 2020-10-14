@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 478126117108005189}
   - component: {fileID: 2389739895341326325}
   - component: {fileID: 3226486785462692340}
-  - component: {fileID: 4660820375546168589}
-  - component: {fileID: 8650115363719351901}
+  - component: {fileID: 1070596573304306288}
   - component: {fileID: 6563126998001851108}
   - component: {fileID: 75199676910489054}
+  - component: {fileID: 4660820375546168589}
   m_Layer: 0
   m_Name: Bumper car
   m_TagString: Enemy
@@ -135,33 +135,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &4660820375546168589
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478126117108005190}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.021076202, y: -0.12121034}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.915, y: 1.49}
-    newSize: {x: 3.83, y: 2.98}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.5356331, y: 1.0156951}
-  m_EdgeRadius: 0
---- !u!114 &8650115363719351901
+--- !u!114 &1070596573304306288
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,18 +144,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 478126117108005190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a62cd5c8ee8931f44a8e0bb634d06411, type: 3}
+  m_Script: {fileID: 11500000, guid: 033e036e2f44d1d4e9082acefca38652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 939748024404377582, guid: 60cc09ea661a7874bb9ab9605ab7f3af, type: 3}
   barrier: {fileID: 0}
-  enemySpeed: 1
+  enemySpeed: 0.3
   isStop: 0
+  isRetreat: 0
   isRamming: 1
+  isKamikaze: 0
   isFacingRight: 0
-  followRadius: 5
+  followRadius: 3
+  stopRadius: 2
+  retreatRadius: 2
+  attackRadius: 0
   rammingRadius: 2
-  stopRadius: 3
 --- !u!114 &6563126998001851108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,3 +188,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+--- !u!61 &4660820375546168589
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478126117108005190}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.021076202, y: -0.12121034}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.915, y: 1.49}
+    newSize: {x: 3.83, y: 2.98}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5356331, y: 1.0156951}
+  m_EdgeRadius: 0

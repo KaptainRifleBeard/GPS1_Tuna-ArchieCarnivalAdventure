@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyShootBehavior : MonoBehaviour
+public class ShootingEnemy : MonoBehaviour
 {
     public GameObject bullet;
     public Transform target;
-
     public float bulletSpeed;
-    public float attackRadius;
-    public float startTimeBtwShoot;
-    private float timeBtwShoot;
 
+    private float timeBtwShoot;
+    public float startTimeBtwShoot;
+
+    public float attackRadius;
 
     void Start()
     {
