@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isKnockback: 0
   speed: 5
+  bullet: {fileID: 91672080568598289}
 --- !u!114 &6141751062220506517
 MonoBehaviour:
   m_ObjectHideFlags: 0
