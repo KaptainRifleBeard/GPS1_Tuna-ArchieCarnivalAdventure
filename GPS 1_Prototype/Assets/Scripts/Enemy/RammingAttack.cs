@@ -2,22 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyDetect : EnemyMovement
+public class RammingAttack : EnemyMovement
 {
     public float enemySpeed;
 
     public bool isStop;
-    public bool isRetreat;
     public bool isRamming;
-    public bool isKamikaze;
-
     public bool isFacingRight;
 
     public float followRadius;
-    public float stopRadius;
-    public float retreatRadius;
-    public float attackRadius;
     public float rammingRadius = 2;
+    public float stopRadius;
 
     void Start()
     {
@@ -56,19 +51,6 @@ public class EnemyDetect : EnemyMovement
     }
 
 
-    void retreat()
-    {
-        if (Vector2.Distance(transform.position, target.position) > retreatRadius)
-        {
-            transform.position = this.transform.position;
-        }
-        else if (Vector2.Distance(transform.position, target.position) < retreatRadius)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, -enemySpeed * Time.deltaTime);
-        }
-
-    }
-
     void ramming()
     {
         enemySpeed = 3;
@@ -78,22 +60,6 @@ public class EnemyDetect : EnemyMovement
             transform.position = Vector3.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
         }
     }
-
-
-    void kamikaze()
-    {
-        if (Vector3.Distance(target.position, transform.position) <= attackRadius)
-        {
-            enemySpeed += 2;
-            transform.position = Vector3.MoveTowards(transform.position, target.position, enemySpeed* Time.deltaTime);
-
-            if(transform.position.x == target.position.x || transform.position.x == target.position.x)
-            {
-                Destroy(gameObject);
-            }
-        }
-    }
-
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -113,7 +79,7 @@ public class EnemyDetect : EnemyMovement
         {
             isRamming = false;
 
-            if(isRamming == false)
+            if (isRamming == false)
             {
                 StartCoroutine(ChangeRammingBool());
             }
@@ -125,37 +91,18 @@ public class EnemyDetect : EnemyMovement
         yield return new WaitForSeconds(3f);
         isRamming = true;
     }
-
     void Update()
     {
         if (target != null)
         {
             checkDistance();
 
-            if (isStop)
-            {
-                Debug.Log("stop");
-                if (Vector2.Distance(transform.position, target.position) < stopRadius)
-                {
-                    transform.position = this.transform.position;
-                }
-            }
-
-            if (isRetreat)
-            {
-                retreat();
-            }
             if (isRamming == true)
             {
                 ramming();
 
             }
-            if (isKamikaze)
-            {
-                kamikaze();
-            }
-
+         
         }
     }
-           
 }
