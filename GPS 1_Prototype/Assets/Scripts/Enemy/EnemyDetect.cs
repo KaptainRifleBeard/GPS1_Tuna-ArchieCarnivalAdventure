@@ -19,6 +19,8 @@ public class EnemyDetect : EnemyMovement
     public float attackRadius;
     public float rammingRadius = 2;
 
+    private float rammingCooldown;
+
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
