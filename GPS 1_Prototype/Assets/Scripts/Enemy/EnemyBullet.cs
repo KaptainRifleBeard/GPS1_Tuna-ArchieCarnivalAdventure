@@ -7,16 +7,20 @@ public class EnemyBullet: MonoBehaviour
     public bool isKnockback;
     public float speed;
 
-    private Transform player;
-    private Vector2 target;
+    Player player;
+    private Vector2 dir;
 
-    public Rigidbody2D bullet;
+    public Rigidbody2D rb;
 
 
     void Start()
     {
-        //player = GameObject.FindWithTag("Player").transform;
-        //target = new Vector2(player.position.x, player.position.y);
+        player = GameObject.FindObjectOfType<Player>();
+        rb = GetComponent<Rigidbody2D>();
+        dir = (player.transform.position - transform.position).normalized * speed;
+        rb.velocity = new Vector2(dir.x, dir.y);
+
+        Destroy(gameObject, 3f);
     }
 
 
@@ -50,23 +54,9 @@ public class EnemyBullet: MonoBehaviour
 
     }
 
-    //void Update()
-    //{
-    //    if (player != null)
-    //    {
-    //        Rigidbody2D enemyBulletRB = bullet.GetComponent<Rigidbody2D>();
-    //        enemyBulletRB.AddForce(gameObject.transform.position * speed, ForceMode2D.Impulse);
+    void Update()
+    {
 
-    //        //transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-    //        //Destroy(gameObject, 1f);
-
-    //        //if (transform.position.x == target.x && transform.position.y == target.y)
-    //        //{
-    //        //    Destroy(gameObject);
-    //        //}
-    //    }
-
-
-    //}
+    }
 
 }

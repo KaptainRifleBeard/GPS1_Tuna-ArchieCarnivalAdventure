@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public GameObject bossBullet;
     public bool isBossBullet = false;
+    int numTicket;
 
     void Start()
     {
@@ -27,6 +28,11 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("BossBullet"))
         {
             isBossBullet = true;
+        }
+        if (other.gameObject.CompareTag("Ticket"))
+        {
+            numTicket += 1;
+            Debug.Log("no. Ticket: " + numTicket);
         }
 
     }

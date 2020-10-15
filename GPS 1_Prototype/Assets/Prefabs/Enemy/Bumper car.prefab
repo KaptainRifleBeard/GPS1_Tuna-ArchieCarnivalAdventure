@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 478126117108005188}
   - component: {fileID: 478126117108005189}
   - component: {fileID: 2389739895341326325}
+  - component: {fileID: 4660820375546168589}
   - component: {fileID: 3226486785462692340}
-  - component: {fileID: 1070596573304306288}
+  - component: {fileID: -1102045032160302868}
   - component: {fileID: 6563126998001851108}
   - component: {fileID: 75199676910489054}
-  - component: {fileID: 4660820375546168589}
   m_Layer: 0
   m_Name: Bumper car
   m_TagString: Enemy
@@ -114,80 +114,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2881947, y: 1.0182586}
   m_EdgeRadius: 0
---- !u!50 &3226486785462692340
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478126117108005190}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!114 &1070596573304306288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478126117108005190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 033e036e2f44d1d4e9082acefca38652, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 939748024404377582, guid: 60cc09ea661a7874bb9ab9605ab7f3af, type: 3}
-  barrier: {fileID: 0}
-  enemySpeed: 0.3
-  isStop: 0
-  isRetreat: 0
-  isRamming: 1
-  isKamikaze: 0
-  isFacingRight: 0
-  followRadius: 3
-  stopRadius: 2
-  retreatRadius: 2
-  attackRadius: 0
-  rammingRadius: 2
---- !u!114 &6563126998001851108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478126117108005190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6506488530527b842bef543062bc6c2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerBullet:
-  - {fileID: 3845957326143269495, guid: 82e95de1a6d96d542bc05a011e24c815, type: 3}
-  health: 30
---- !u!114 &75199676910489054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478126117108005190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 143e8cc1a173ebc43a12d60450a86456, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 1
 --- !u!61 &4660820375546168589
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -214,3 +140,76 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5356331, y: 1.0156951}
   m_EdgeRadius: 0
+--- !u!50 &3226486785462692340
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478126117108005190}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &-1102045032160302868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478126117108005190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62cd5c8ee8931f44a8e0bb634d06411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 939748024404377582, guid: 60cc09ea661a7874bb9ab9605ab7f3af, type: 3}
+  barrier: {fileID: 0}
+  enemySpeed: 1
+  isStop: 0
+  isRamming: 1
+  isFacingRight: 0
+  followRadius: 4
+  stopRadius: 2
+  rammingRadius: 3
+--- !u!114 &6563126998001851108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478126117108005190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6506488530527b842bef543062bc6c2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerBullet:
+  - {fileID: 3845957326143269495, guid: 82e95de1a6d96d542bc05a011e24c815, type: 3}
+  dropItems:
+  - {fileID: 3773963557549178165, guid: d353df6bbebce72438193614011e1252, type: 3}
+  - {fileID: 0}
+  health: 30
+--- !u!114 &75199676910489054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478126117108005190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143e8cc1a173ebc43a12d60450a86456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 1

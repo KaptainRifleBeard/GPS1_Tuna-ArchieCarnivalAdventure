@@ -22,8 +22,6 @@ public class ShootingEnemy : MonoBehaviour
 
     void Update()
     {
-
-
         if (target != null)
         {
             if (Vector3.Distance(target.position, transform.position) < attackRadius)
