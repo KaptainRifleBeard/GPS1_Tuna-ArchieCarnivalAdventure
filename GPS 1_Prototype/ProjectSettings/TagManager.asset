@@ -19,6 +19,7 @@ TagManager:
   - Player2
   - EnemyBullet
   - BossBullet
+  - Ticket
   layers:
   - Default
   - TransparentFX

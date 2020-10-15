@@ -29,11 +29,6 @@ public class Player : MonoBehaviour
         {
             isBossBullet = true;
         }
-        if (other.gameObject.CompareTag("Ticket"))
-        {
-            numTicket += 1;
-            Debug.Log("no. Ticket: " + numTicket);
-        }
 
     }
 }
