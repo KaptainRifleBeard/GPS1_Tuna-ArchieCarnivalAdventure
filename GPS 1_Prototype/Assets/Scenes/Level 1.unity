@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.77
@@ -274,6 +278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop back (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
 --- !u!4 &11254359 stripped
@@ -313,7 +321,7 @@ Transform:
   - {fileID: 1224461099}
   - {fileID: 515868476}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &19533981
 PrefabInstance:
@@ -370,6 +378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &19533982 stripped
@@ -391,6 +403,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -454,6 +470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.372
@@ -509,63 +529,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
   m_PrefabInstance: {fileID: 27774612}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &37018344
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3773963557549178165, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_Name
-      value: carnival tickets (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.889291
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.8444023
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d353df6bbebce72438193614011e1252, type: 3}
 --- !u!1001 &37750207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -624,6 +587,10 @@ PrefabInstance:
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -691,6 +658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &39104033 stripped
@@ -708,6 +679,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -895,6 +870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &48809009 stripped
@@ -1025,6 +1004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27.828941
@@ -1138,6 +1121,10 @@ PrefabInstance:
     - target: {fileID: 7136696723507006904, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_Name
       value: carnival stand 10 prop back (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7136696723507006904, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
@@ -1334,6 +1321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 7 prop back (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
       value: -35.09
@@ -1514,6 +1505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.75
@@ -1680,6 +1675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop back (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
 --- !u!4 &104965049 stripped
@@ -1697,6 +1696,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1793,6 +1796,10 @@ PrefabInstance:
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1899,6 +1906,10 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop back (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -2093,7 +2104,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &126934377
 PrefabInstance:
@@ -2105,6 +2116,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2556,6 +2571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &154458933 stripped
@@ -2573,6 +2592,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2672,6 +2695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 5 prop (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.01
@@ -2763,6 +2790,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3003,6 +3034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.08928
@@ -3108,6 +3143,10 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop back (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -3268,6 +3307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -3333,6 +3376,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
@@ -9109,6 +9156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.4
@@ -9170,6 +9221,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9240,6 +9295,10 @@ PrefabInstance:
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168099, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9377,6 +9436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 7
@@ -9458,6 +9521,10 @@ PrefabInstance:
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9751,6 +9818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.27
@@ -9967,6 +10038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 10 prop back (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7136696723507006904, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
 --- !u!4 &323060566 stripped
@@ -10047,6 +10122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 5 prop (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.63
@@ -10112,6 +10191,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10222,6 +10305,10 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop back
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -10357,6 +10444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop back (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
 --- !u!4 &340097847 stripped
@@ -10457,7 +10548,7 @@ GameObject:
   - component: {fileID: 349670812}
   - component: {fileID: 349670811}
   - component: {fileID: 349670813}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: carnival stand 6 prop side (45)
   m_TagString: Tilemap
   m_Icon: {fileID: 0}
@@ -10566,6 +10657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 5 prop (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.22
@@ -10665,6 +10760,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10802,6 +10901,10 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop back (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -10963,6 +11066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.09
@@ -11077,6 +11184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &388344527 stripped
@@ -11098,6 +11209,10 @@ PrefabInstance:
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11164,6 +11279,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11331,6 +11450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 7
@@ -11356,6 +11479,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11658,6 +11785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -11683,6 +11814,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11745,6 +11880,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11856,6 +11995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &444471050 stripped
@@ -11877,6 +12020,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12097,6 +12244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop back (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
 --- !u!4 &459186631 stripped
@@ -12114,6 +12265,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12180,6 +12335,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12291,6 +12450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -12312,6 +12475,10 @@ PrefabInstance:
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168099, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12460,6 +12627,10 @@ PrefabInstance:
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12768,6 +12939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &534414327 stripped
@@ -12833,6 +13008,10 @@ PrefabInstance:
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
@@ -12900,6 +13079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop back (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
 --- !u!4 &554153898 stripped
@@ -12951,6 +13134,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13017,6 +13204,10 @@ PrefabInstance:
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13374,6 +13565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &576640822 stripped
@@ -13391,6 +13586,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13564,6 +13763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &591349272 stripped
@@ -13658,6 +13861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &611897183 stripped
@@ -13709,6 +13916,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14090,6 +14301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &626129469 stripped
@@ -14285,6 +14500,10 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop back (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_SortingOrder
@@ -14558,6 +14777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.56
@@ -14768,6 +14991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
 --- !u!4 &666661514 stripped
@@ -14916,6 +15143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &670992088 stripped
@@ -14933,6 +15164,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15043,6 +15278,10 @@ PrefabInstance:
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -15194,6 +15433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5
@@ -15263,6 +15506,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15373,6 +15620,10 @@ PrefabInstance:
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -15555,6 +15806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.601614
@@ -15664,6 +15919,10 @@ PrefabInstance:
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -15792,6 +16051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 5 prop (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.01
@@ -15902,6 +16165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop back (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
 --- !u!4 &733471727 stripped
@@ -15923,6 +16190,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16092,6 +16363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 7 prop back (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.48
@@ -16158,6 +16433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.25
@@ -16223,6 +16502,10 @@ PrefabInstance:
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16330,6 +16613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &746795281 stripped
@@ -16391,6 +16678,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
@@ -16681,6 +16972,10 @@ PrefabInstance:
     - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop back
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
@@ -16981,6 +17276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop back (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &762525002 stripped
@@ -17150,7 +17449,7 @@ Transform:
   - {fileID: 2082865362}
   - {fileID: 1443544541}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &772542204
 PrefabInstance:
@@ -17162,6 +17461,10 @@ PrefabInstance:
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17254,6 +17557,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17447,6 +17754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -17541,6 +17852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5
@@ -17611,6 +17926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.990002
@@ -17676,6 +17995,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17787,6 +18110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop back (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
 --- !u!4 &816039830 stripped
@@ -17853,6 +18180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &820051261 stripped
@@ -17914,6 +18245,10 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop back (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -18011,6 +18346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
 --- !u!4 &839569506 stripped
@@ -18103,6 +18442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &841811305 stripped
@@ -18192,6 +18535,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18303,6 +18650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -18328,6 +18679,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18390,6 +18745,10 @@ PrefabInstance:
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18501,6 +18860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 10 prop back (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7136696723507006904, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
 --- !u!4 &874865311 stripped
@@ -18566,6 +18929,10 @@ PrefabInstance:
     - target: {fileID: 7136696723507006904, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_Name
       value: carnival stand 10 prop back
+      objectReference: {fileID: 0}
+    - target: {fileID: 7136696723507006904, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
@@ -18658,6 +19025,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
@@ -18838,6 +19209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &899797081 stripped
@@ -18855,6 +19230,10 @@ PrefabInstance:
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168099, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18918,6 +19297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 7 prop back (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.73
@@ -18979,6 +19362,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19045,6 +19432,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19194,6 +19585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 7 prop back (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.03
@@ -19255,6 +19650,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19396,6 +19795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
 --- !u!4 &933745697 stripped
@@ -19417,6 +19820,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19513,6 +19920,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19620,6 +20031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop back (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
 --- !u!4 &941469340 stripped
@@ -19641,6 +20056,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19726,7 +20145,7 @@ Transform:
   - {fileID: 115302785}
   - {fileID: 1646872443}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &953455121
 GameObject:
@@ -19927,6 +20346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop back (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
 --- !u!4 &964128880 stripped
@@ -20056,6 +20479,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20196,6 +20623,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
@@ -20487,6 +20918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168099, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.77
@@ -20597,6 +21032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 10 prop back (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7136696723507006904, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
 --- !u!4 &1001545908 stripped
@@ -20614,6 +21053,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20742,6 +21185,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21142,6 +21589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.2
@@ -21252,6 +21703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop back (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
 --- !u!4 &1053518741 stripped
@@ -21338,6 +21793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.43
@@ -21399,6 +21858,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21518,6 +21981,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21768,6 +22235,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22027,6 +22498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &1123678549 stripped
@@ -22117,6 +22592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 5 prop (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.69
@@ -22182,6 +22661,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22369,6 +22852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &1151474319 stripped
@@ -22390,6 +22877,10 @@ PrefabInstance:
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22583,6 +23074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop back (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
 --- !u!4 &1163483414 stripped
@@ -22600,6 +23095,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22827,6 +23326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &1178413651 stripped
@@ -23023,6 +23526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.19
@@ -23089,6 +23596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 7 prop back (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.19
@@ -23154,6 +23665,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23294,6 +23809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 13
@@ -23315,6 +23834,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23381,6 +23904,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23488,6 +24015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop back (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &1255258098 stripped
@@ -23553,6 +24084,10 @@ PrefabInstance:
     - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop back (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
@@ -23698,6 +24233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &1261641892 stripped
@@ -23719,6 +24258,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24094,6 +24637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.45
@@ -24238,6 +24785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 7 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.916693
@@ -24372,6 +24923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27.816925
@@ -24441,6 +24996,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24707,6 +25266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.41
@@ -24816,6 +25379,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
@@ -24985,6 +25552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -25006,6 +25577,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25172,7 +25747,7 @@ Transform:
   m_LocalScale: {x: 3.1385896, y: 1.1102586, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1366573200
 PrefabInstance:
@@ -25188,6 +25763,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25298,6 +25877,10 @@ PrefabInstance:
     - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop back (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
@@ -25417,6 +26000,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
@@ -25593,6 +26180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop back (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_SortingOrder
       value: 6
@@ -25667,6 +26258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &1383796560 stripped
@@ -25728,6 +26323,10 @@ PrefabInstance:
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
@@ -25917,6 +26516,10 @@ PrefabInstance:
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26226,6 +26829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.48
@@ -26407,6 +27014,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
@@ -26602,6 +27213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &1444885298 stripped
@@ -26663,6 +27278,10 @@ PrefabInstance:
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
@@ -26726,6 +27345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &1455561020 stripped
@@ -26743,6 +27366,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26967,6 +27594,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
@@ -27285,6 +27916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.097897
@@ -27451,6 +28086,10 @@ PrefabInstance:
     - target: {fileID: 7136696723507006904, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_Name
       value: carnival stand 10 prop back (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7136696723507006904, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
@@ -27675,6 +28314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.05894
@@ -27819,6 +28462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.49
@@ -27915,6 +28562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 7 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.433844
@@ -28009,6 +28660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.42
@@ -28078,6 +28733,10 @@ PrefabInstance:
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28274,6 +28933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -28374,6 +29037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &1526652095 stripped
@@ -28435,6 +29102,10 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop back (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -28502,6 +29173,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &1529177884 stripped
@@ -28519,6 +29194,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28802,6 +29481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.39
@@ -28857,63 +29540,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
   m_PrefabInstance: {fileID: 1561551702}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1573866387
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3773963557549178165, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_Name
-      value: carnival tickets (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 11.787748
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.4969974
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d353df6bbebce72438193614011e1252, type: 3}
 --- !u!1001 &1574901801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28924,6 +29550,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29035,6 +29665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &1588787401 stripped
@@ -29114,6 +29748,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29323,6 +29961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 7 prop back (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.56
@@ -29389,6 +30031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.95
@@ -29454,6 +30100,10 @@ PrefabInstance:
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168099, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29602,6 +30252,10 @@ PrefabInstance:
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -29764,6 +30418,10 @@ PrefabInstance:
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168099, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29995,6 +30653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.575018
@@ -30170,6 +30832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.21
@@ -30332,6 +30998,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30525,6 +31195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop back (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
 --- !u!4 &1677897301 stripped
@@ -30590,6 +31264,10 @@ PrefabInstance:
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
@@ -30754,6 +31432,10 @@ PrefabInstance:
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7136517933940408522, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Offset.x
@@ -30936,6 +31618,10 @@ PrefabInstance:
     - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop back
+      objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
@@ -31166,6 +31852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 7 prop back (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.960003
@@ -31384,6 +32074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 7 prop back (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.42
@@ -31445,6 +32139,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31555,6 +32253,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
@@ -31690,6 +32392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop back (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
 --- !u!4 &1777216618 stripped
@@ -31778,7 +32484,7 @@ Transform:
   m_Children:
   - {fileID: 760666814}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1790285079
 GameObject:
@@ -32016,6 +32722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &1792729133 stripped
@@ -32164,6 +32874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &1803424587 stripped
@@ -32225,6 +32939,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
@@ -32330,6 +33048,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32457,7 +33179,7 @@ Transform:
   - {fileID: 1561097653}
   - {fileID: 1050269033}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1842819030
 PrefabInstance:
@@ -32469,6 +33191,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32579,6 +33305,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
@@ -32828,6 +33558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 5 prop (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.69
@@ -33020,6 +33754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop back (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
 --- !u!4 &1869376265 stripped
@@ -33037,6 +33775,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33163,6 +33905,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33404,6 +34150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop back (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &1911622946 stripped
@@ -33465,6 +34215,10 @@ PrefabInstance:
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7136517933940408522, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Offset.x
@@ -33536,6 +34290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -33605,6 +34363,10 @@ PrefabInstance:
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -33795,6 +34557,10 @@ PrefabInstance:
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -34137,6 +34903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.43
@@ -34247,6 +35017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &1991733158 stripped
@@ -34264,6 +35038,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34433,6 +35211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop
       objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168099, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.952938
@@ -34494,7 +35276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2008517083}
   - component: {fileID: 2008517084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Prop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34769,7 +35551,7 @@ Transform:
   - {fileID: 338501907}
   - {fileID: 317929229}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2008517084
 BoxCollider2D:
@@ -34894,6 +35676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &2009317417 stripped
@@ -34975,6 +35761,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35085,6 +35875,10 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Name
       value: carnival stand 8 prop (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
@@ -35230,6 +36024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop back (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &2027644654 stripped
@@ -35283,6 +36081,10 @@ PrefabInstance:
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35394,6 +36196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side front (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
 --- !u!4 &2033582873 stripped
@@ -35411,6 +36217,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35482,6 +36292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.25
@@ -35547,6 +36361,10 @@ PrefabInstance:
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35631,7 +36449,7 @@ Transform:
   - {fileID: 1443142048}
   - {fileID: 1663596199}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2044843778
 MonoBehaviour:
@@ -35660,6 +36478,10 @@ PrefabInstance:
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35851,6 +36673,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36143,6 +36969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 10 prop back
       objectReference: {fileID: 0}
+    - target: {fileID: 7136696723507006904, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
 --- !u!4 &2061633691 stripped
@@ -36266,6 +37096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.81
@@ -36327,6 +37161,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36595,6 +37433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.39
@@ -36660,6 +37502,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36809,6 +37655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.35
@@ -36919,6 +37769,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop back (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &2107046673 stripped
@@ -36926,63 +37780,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2379157377770537725, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
   m_PrefabInstance: {fileID: 2107046672}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2109604908
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3773963557549178165, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_Name
-      value: carnival tickets
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.643428
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.7343044
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7729594752405793858, guid: d353df6bbebce72438193614011e1252, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d353df6bbebce72438193614011e1252, type: 3}
 --- !u!1 &2111721647
 GameObject:
   m_ObjectHideFlags: 0
@@ -37025,7 +37822,7 @@ Transform:
   m_Children:
   - {fileID: 265627618}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2115390220
 GameObject:
@@ -37073,6 +37870,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37347,6 +38148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297999, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.94
@@ -37453,6 +38258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 3 prop back (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4152976551792649060, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
 --- !u!4 &2122792199 stripped
@@ -37519,6 +38328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 9 prop back (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
 --- !u!4 &2123352340 stripped
@@ -37536,6 +38349,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37607,6 +38424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 6 prop (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.49
@@ -37668,6 +38489,10 @@ PrefabInstance:
     - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_Name
       value: carnival stand 5 prop (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584780, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37734,6 +38559,10 @@ PrefabInstance:
     - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side flipped (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333269, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37849,6 +38678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 8 prop back (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6448776024821273222, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
 --- !u!4 &2141202912 stripped
@@ -37870,6 +38703,10 @@ PrefabInstance:
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37977,6 +38814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop back (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -38039,6 +38880,10 @@ PrefabInstance:
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7708715478560876818, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38308,6 +39153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carnival stand 4 prop (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168099, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.35
@@ -38456,7 +39305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5626793533472779346, guid: 781dbe8f657839041b097edf1f1e4719, type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5626793533472779358, guid: 781dbe8f657839041b097edf1f1e4719, type: 3}
       propertyPath: m_Name
