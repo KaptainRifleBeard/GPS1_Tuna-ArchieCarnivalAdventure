@@ -40,7 +40,7 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("RegionDetectPlayer") || other.gameObject.CompareTag("Stage") || other.gameObject.CompareTag("RoomManager"))
+        if (other.gameObject.CompareTag("RegionDetectPlayer") || other.gameObject.CompareTag("Stage") || other.gameObject.CompareTag("RoomManager") || other.gameObject.CompareTag("RoomBoundary"))
         {
             DontDestroyOnLoad(gameObject);
         }
