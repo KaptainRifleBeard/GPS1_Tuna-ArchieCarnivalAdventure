@@ -57,3 +57,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Player
+    uniqueID: 1415558411
+    locked: 0
+  - name: Booths
+    uniqueID: 1040763779
+    locked: 0

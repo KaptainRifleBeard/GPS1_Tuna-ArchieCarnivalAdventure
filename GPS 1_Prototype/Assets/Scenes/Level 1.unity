@@ -186,6 +186,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &7712368 stripped
@@ -230,6 +238,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.75
@@ -382,6 +398,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &19533982 stripped
@@ -399,6 +423,14 @@ PrefabInstance:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
@@ -522,6 +554,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &27774613 stripped
@@ -584,6 +624,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (2)
@@ -609,6 +657,14 @@ PrefabInstance:
     - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -731,6 +787,14 @@ PrefabInstance:
     - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_SortingOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
@@ -864,6 +928,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -1056,6 +1128,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &67218000 stripped
@@ -1073,6 +1153,14 @@ PrefabInstance:
     - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6216123460958271274, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1317,6 +1405,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (4)
@@ -1501,6 +1597,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (5)
@@ -1627,6 +1731,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.78
@@ -1749,6 +1861,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &108518398 stripped
@@ -1793,6 +1913,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (17)
@@ -1910,6 +2038,14 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -2168,6 +2304,14 @@ PrefabInstance:
     - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_SortingOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
@@ -2567,6 +2711,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front
@@ -2644,6 +2796,14 @@ PrefabInstance:
     - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
@@ -2742,6 +2902,14 @@ PrefabInstance:
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
@@ -2842,6 +3010,14 @@ PrefabInstance:
     - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
@@ -3030,6 +3206,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop
@@ -3147,6 +3331,14 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -3315,6 +3507,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &244091368 stripped
@@ -3383,6 +3583,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9152,6 +9360,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (6)
@@ -9274,6 +9490,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &273021457 stripped
@@ -9291,6 +9515,14 @@ PrefabInstance:
     - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
@@ -9444,6 +9676,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &287896737 stripped
@@ -9518,6 +9758,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back
@@ -9870,6 +10118,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &317929229 stripped
@@ -9989,6 +10245,14 @@ PrefabInstance:
     - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6216123460958271274, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10174,6 +10438,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &336508226 stripped
@@ -10244,6 +10516,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &338501907 stripped
@@ -10309,6 +10589,14 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -10396,6 +10684,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.78
@@ -10592,8 +10888,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1040763779
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 339a6c9f678e678459d046596a09a111, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10709,6 +11005,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &350903766 stripped
@@ -10755,6 +11059,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -10905,6 +11217,14 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -11118,6 +11438,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &383811772 stripped
@@ -11135,6 +11463,14 @@ PrefabInstance:
     - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11206,6 +11542,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (15)
@@ -11275,6 +11619,14 @@ PrefabInstance:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
@@ -11458,6 +11810,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &403190339 stripped
@@ -11474,6 +11834,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
@@ -11793,6 +12161,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &433316391 stripped
@@ -11809,6 +12185,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
@@ -11933,6 +12317,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &443028852 stripped
@@ -11947,6 +12339,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.818
@@ -12015,6 +12415,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -12240,6 +12648,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (2)
@@ -12318,6 +12734,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &472997697 stripped
@@ -12387,6 +12811,14 @@ PrefabInstance:
     - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_SortingOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
@@ -12458,6 +12890,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &480702018 stripped
@@ -12472,6 +12912,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop (6)
@@ -12622,6 +13070,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
@@ -12891,6 +13347,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.20354
@@ -13005,6 +13469,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (8)
@@ -13075,6 +13547,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (11)
@@ -13130,6 +13610,14 @@ PrefabInstance:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
@@ -13199,6 +13687,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
@@ -13561,6 +14057,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (20)
@@ -13638,6 +14142,14 @@ PrefabInstance:
     - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_SortingOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
@@ -13759,6 +14271,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -360
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (16)
@@ -13865,6 +14385,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &611897183 stripped
@@ -13912,6 +14440,14 @@ PrefabInstance:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
@@ -14297,6 +14833,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (19)
@@ -14508,6 +15052,14 @@ PrefabInstance:
     - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_SortingOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -14773,6 +15325,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (16)
@@ -14987,6 +15547,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back
@@ -15139,6 +15707,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (15)
@@ -15213,6 +15789,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &673956924 stripped
@@ -15274,6 +15858,14 @@ PrefabInstance:
     - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
@@ -15485,6 +16077,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &685112664 stripped
@@ -15501,6 +16101,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -15616,6 +16224,14 @@ PrefabInstance:
     - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_SortingOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
@@ -15802,6 +16418,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (19)
@@ -15915,6 +16539,14 @@ PrefabInstance:
     - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
@@ -16103,6 +16735,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &731264692 stripped
@@ -16117,6 +16757,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.34
@@ -16186,6 +16834,14 @@ PrefabInstance:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
@@ -16359,6 +17015,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (6)
@@ -16429,6 +17093,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (11)
@@ -16498,6 +17170,14 @@ PrefabInstance:
     - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_SortingOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
@@ -16609,6 +17289,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -360
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (2)
@@ -16682,6 +17370,14 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
@@ -16925,6 +17621,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38.708942
@@ -17280,6 +17984,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &762525002 stripped
@@ -17458,6 +18170,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (1)
@@ -17609,6 +18329,14 @@ PrefabInstance:
     - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_SortingOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
@@ -17762,6 +18490,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &788536733 stripped
@@ -17904,6 +18640,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &799021553 stripped
@@ -17920,6 +18664,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -17990,6 +18742,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -18106,6 +18866,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (9)
@@ -18131,6 +18899,14 @@ PrefabInstance:
     - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18250,6 +19026,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &822244632 stripped
@@ -18297,6 +19081,14 @@ PrefabInstance:
     - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18394,6 +19186,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.72
@@ -18588,6 +19388,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &849254098 stripped
@@ -18658,6 +19466,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &855358457 stripped
@@ -18674,6 +19490,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -18742,6 +19566,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (8)
@@ -18812,6 +19644,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6216123460958271274, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.14
@@ -18880,6 +19720,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6216123460958271274, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
@@ -19032,6 +19880,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -19205,6 +20061,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (3)
@@ -19227,6 +20091,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop (3)
@@ -19293,6 +20165,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (10)
@@ -19411,6 +20291,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &911340802 stripped
@@ -19428,6 +20316,14 @@ PrefabInstance:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
@@ -19581,6 +20477,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (13)
@@ -19703,6 +20607,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &927992595 stripped
@@ -19791,6 +20703,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back
@@ -19815,6 +20735,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
@@ -19917,6 +20845,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (2)
@@ -19983,6 +20919,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.87
@@ -20051,6 +20995,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
@@ -20342,6 +21294,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (1)
@@ -20532,6 +21492,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &969263684 stripped
@@ -20631,6 +21599,14 @@ PrefabInstance:
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
@@ -20914,6 +21890,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop (1)
@@ -20983,6 +21967,14 @@ PrefabInstance:
     - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6216123460958271274, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21106,6 +22098,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &1003229019 stripped
@@ -21182,6 +22182,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (5)
@@ -21585,6 +22593,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (4)
@@ -21699,6 +22715,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (10)
@@ -21788,6 +22812,14 @@ PrefabInstance:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
@@ -21906,6 +22938,14 @@ PrefabInstance:
     - target: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -360
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
@@ -22032,6 +23072,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -22232,6 +23280,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (16)
@@ -22409,6 +23465,36 @@ Transform:
   m_Father: {fileID: 950150589}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1112017076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1112017077}
+  m_Layer: 0
+  m_Name: DeathUI (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1112017077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112017076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1663596199}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1119775537
 GameObject:
   m_ObjectHideFlags: 0
@@ -22449,6 +23535,14 @@ PrefabInstance:
     - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22644,6 +23738,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &1130683575 stripped
@@ -22712,6 +23814,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -22804,6 +23914,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.56
@@ -22872,6 +23990,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
@@ -23070,6 +24196,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (4)
@@ -23146,6 +24280,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23321,6 +24463,14 @@ PrefabInstance:
     - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
@@ -23522,6 +24672,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (6)
@@ -23592,6 +24750,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (11)
@@ -23660,6 +24826,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -23817,6 +24991,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &1238685781 stripped
@@ -23887,6 +25069,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &1244286673 stripped
@@ -23952,6 +25142,14 @@ PrefabInstance:
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
@@ -24019,6 +25217,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &1255258098 stripped
@@ -24036,6 +25242,14 @@ PrefabInstance:
     - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24237,6 +25451,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &1261641892 stripped
@@ -24253,6 +25475,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
@@ -24633,6 +25863,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (13)
@@ -24781,6 +26019,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back
@@ -24975,6 +26221,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &1287824632 stripped
@@ -24991,6 +26245,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
@@ -25318,6 +26580,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &1312076866 stripped
@@ -25386,6 +26656,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -25560,6 +26838,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &1329841852 stripped
@@ -25629,6 +26915,14 @@ PrefabInstance:
     - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_SortingOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
@@ -25760,6 +27054,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop
@@ -25829,6 +27131,14 @@ PrefabInstance:
     - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26007,6 +27317,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -26188,6 +27506,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &1380232565 stripped
@@ -26249,6 +27575,14 @@ PrefabInstance:
     - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_SortingOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318488, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_IsTrigger
@@ -26319,6 +27653,14 @@ PrefabInstance:
     - target: {fileID: 2761932779941815351, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
@@ -26512,6 +27854,14 @@ PrefabInstance:
     - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
@@ -26881,6 +28231,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &1436608676 stripped
@@ -27021,6 +28379,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -27217,6 +28583,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &1444885298 stripped
@@ -27274,6 +28648,14 @@ PrefabInstance:
     - target: {fileID: 2761932779941815351, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
@@ -27340,6 +28722,14 @@ PrefabInstance:
     - target: {fileID: 8708648632388318486, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -360
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
@@ -27418,6 +28808,14 @@ PrefabInstance:
     - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
@@ -27601,6 +28999,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -27912,6 +29318,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop
@@ -28038,6 +29452,14 @@ PrefabInstance:
     - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_SortingOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6216123460958271274, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28310,6 +29732,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (1)
@@ -28514,6 +29944,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &1503035215 stripped
@@ -28558,6 +29996,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back
@@ -28712,6 +30158,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &1511864232 stripped
@@ -28728,6 +30182,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
@@ -28941,6 +30403,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &1515624993 stripped
@@ -29033,6 +30503,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (11)
@@ -29107,6 +30585,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &1527303222 stripped
@@ -29167,6 +30653,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -29246,6 +30740,14 @@ PrefabInstance:
     - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
       propertyPath: m_SortingOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
@@ -29533,6 +31035,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &1561551703 stripped
@@ -29547,6 +31057,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (4)
@@ -29616,6 +31134,14 @@ PrefabInstance:
     - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29801,6 +31327,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &1605423691 stripped
@@ -29957,6 +31491,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (2)
@@ -30027,6 +31569,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (13)
@@ -30095,6 +31645,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
@@ -30248,6 +31806,14 @@ PrefabInstance:
     - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_SortingOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
@@ -30415,6 +31981,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
       value: carnival stand 4 prop
@@ -30649,6 +32223,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop
@@ -30828,6 +32410,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (12)
@@ -30995,6 +32585,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
       value: carnival stand 3 prop (6)
@@ -31147,6 +32745,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14
@@ -31260,6 +32866,14 @@ PrefabInstance:
     - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_SortingOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
@@ -31429,6 +33043,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (6)
@@ -31571,6 +33193,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.07894
@@ -31848,6 +33478,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (9)
@@ -32070,6 +33708,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (18)
@@ -32192,6 +33838,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &1764048656 stripped
@@ -32257,6 +33911,14 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
@@ -32344,6 +34006,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.57
@@ -32718,6 +34388,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (8)
@@ -32825,6 +34503,14 @@ PrefabInstance:
     - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32943,6 +34629,14 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
@@ -33101,6 +34795,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &1822372248 stripped
@@ -33244,6 +34946,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &1842819031 stripped
@@ -33313,6 +35023,14 @@ PrefabInstance:
     - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_SortingOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
@@ -33610,6 +35328,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &1863474941 stripped
@@ -33750,6 +35476,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (5)
@@ -33827,6 +35561,14 @@ PrefabInstance:
     - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
@@ -33953,6 +35695,14 @@ PrefabInstance:
     - target: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
@@ -34154,6 +35904,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &1911622946 stripped
@@ -34211,6 +35969,14 @@ PrefabInstance:
     - target: {fileID: 2761932779941815351, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
@@ -34298,6 +36064,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
 --- !u!4 &1935050757 stripped
@@ -34359,6 +36133,14 @@ PrefabInstance:
     - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
@@ -34553,6 +36335,14 @@ PrefabInstance:
     - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
@@ -34899,6 +36689,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop (1)
@@ -35013,6 +36811,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (14)
@@ -35089,6 +36895,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -35206,6 +37020,14 @@ PrefabInstance:
     - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_Name
@@ -35672,6 +37494,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (17)
@@ -35814,6 +37644,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &2022420294 stripped
@@ -35879,6 +37717,14 @@ PrefabInstance:
     - target: {fileID: 5686476583088943988, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686476583088943989, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
@@ -36028,6 +37874,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &2027644654 stripped
@@ -36077,6 +37931,14 @@ PrefabInstance:
     - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
@@ -36192,6 +38054,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8708648632388318487, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8708648632388318489, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
       propertyPath: m_Name
       value: carnival stand 6 prop side front (6)
@@ -36270,6 +38140,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &2038436766 stripped
@@ -36286,6 +38164,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -36357,6 +38243,14 @@ PrefabInstance:
     - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_SortingOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
@@ -36474,6 +38368,14 @@ PrefabInstance:
     - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_SortingOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
@@ -36726,6 +38628,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &2054800036 stripped
@@ -36921,6 +38831,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954477214548130411, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6216123460958271274, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.82
@@ -36980,107 +38898,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6216123460958271274, guid: cfa66261edfc8ee4098540be4914ffa2, type: 3}
   m_PrefabInstance: {fileID: 2061633690}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2062048514
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1663596199}
-    m_Modifications:
-    - target: {fileID: 6143864414142696692, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_Name
-      value: DeathUI
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696692, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6143864414142696693, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 35a28c1df34121f44800ff0903e9d6ec, type: 3}
 --- !u!1001 &2064900650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37090,6 +38907,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -37212,6 +39037,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -37485,6 +39318,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &2083961369 stripped
@@ -37553,6 +39394,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -37707,6 +39556,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &2102888052 stripped
@@ -37772,6 +39629,14 @@ PrefabInstance:
     - target: {fileID: 3917239732593179246, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
@@ -37866,6 +39731,14 @@ PrefabInstance:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_Name
@@ -38144,6 +40017,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736466390107297996, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6736466390107297997, guid: 3731ff24a647d674f911e627ff4588f5, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop (10)
@@ -38210,6 +40091,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 443580675253813861, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3973767712267563728, guid: 910e2df5733a7c44ea81cfcf9839ca9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.81
@@ -38324,6 +40213,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970691164392594193, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3462988493652226563, guid: 61be0b482ff971340b811be9e4629b23, type: 3}
       propertyPath: m_Name
       value: carnival stand 9 prop back (12)
@@ -38402,6 +40299,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &2136069165 stripped
@@ -38419,6 +40324,14 @@ PrefabInstance:
     - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_SortingOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486848847448680900, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5486848847448680901, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
       propertyPath: m_Name
@@ -38542,6 +40455,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1563337912385584783, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
 --- !u!4 &2138807071 stripped
@@ -38612,6 +40533,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801985081635333275, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
 --- !u!4 &2139684420 stripped
@@ -38629,6 +40558,14 @@ PrefabInstance:
     - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330435094542295409, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38698,6 +40635,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8304869474179345332, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8304869474179345333, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -38822,6 +40767,14 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650116999098530960, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bd8fe98998680478441a4a207c013c, type: 3}
 --- !u!4 &2144479796 stripped
@@ -38877,6 +40830,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008517083}
     m_Modifications:
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 992268452981350329, guid: 8c3482329394222469988fb864eb7423, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1945853345944883933, guid: 8c3482329394222469988fb864eb7423, type: 3}
       propertyPath: m_Name
       value: carnival stand 7 prop back (7)
@@ -39147,6 +41108,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1040763779
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003616746159168096, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9003616746159168097, guid: 5b70083432298dc44b9464fe673856cf, type: 3}
