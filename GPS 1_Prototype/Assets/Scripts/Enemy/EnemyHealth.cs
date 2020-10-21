@@ -14,7 +14,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("PlayerBullet"))
         {
-            health = health - 2;    //later change it to player bullet damage
+            health = health - 5;    //later change it to player bullet damage
 
             if (health < 0)
             {

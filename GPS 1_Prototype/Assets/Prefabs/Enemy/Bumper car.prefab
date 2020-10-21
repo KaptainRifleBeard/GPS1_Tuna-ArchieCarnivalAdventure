@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 478126117108005188}
   - component: {fileID: 478126117108005189}
-  - component: {fileID: 2389739895341326325}
   - component: {fileID: 4660820375546168589}
   - component: {fileID: 3226486785462692340}
   - component: {fileID: -1102045032160302868}
   - component: {fileID: 6563126998001851108}
   - component: {fileID: 75199676910489054}
+  - component: {fileID: 2596511117609201662}
   m_Layer: 0
   m_Name: Bumper car
   m_TagString: Enemy
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2389739895341326325
+--- !u!61 &4660820375546168589
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,7 +101,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016486168, y: -0.1274569}
+  m_Offset: {x: 0.018385887, y: -0.12121034}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -112,33 +112,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2881947, y: 1.0182586}
-  m_EdgeRadius: 0
---- !u!61 &4660820375546168589
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478126117108005190}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.021076202, y: -0.12121034}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.915, y: 1.49}
-    newSize: {x: 3.83, y: 2.98}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.5356331, y: 1.0156951}
+  m_Size: {x: 1.5302525, y: 1.0156951}
   m_EdgeRadius: 0
 --- !u!50 &3226486785462692340
 Rigidbody2D:
@@ -213,3 +187,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
+--- !u!61 &2596511117609201662
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478126117108005190}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.040358543, y: -0.28256416}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.915, y: 1.49}
+    newSize: {x: 3.83, y: 2.98}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3284645, y: 0.58041096}
+  m_EdgeRadius: 0
