@@ -65,6 +65,36 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
+
+
+        //if (rb.velocity.x < 0) // if we move to the left
+        //{
+        //    transform.localScale = new Vector3(-1, 1, 1);
+        //}
+        //else if (rb.velocity.x > 0)
+        //{
+        //    transform.localScale = new Vector3(1, 1, 1);
+        //}
+        //if (rb.velocity.x < 0 && m_FacingRight) // if we move to the left
+        //{
+        //    // transform.localScale = new Vector3(-1, 1, 1);
+
+        //    Flip();
+        //}
+        //else if (rb.velocity.x > 0 && !m_FacingRight)
+        //{
+        //    // transform.localScale = new Vector3(1, 1, 1);
+
+        //    Flip();
+        //}
+
+
+
+
+    }
+
+    private void FixedUpdate()
+    {
         //if not knockback, player able to move
         if (knockbackCount <= 0)
         {
@@ -116,35 +146,8 @@ public class PlayerMovement : MonoBehaviour
             }
             knockbackCount -= Time.deltaTime;
         }
-
-
-
-
-        //if (rb.velocity.x < 0) // if we move to the left
-        //{
-        //    transform.localScale = new Vector3(-1, 1, 1);
-        //}
-        //else if (rb.velocity.x > 0)
-        //{
-        //    transform.localScale = new Vector3(1, 1, 1);
-        //}
-        //if (rb.velocity.x < 0 && m_FacingRight) // if we move to the left
-        //{
-        //    // transform.localScale = new Vector3(-1, 1, 1);
-
-        //    Flip();
-        //}
-        //else if (rb.velocity.x > 0 && !m_FacingRight)
-        //{
-        //    // transform.localScale = new Vector3(1, 1, 1);
-
-        //    Flip();
-        //}
-
-
-
-
     }
+
 }
 
 //    void fire()
