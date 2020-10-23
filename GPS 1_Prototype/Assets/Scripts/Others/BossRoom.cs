@@ -19,7 +19,7 @@ public class BossRoom : MonoBehaviour
             isBoss = true;
             if (isBoss)
             {
-                var zoom = 8;
+                var zoom = 10;
                 Camera.main.orthographicSize = zoom;
                 box.isTrigger = false;
 
