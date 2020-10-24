@@ -93,13 +93,15 @@ GameObject:
   - component: {fileID: 4811060281354187956}
   - component: {fileID: 4811060281354187957}
   - component: {fileID: 7423865452414824248}
+  - component: {fileID: 5830256569124100509}
+  - component: {fileID: -7056440045288270411}
   m_Layer: 0
   m_Name: Final Boss Laser Beam 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4811060281354187956
 Transform:
   m_ObjectHideFlags: 0
@@ -193,6 +195,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3108902, y: 11.58987}
   m_EdgeRadius: 0
+--- !u!114 &5830256569124100509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4811060281354187962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bccf97fc0eb89b459838041ec9a2e0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7056440045288270411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4811060281354187962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143e8cc1a173ebc43a12d60450a86456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 3
 --- !u!1 &9194209097047925324
 GameObject:
   m_ObjectHideFlags: 0

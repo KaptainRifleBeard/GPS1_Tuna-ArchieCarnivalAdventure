@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class BossAttack : MonoBehaviour
 {
@@ -8,7 +9,8 @@ public class BossAttack : MonoBehaviour
     public GameObject laserPrefab;
 
     public Transform target;
-    public Transform[] shootPos;
+    public Transform shootPos_left;
+    public Transform shootPos_right;
     public Transform laserPos;
 
     private float timeBtwShoot;
@@ -18,45 +20,57 @@ public class BossAttack : MonoBehaviour
     private float attackTime = 0f;
     public bool isShoot = false;
     public bool isLaser = false;
+    public bool bossMove = true;
+
+    bool spawn = false;
+    int count = 0;
+
+
     RaycastHit2D hit;
     public LineRenderer lineOfSight;
 
-    //**************************************************************************************************//
-    // Functions
-    //**************************************************************************************************//
-    public IEnumerator shootCooldown()
-    {
-        yield return new WaitForSeconds(2.5f);
-        attackTime = 0f;
-        isShoot = true;
-    }
-    public IEnumerator laserDuration()
-    {
-        yield return new WaitForSeconds(2f);
-        isLaser = false;
-    }
-
+    //! 3 seconds aiming 
     public IEnumerator aimDuration()
     {
-        yield return new WaitForSeconds(0.5f);
-
+        yield return new WaitForSeconds(3f);
+        lineOfSight.enabled = false;
         isLaser = true;
-
     }
+
+    //! 6 seconds laser attack
+    public IEnumerator laserDuration()
+    {
+        yield return new WaitForSeconds(6f);
+        attackTime = 0f;  //reset attack time
+        count = 0;  //reset number prefab
+        isLaser = false;
+        bossMove = true;
+    }
+
+    //! After laser, wait 3 seconds to shoot
+    //! Boss shoot bullet for 10 seconds
+
 
     void shoot()
     {
-        int randPos = Random.Range(0, shootPos.Length);
+        if (isShoot)
+        {
+            if (Vector3.Distance(target.position, transform.position) < attackRadius)
+            {
+                if (timeBtwShoot <= 0)
+                {
+                    Instantiate(bullet, shootPos_left.position, transform.rotation);
+                    Instantiate(bullet, shootPos_right.position, transform.rotation);
 
-        if (timeBtwShoot <= 0)
-        {
-            Instantiate(bullet, shootPos[randPos].position, transform.rotation);
-            timeBtwShoot = startTimeBtwShoot;  //shoot delay
+                    timeBtwShoot = startTimeBtwShoot;  //shoot delay
+                }
+                else
+                {
+                    timeBtwShoot -= Time.deltaTime;
+                }
+            }
         }
-        else
-        {
-            timeBtwShoot -= Time.deltaTime;
-        }
+
     }
 
     void laser()
@@ -64,95 +78,155 @@ public class BossAttack : MonoBehaviour
         float distance = 10f;
         float castDist = distance;
 
-        if(lineOfSight.enabled == true)
-        {
-            //Display aim line
-            Vector2 endPos = laserPos.position + Vector3.down * distance;
-            RaycastHit2D hit = Physics2D.Linecast(laserPos.position, endPos, 1 << LayerMask.NameToLayer("Default"));
-            Debug.DrawLine(laserPos.position, endPos, Color.red);
-
-            
-        }
-
         if (isLaser)
         {
-            laserPrefab.SetActive(true);
-            //isLaser = false;
-            //startTimeBtwShoot = 2;
+            bossMove = false;
+            if (count < 1 && spawn == false)
+            {
+                if (count < 1)
+                {
+                    spawn = true;
+                    Instantiate(laserPrefab, laserPos.position, Quaternion.identity);
+                    count++;
 
-            //if (timeBtwShoot <= 0)
-            //{
-            //    //Instantiate(laserPrefab, laserPos.transform.position, Quaternion.identity);
-            //    timeBtwShoot = startTimeBtwShoot;  //shoot delay
-            //}
-            //else
-            //{
-            //    timeBtwShoot -= Time.deltaTime;
-            //}
+                }
+                if (count == 1)
+                {
+                    StartCoroutine(laserDuration());
+                    spawn = false;
+                }
+            }
+
+            //laserPrefab.SetActive(true);
+
+            if (lineOfSight.enabled == true)
+            {
+                //Display aim line
+                Vector2 endPos = laserPos.position + Vector3.down * distance;
+                RaycastHit2D hit = Physics2D.Linecast(laserPos.position, endPos, 1 << LayerMask.NameToLayer("Default"));
+                Debug.DrawLine(laserPos.position, endPos, Color.red);
+
+            }
         }
     }
 
-
-    //**************************************************************************************************//
-    // Update
-    //**************************************************************************************************//
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
         timeBtwShoot = startTimeBtwShoot;
         lineOfSight.enabled = false;
 
-        laserPrefab.SetActive(false);
+        //laserPrefab.SetActive(false);
         isLaser = false;
+        bossMove = true;
     }
 
     void Update()
     {
         Debug.Log(attackTime);
         attackTime += Time.deltaTime;
-        if(target != null)
+        if (target != null)
         {
-            if (attackTime <= 5)
+            //Hard code (need to count by yourself)
+            if (attackTime <= 30)
             {
-                lineOfSight.enabled = false;
-                isShoot = true;
-                if (Vector3.Distance(target.position, transform.position) < attackRadius)
+                if (attackTime >= 0 && attackTime <= 10)
                 {
-                    shoot();
+                    isShoot = true;
+                    if (isShoot)
+                    {
+                        shoot();
+                    }
+                }
+                if (attackTime >= 11 && attackTime <= 13)
+                {
+                    isShoot = false;
+                }
+                if (attackTime >= 14 && attackTime <= 24)
+                {
+                    isShoot = true;
+                    if (isShoot)
+                    {
+                        shoot();
+                    }
+                }
+                if (attackTime >= 25 && attackTime <= 28)
+                {
+                    isShoot = false;
+                }
+                if (attackTime >= 29 && attackTime < 30)
+                {
+                    isShoot = true;
+                    if (isShoot)
+                    {
+                        shoot();
+                    }
                 }
             }
-            if (attackTime >= 5) //is laser attack now
+            else if (attackTime >= 30)
             {
-                isShoot = false;
 
-                //Laser attack
-                if(attackTime <= 5.5)
+                isShoot = false;
+                bossMove = false;
+
+                if (attackTime <= 33)
                 {
                     lineOfSight.enabled = true;
+                    StartCoroutine(aimDuration());
                 }
-                else if(attackTime >= 5.5)
+                else
                 {
-                    lineOfSight.enabled = false;
                     isLaser = true;
-                    laser();
+                    if (isLaser)
+                    {
+                        laser();
+                    }
                 }
 
-                //Stop laser attack
-                if (attackTime >= 7.5)
-                {
-                    isLaser = false;
-                    laserPrefab.SetActive(false);
-                }
-
-                //Shooting attack
-                if (isShoot == false)
-                {
-                    StartCoroutine(shootCooldown());
-
-                }
+                
             }
+
         }
-        
+    }
+
+}
+
+/*
+if (attackTime <= 5)
+{
+    StartCoroutine(shootDuration());
+    lineOfSight.enabled = false;
+    isShoot = true;
+    shoot();
+}
+if (attackTime >= 5) //is laser attack now
+{
+    isShoot = false;
+
+    //Laser attack
+    if (attackTime <= 5.5)
+    {
+        lineOfSight.enabled = true;
+    }
+    else if (attackTime >= 5.5)
+    {
+        lineOfSight.enabled = false;
+        isLaser = true;
+        laser();
+    }
+
+    //Stop laser attack
+    if (attackTime >= 7.5)
+    {
+        isLaser = false;
+        laserPrefab.SetActive(false);
+    }
+
+    //Shooting attack
+    if (isShoot == false)
+    {
+        StartCoroutine(shootCooldown());
 
     }
 }
+*/

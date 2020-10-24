@@ -5,21 +5,21 @@ using UnityEngine;
 public class BossMovement : MonoBehaviour
 {
     protected Vector3 direction;
+    protected Rigidbody2D rb;
 
     public Transform target;
-    protected Rigidbody2D rb;
 
     protected float angle;
     public bool isFacingRight;
     public float enemySpeed;
     public float followRadius = 5f;
 
+    bool bossStop = false;
 
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
-
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -59,13 +59,27 @@ public class BossMovement : MonoBehaviour
     {
         if(target != null)
         {
-            //To rotate the enemy facing the player
-            rb.AddForce(target.position - transform.position, ForceMode2D.Impulse);
-            angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            turnDir();
-        }
-        
+            if (GetComponent<BossAttack>().lineOfSight.enabled == true)
+            {
+                transform.position = this.transform.position;
+                Debug.Log("boss stop");
+            }
+            if (GetComponent<BossAttack>().isLaser == true)
+            {
+                transform.position = this.transform.position;
+                Debug.Log("boss stop");
+            }
+            if (GetComponent<BossAttack>().bossMove == true)
+            {
+                //To rotate the enemy facing the player
+                rb.AddForce(target.position - transform.position, ForceMode2D.Impulse);
+                angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                turnDir();
+            }
 
+
+
+        }
 
     }
 }
