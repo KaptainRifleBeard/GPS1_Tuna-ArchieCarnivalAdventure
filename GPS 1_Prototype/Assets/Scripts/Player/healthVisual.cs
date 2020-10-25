@@ -5,14 +5,15 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class healthVisual : MonoBehaviour
 {
-    Player p;
-
     public static healthSystem HealthSystem;
+
     [SerializeField] private Sprite heart0Sprite;
     [SerializeField] private Sprite heart1Sprite;
     [SerializeField] private Sprite heart2Sprite;
     private List<HeartImage> heartImageList;
     private healthSystem healthSystem1; //curently not using , for private only
+
+    healthSystem hs;
 
     private void Awake()
     {
@@ -21,14 +22,17 @@ public class healthVisual : MonoBehaviour
     private void Start()
     {
         healthSystem hs = new healthSystem(3); // number of maximum heart 
+        Debug.Log(hs);
+
         SetHealthSystem(hs);
 
     }
-
     public void SetHealthSystem(healthSystem hs)
     {
         //this.healthSystem1 = hs;  //a //i think this line no need  (use for private)                  
-        HealthSystem = hs; 
+        this.hs = hs;
+        HealthSystem = hs;
+
         List<healthSystem.Heart> heartList = hs.GetHeartList();
         int row = 0;
         int col = 0;
@@ -49,6 +53,8 @@ public class healthVisual : MonoBehaviour
         }
         hs.OnDamaged += healthSystem_OnDamaged;
         hs.OnDead += healthSystem_OnDead;
+        hs.OnHeal += healthSystem_OnHeal;
+
     }
 
     public void healthSystem_OnDead(object sender, System.EventArgs e)
@@ -70,12 +76,16 @@ public class healthVisual : MonoBehaviour
     
     }
 
-
-
     private void healthSystem_OnDamaged(object sender, System.EventArgs e)
     {
         RefreshAllHearts();
     }
+    private void healthSystem_OnHeal(object sender, System.EventArgs e)
+    {
+        RefreshAllHearts();
+    }
+
+
     private void RefreshAllHearts()   ///// make the health can be decrease
                                       /// if delete this it will always be full health
     {
@@ -97,7 +107,7 @@ public class healthVisual : MonoBehaviour
         hgo.transform.localScale = Vector3.one;
 
         hgo.GetComponent<RectTransform>().anchoredPosition = anchoredPosition;  // Locate and Size heart
-        hgo.GetComponent<RectTransform>().sizeDelta = new Vector2(35, 35);
+        hgo.GetComponent<RectTransform>().sizeDelta = new Vector2(32, 32);
 
         Image heartImageUI = hgo.GetComponent<Image>();   // Set heart sprite
         heartImageUI.sprite = heart2Sprite;
@@ -129,4 +139,8 @@ public class healthVisual : MonoBehaviour
             }
         }
     }
+
+
 }
+
+    

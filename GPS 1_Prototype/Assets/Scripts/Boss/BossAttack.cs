@@ -68,8 +68,6 @@ public class BossAttack : MonoBehaviour
                 }
 
             }
-
-
         }
 
     }
@@ -137,9 +135,6 @@ public class BossAttack : MonoBehaviour
                     if (isShoot)
                     {
                         shoot();
-
-                        isShoot = false;
-                        StartCoroutine(bulletDelay());
 
                     }
                 }

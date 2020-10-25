@@ -14,8 +14,6 @@ public class BossMovement : MonoBehaviour
     public float enemySpeed;
     public float followRadius = 5f;
 
-    bool bossStop = false;
-
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();

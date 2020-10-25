@@ -21,6 +21,7 @@ TagManager:
   - BossBullet
   - Ticket
   - RoomBoundary
+  - Healthpack
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - UI
   - 
   - 
-  - UI
+  - 
   - Player
   - Tilemap
   - Enemy

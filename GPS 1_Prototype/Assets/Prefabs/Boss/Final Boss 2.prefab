@@ -64,7 +64,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 0}
   m_Children: []
   m_Father: {fileID: 2431433230659474123}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3070282472292159790
 GameObject:
@@ -174,7 +174,7 @@ RectTransform:
   m_Children:
   - {fileID: 8708379246552186992}
   m_Father: {fileID: 2431433230659474123}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -379,7 +379,6 @@ Transform:
   m_LocalPosition: {x: 49.354008, y: 57.81089, z: -0.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8629009639505236754}
   - {fileID: 1822752161040802886}
   - {fileID: 1158088509218976804}
   - {fileID: 8251735649114394100}
@@ -667,7 +666,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 0}
   m_Children: []
   m_Father: {fileID: 2431433230659474123}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6603460062487381680
 GameObject:
@@ -772,101 +771,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2431433230659474123}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3654679924080741563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8629009639505236764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 143e8cc1a173ebc43a12d60450a86456, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 3
---- !u!1001 &3820239241476761510
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2431433230659474123}
-    m_Modifications:
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187957, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187957, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187962, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_Name
-      value: Final Boss Laser Beam 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4811060281354187962, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7423865452414824248, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
---- !u!4 &8629009639505236754 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4811060281354187956, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-  m_PrefabInstance: {fileID: 3820239241476761510}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8629009639505236764 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4811060281354187962, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-  m_PrefabInstance: {fileID: 3820239241476761510}
-  m_PrefabAsset: {fileID: 0}

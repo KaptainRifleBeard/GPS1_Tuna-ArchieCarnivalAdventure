@@ -7,31 +7,26 @@ using UnityEngine.SceneManagement;
 
 public class healthSystem : MonoBehaviour
 {
-    public bool isdie;
-    public int health = 6;
-    public GameObject player;
-    public SceneManager scene;
     public event EventHandler OnDamaged;
+    public event EventHandler OnHeal;
+
     public event EventHandler OnDead;
-
-    [SerializeField]
-    GameObject RestartMenuUI;
-
     private List<Heart> heartList;
 
-    void start()
-    {
-        player = GameObject.Find("Player");
-    }
+    //for heal
+    public const int max_Heart = 3;
+
     public healthSystem(int hA) // heart amount
     {
         heartList = new List<Heart>();
+        
         for (int i = 0; i < hA; i++)
         {
             Heart heart = new Heart(2); // 1 heart can tahan how many damage
             heartList.Add(heart);
         }
 
+        heartList[heartList.Count - 1].setFragmentAmount(0);
     }
 
     public List<Heart> GetHeartList()
@@ -63,6 +58,28 @@ public class healthSystem : MonoBehaviour
         }
     }
 
+    public void addHealth(int healAmount) 
+    {
+        for (int i =  0; i < heartList.Count; i++)
+        {
+            Heart heart = heartList[i];
+            //check current health
+            int emptyHeart = max_Heart - heart.GetFragmentAmount();
+
+            if(healAmount > emptyHeart)
+            {
+                healAmount -= emptyHeart;
+                heart.addHealth(emptyHeart);
+            }
+            else
+            {
+                heart.addHealth(healAmount);
+            }
+        }
+        OnHeal(this, EventArgs.Empty);
+
+    }
+
     public bool IsDead()
     {
         return heartList[0].GetFragmentAmount() == 0;
@@ -74,11 +91,15 @@ public class healthSystem : MonoBehaviour
 
         public Heart(int fm)
         {
-            fragments = fm;
+            this.fragments = fm;
         }   
         public int GetFragmentAmount()
         {
             return fragments;
+        }
+        public void setFragmentAmount(int fm)
+        {
+            this.fragments = fm;
         }
         public void Damage(int da)// damage amount
         {
@@ -91,11 +112,22 @@ public class healthSystem : MonoBehaviour
                 fragments -= da;
             }
         }
+        public void addHealth(int h) 
+        {
+            if(fragments + h > max_Heart)
+            {
+                fragments = max_Heart;  //stop healing when is max health
+            }
+            else
+            {
+                fragments += h;
+            }
+        }
     }
 
 
 
-    
+
 }
 
 

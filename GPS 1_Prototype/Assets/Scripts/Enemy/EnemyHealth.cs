@@ -38,6 +38,11 @@ public class EnemyHealth : MonoBehaviour
             itemNum = 0; //num in item list
             Instantiate(dropItems[itemNum], gameObject.transform.position, Quaternion.identity);
 
+        }
+        else if (randNum > 22 && randNum <= 39)
+        {
+            itemNum = 1; //num in item list
+            Instantiate(dropItems[itemNum], gameObject.transform.position, Quaternion.identity);
 
         }
     }

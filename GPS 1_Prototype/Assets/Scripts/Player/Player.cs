@@ -6,7 +6,6 @@ public class Player : MonoBehaviour
 {
     public GameObject bossBullet;
     public bool isBossBullet = false;
-    int numTicket;
 
     void Start()
     {
@@ -30,5 +29,10 @@ public class Player : MonoBehaviour
             isBossBullet = true;
         }
 
+    }
+
+    public void heal(int healAmount)
+    {
+        healthVisual.HealthSystem.addHealth(healAmount);
     }
 }
