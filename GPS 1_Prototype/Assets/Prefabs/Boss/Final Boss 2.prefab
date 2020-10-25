@@ -633,10 +633,11 @@ MonoBehaviour:
   shootPos_left: {fileID: 1822752161040802886}
   shootPos_right: {fileID: 1158088509218976804}
   laserPos: {fileID: 8251735649114394100}
-  startTimeBtwShoot: 1
+  startTimeBtwShoot: 2
   attackRadius: 10
   isShoot: 0
   isLaser: 0
+  bossMove: 0
   lineOfSight: {fileID: 3714752046850760503}
 --- !u!1 &5724673421284408849
 GameObject:

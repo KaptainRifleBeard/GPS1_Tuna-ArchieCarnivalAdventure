@@ -25,7 +25,6 @@ public class BossAttack : MonoBehaviour
     bool spawn = false;
     int count = 0;
 
-
     RaycastHit2D hit;
     public LineRenderer lineOfSight;
 
@@ -36,7 +35,6 @@ public class BossAttack : MonoBehaviour
         lineOfSight.enabled = false;
         isLaser = true;
     }
-
     //! 6 seconds laser attack
     public IEnumerator laserDuration()
     {
@@ -68,7 +66,10 @@ public class BossAttack : MonoBehaviour
                 {
                     timeBtwShoot -= Time.deltaTime;
                 }
+
             }
+
+
         }
 
     }
@@ -136,6 +137,10 @@ public class BossAttack : MonoBehaviour
                     if (isShoot)
                     {
                         shoot();
+
+                        isShoot = false;
+                        StartCoroutine(bulletDelay());
+
                     }
                 }
                 if (attackTime >= 11 && attackTime <= 13)
