@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 6540346345150298199}
   - component: {fileID: 4791762245612339658}
   m_Layer: 8
-  m_Name: Canvas
+  m_Name: BossCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

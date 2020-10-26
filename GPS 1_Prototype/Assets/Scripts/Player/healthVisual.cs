@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class healthVisual : MonoBehaviour
 {
     public static healthSystem HealthSystem;
-
-    [SerializeField] private Sprite heart0Sprite;
-    [SerializeField] private Sprite heart1Sprite;
-    [SerializeField] private Sprite heart2Sprite;
+    [SerializeField] private Sprite heart0Sprite = null;
+    [SerializeField] private Sprite heart1Sprite = null;
+    [SerializeField] private Sprite heart2Sprite = null;
     private List<HeartImage> heartImageList;
     private healthSystem healthSystem1; //curently not using , for private only
 
+    public bool p1IsDead = false;
     healthSystem hs;
 
     private void Awake()
@@ -21,6 +21,8 @@ public class healthVisual : MonoBehaviour
     }
     private void Start()
     {
+        p1IsDead = false;
+
         healthSystem hs = new healthSystem(3); // number of maximum heart 
         Debug.Log(hs);
 
@@ -59,11 +61,18 @@ public class healthVisual : MonoBehaviour
 
     public void healthSystem_OnDead(object sender, System.EventArgs e)
     {
+
         int y = SceneManager.GetActiveScene().buildIndex;
         Debug.Log("Dead!");
         Debug.Log(y);
 
-        Destroy(GameObject.FindWithTag("Player"));
+        p1IsDead = true;
+        if(p1IsDead == true)
+        {
+            Destroy(GameObject.Find("Player"));
+            Destroy(GameObject.Find("Player2"));
+
+        }
 
         if (y == 3)
         {

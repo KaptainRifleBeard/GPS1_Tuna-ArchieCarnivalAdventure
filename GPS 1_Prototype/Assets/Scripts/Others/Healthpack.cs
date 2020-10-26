@@ -5,7 +5,7 @@ using UnityEngine;
 public class Healthpack : MonoBehaviour
 {
     public static bool addHealth = false;
-    [SerializeField] private int healAmount;
+    [SerializeField] private int healAmount = 0;
 
     void OnTriggerEnter2D(Collider2D collision)
     {

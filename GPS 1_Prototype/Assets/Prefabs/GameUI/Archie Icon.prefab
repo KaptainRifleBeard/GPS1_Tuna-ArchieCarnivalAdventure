@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3753767323657620798
+--- !u!1 &3933002872951720899
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,25 +8,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3753767323657620797}
-  - component: {fileID: 3753767323657620795}
-  - component: {fileID: 3753767323657620796}
-  m_Layer: 0
-  m_Name: Throwing Dart icon
+  - component: {fileID: 888093405545400376}
+  - component: {fileID: 6957129935141910702}
+  - component: {fileID: 1260422480109928369}
+  m_Layer: 5
+  m_Name: Archie Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &3753767323657620797
+--- !u!224 &888093405545400376
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3753767323657620798}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_GameObject: {fileID: 3933002872951720899}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -34,24 +34,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 463.0001, y: -260.4}
-  m_SizeDelta: {x: 72.07039, y: 72.07039}
+  m_AnchoredPosition: {x: -530, y: -298}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &3753767323657620795
+--- !u!222 &6957129935141910702
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3753767323657620798}
+  m_GameObject: {fileID: 3933002872951720899}
   m_CullTransparentMesh: 0
---- !u!114 &3753767323657620796
+--- !u!114 &1260422480109928369
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3753767323657620798}
+  m_GameObject: {fileID: 3933002872951720899}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0c5fc5f5b814f6341a3e7a414cb3192f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7722207404bb7fe4cad7a36b03eeed93, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

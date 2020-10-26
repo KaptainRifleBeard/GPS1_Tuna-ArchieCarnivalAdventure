@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerB : MonoBehaviour
 {
+    public GameObject bossBullet;
+    public bool isBossBullet = false;
+
     void Start()
     {
         DontDestroyOnLoad(gameObject);  //the player wont destroy after load to next level
@@ -17,5 +20,19 @@ public class PlayerB : MonoBehaviour
     public Vector3 GetPosition()
     {
         return transform.position;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("BossBullet"))
+        {
+            isBossBullet = true;
+        }
+
+    }
+
+    public void heal(int healAmount)
+    {
+        healthVisual.HealthSystem.addHealth(healAmount);
     }
 }

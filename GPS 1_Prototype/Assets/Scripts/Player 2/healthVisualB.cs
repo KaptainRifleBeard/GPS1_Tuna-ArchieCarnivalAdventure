@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-
+using UnityEngine.SceneManagement;
 public class healthVisualB : MonoBehaviour
 {
     public static healthSystemB HealthSystem;
-    [SerializeField] private Sprite heart0Sprite;
-    [SerializeField] private Sprite heart1Sprite;
-    [SerializeField] private Sprite heart2Sprite;
+    [SerializeField] private Sprite heart0Sprite = null;
+    [SerializeField] private Sprite heart1Sprite = null;
+    [SerializeField] private Sprite heart2Sprite = null;
     private List<HeartImage> heartImageList;
     private healthSystemB healthSystem1; //curently not using , for private only
+
+    healthSystemB hs;
+    public bool p2IsDead = false;
 
     private void Awake()
     {
@@ -19,22 +21,25 @@ public class healthVisualB : MonoBehaviour
     }
     private void Start()
     {
-        healthSystemB hs = new healthSystemB(3); // number of maximum heart
+        healthSystemB hs = new healthSystemB(3); // number of maximum heart 
+        Debug.Log(hs);
+        p2IsDead = false;
         SetHealthSystem(hs);
     }
-
     public void SetHealthSystem(healthSystemB hs)
     {
         //this.healthSystem1 = hs;  //a //i think this line no need  (use for private)                  
+        this.hs = hs;
         HealthSystem = hs;
-        List<healthSystemB.Heart> heartList = hs.GetHeartList();
+
+        List<healthSystemB.HeartB> heartList = hs.GetHeartList();
         int row = 0;
         int col = 0;
         int colMax = 10;
         float rowColSize = 30f;
         for (int i = 0; i < heartList.Count; i++)
         {
-            healthSystemB.Heart heart = heartList[i];
+            healthSystemB.HeartB heart = heartList[i];
             Vector2 hap = new Vector2(col * rowColSize, -row * rowColSize);  //heartAnchoredPosition
             CreateHeartImage(hap).SetHeartFraments(heart.GetFragmentAmount());
 
@@ -47,25 +52,47 @@ public class healthVisualB : MonoBehaviour
         }
         hs.OnDamaged += healthSystem_OnDamaged;
         hs.OnDead += healthSystem_OnDead;
+        hs.OnHeal += healthSystem_OnHeal;
+
     }
 
-    private void healthSystem_OnDead(object sender, System.EventArgs e)
+    public void healthSystem_OnDead(object sender, System.EventArgs e)
     {
+        int y = SceneManager.GetActiveScene().buildIndex;
         Debug.Log("Dead!");
-        Destroy(GameObject.FindWithTag("Player"));
+        Debug.Log(y);
+        p2IsDead = true;
+
+
+        if (y == 3)
+        {
+            SceneManager.LoadScene(6);
+        }
+        else if (y == 4)
+        {
+            SceneManager.LoadScene(7);
+        }
+
     }
+
     private void healthSystem_OnDamaged(object sender, System.EventArgs e)
     {
         RefreshAllHearts();
     }
+    private void healthSystem_OnHeal(object sender, System.EventArgs e)
+    {
+        RefreshAllHearts();
+    }
+
+
     private void RefreshAllHearts()   ///// make the health can be decrease
     /// if delete this it will always be full health
     {
-        List<healthSystemB.Heart> heartList = HealthSystem.GetHeartList(); //a
+        List<healthSystemB.HeartB> heartList = HealthSystem.GetHeartList(); //a
         for (int i = 0; i < heartImageList.Count; i++)
         {
             HeartImage heartImage = heartImageList[i];
-            healthSystemB.Heart heart = heartList[i];
+            healthSystemB.HeartB heart = heartList[i];
             heartImage.SetHeartFraments(heart.GetFragmentAmount());
         }
     }
@@ -79,7 +106,7 @@ public class healthVisualB : MonoBehaviour
         hgo.transform.localScale = Vector3.one;
 
         hgo.GetComponent<RectTransform>().anchoredPosition = anchoredPosition;  // Locate and Size heart
-        hgo.GetComponent<RectTransform>().sizeDelta = new Vector2(35, 35);
+        hgo.GetComponent<RectTransform>().sizeDelta = new Vector2(32, 32);
 
         Image heartImageUI = hgo.GetComponent<Image>();   // Set heart sprite
         heartImageUI.sprite = heart2Sprite;
@@ -111,5 +138,8 @@ public class healthVisualB : MonoBehaviour
             }
         }
     }
+
+
 }
+
 

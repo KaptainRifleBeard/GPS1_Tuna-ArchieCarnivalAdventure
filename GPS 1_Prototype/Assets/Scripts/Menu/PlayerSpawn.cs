@@ -9,23 +9,17 @@ public class PlayerSpawn : SelectPlayMode
     public GameObject player2;
     public GameObject spawnpoint;
 
-    int numPlayer1 = 0;
-    int numPlayer2 = 0;
-
-    void Awake()
+    void Start()
     {
-        if(numPlayer1 < 1)
-        {
-            Instantiate(player1, spawnpoint.transform.position, quaternion.identity);
-        }
+        player1.transform.position = spawnpoint.transform.position;
 
         if (getIsDual())
         {
             Debug.Log("trigger dual");
-            if (numPlayer2 < 1)
-            {
-                Instantiate(player2, spawnpoint.transform.position, quaternion.identity);
-            }
+            player2.transform.position = spawnpoint.transform.position;
+            player1.transform.position = spawnpoint.transform.position;
+
+
         }
     }
 
