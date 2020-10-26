@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 099e756c89eae984fad794373db6d939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 4
   isDrumBullet: 1
   health: 10
 --- !u!114 &4219046105339965669
