@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-public class CountTicket : MonoBehaviour
+public class CountKill : MonoBehaviour
 {
     Text text;
-    public static int ticketAmount;
+    public static int killAmount;
 
     void Start()
     {
@@ -17,6 +16,6 @@ public class CountTicket : MonoBehaviour
 
     void Update()
     {
-        text.text = ticketAmount.ToString();
+        text.text = killAmount.ToString();
     }
 }

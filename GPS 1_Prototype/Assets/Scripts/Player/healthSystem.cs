@@ -26,7 +26,7 @@ public class healthSystem : MonoBehaviour
             heartList.Add(heart);
         }
 
-        heartList[heartList.Count - 1].setFragmentAmount(0);
+        //heartList[heartList.Count - 1].setFragmentAmount(0);
     }
 
     public List<Heart> GetHeartList()

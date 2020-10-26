@@ -18,6 +18,7 @@ public class EnemyHealth : MonoBehaviour
 
             if (health < 0)
             {
+                CountKill.killAmount += 1;
                 Destroy(gameObject);
                 itemDrop();
             }

@@ -10,7 +10,6 @@ public class Ticket : MonoBehaviour
         {
             CountTicket.ticketAmount += 10;
             Destroy(gameObject);
-
         }
     }
 }
