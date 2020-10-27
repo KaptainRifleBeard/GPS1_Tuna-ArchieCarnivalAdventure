@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5098499015773249871}
   - component: {fileID: 3330435094542295409}
   - component: {fileID: 9166445001689111065}
+  - component: {fileID: 9210606404938747872}
   m_Layer: 0
   m_Name: carnival stand 8 prop back
   m_TagString: Tilemap
@@ -96,7 +97,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.047631264, y: 0.07146263}
+  m_Offset: {x: -0.07896137, y: -0.42992735}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -107,5 +108,31 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5002308, y: 2.9284706}
+  m_Size: {x: 2.218256, y: 1.9256907}
+  m_EdgeRadius: 0
+--- !u!61 &9210606404938747872
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6448776024821273222}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.07049394, y: 1.0341191}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.12, y: 5.12}
+    newSize: {x: 5.12, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.4726033, y: 0.9835243}
   m_EdgeRadius: 0
