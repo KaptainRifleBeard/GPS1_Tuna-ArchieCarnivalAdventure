@@ -21,10 +21,8 @@ public class Bullet : MonoBehaviour
         //prefab = Resources.Load("Bullet") as GameObject;
     }
 
-    // Update is called once per frame
     void Update()
     {
-
         // rb.velocity = new Vector2(bulletSpeed * transform.localScale.x, 0);
         //if (Input.GetKeyDown("t")) && Time.time > nextFire)
         //{
@@ -48,10 +46,10 @@ public class Bullet : MonoBehaviour
         else
         {
             Instantiate(snowBallEffect, transform.position, transform.rotation);
-            Destroy(gameObject);
+            Destroy(gameObject,3f);
         }
+        Debug.Log("collide (name) : " + other.gameObject.name);
 
-        
     }
 
 

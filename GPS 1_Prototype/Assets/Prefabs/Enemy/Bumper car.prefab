@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62cd5c8ee8931f44a8e0bb634d06411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 939748024404377582, guid: 60cc09ea661a7874bb9ab9605ab7f3af, type: 3}
+  target: {fileID: 2568920336892274364, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
   barrier: {fileID: 0}
   enemySpeed: 1
   isStop: 0
