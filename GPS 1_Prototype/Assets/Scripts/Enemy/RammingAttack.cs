@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 
 public class RammingAttack : EnemyMovement
@@ -8,15 +9,16 @@ public class RammingAttack : EnemyMovement
 
     public bool isStop;
     public bool isRamming;
+    public bool RammingDelay;
     public bool isFacingRight;
 
     public float followRadius;
     public float stopRadius;
     public float rammingRadius;
+
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
-
     }
 
     void checkDistance()
@@ -30,7 +32,6 @@ public class RammingAttack : EnemyMovement
             }
             else
             {
-
                 if (isFacingRight)
                 {
                     angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
@@ -51,11 +52,15 @@ public class RammingAttack : EnemyMovement
 
     void ramming()
     {
-        if (Vector3.Distance(target.position, transform.position) <= rammingRadius)
+        if(isRamming != false)
         {
-            enemySpeed = 5;
-            transform.position = Vector3.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
+            if (Vector3.Distance(target.position, transform.position) <= rammingRadius)
+            {
+                enemySpeed = 3;
+                transform.position = Vector3.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
+            }
         }
+
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -75,12 +80,7 @@ public class RammingAttack : EnemyMovement
         if (collision.gameObject.CompareTag("Player"))
         {
             isRamming = false;
-
-            if (isRamming == false)
-            {
-                enemySpeed = 1;
-                StartCoroutine(ChangeRammingBool());
-            }
+            RammingDelay = true;
         }
     }
 
@@ -88,21 +88,40 @@ public class RammingAttack : EnemyMovement
     {
         yield return new WaitForSeconds(3f);
         isRamming = true;
-    }
 
+    }
+    public IEnumerator AttackDelay()
+    {
+        yield return new WaitForSeconds(3f);
+        RammingDelay = false;
+        StartCoroutine(ChangeRammingBool());
+
+    }
+    public IEnumerator WhenStartSpawn()
+    {
+        yield return new WaitForSeconds(3f);
+        checkDistance();
+    }
 
     void Update()
     {
         if (target != null)
         {
-            checkDistance();
+            StartCoroutine(WhenStartSpawn());
 
-            if (isRamming == true)
+            if (isRamming == true && RammingDelay == false)
             {
                 ramming();
+                GetComponent<TouchEnemyGetDamage>().damageAmount = 1;
 
             }
-            
+            if (RammingDelay == true && isRamming == false)
+            {
+                StartCoroutine(AttackDelay());
+                GetComponent<TouchEnemyGetDamage>().damageAmount = 0;
+            }
+
+
         }
     }
 }

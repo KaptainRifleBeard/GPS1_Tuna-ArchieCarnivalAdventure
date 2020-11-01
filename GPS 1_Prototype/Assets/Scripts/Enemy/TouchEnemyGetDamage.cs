@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class TouchEnemyGetDamage : MonoBehaviour
 {
-    [SerializeField] private int damageAmount = 0;
+    public int damageAmount = 0;
 
     private void OnTriggerEnter2D(Collider2D collider) {
         Player player = collider.GetComponent<Player>();

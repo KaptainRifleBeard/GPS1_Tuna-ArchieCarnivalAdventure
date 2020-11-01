@@ -152,6 +152,7 @@ MonoBehaviour:
   enemySpeed: 1
   isStop: 0
   isRamming: 1
+  RammingDelay: 0
   isFacingRight: 0
   followRadius: 4
   stopRadius: 2
