@@ -1,26 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
+using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 public class PlayerSpawn : SelectPlayMode
 {
-    public GameObject player1;
-    public GameObject player2;
+    public GameObject[] player1;
+    public GameObject[] player2;
     public GameObject spawnpoint;
 
     void Start()
     {
-        player1.transform.position = spawnpoint.transform.position;
+        int randPlayer1 = Random.Range(0, player1.Length);
+        int randPlayer2 = Random.Range(0, player2.Length);
+
+
+        player1[randPlayer1].transform.position = spawnpoint.transform.position;
 
         if (getIsDual())
         {
             Debug.Log("trigger dual");
-            player2.transform.position = spawnpoint.transform.position;
-            player1.transform.position = spawnpoint.transform.position;
-
-
+            player1[randPlayer1].transform.position = spawnpoint.transform.position;
+            player2[randPlayer2].transform.position = spawnpoint.transform.position;
         }
     }
-
 }

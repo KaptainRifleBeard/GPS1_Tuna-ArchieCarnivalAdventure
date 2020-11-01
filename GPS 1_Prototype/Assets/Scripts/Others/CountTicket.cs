@@ -16,7 +16,7 @@ public class CountTicket : MonoBehaviour
     }
 
     void Update()
-    {
+    {   
         text.text = ticketAmount.ToString();
     }
 }
