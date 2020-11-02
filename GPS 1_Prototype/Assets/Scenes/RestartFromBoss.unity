@@ -975,6 +975,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 009245a74b0f77c4b8824a6551b459f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 5676702311962482803, guid: 60cc09ea661a7874bb9ab9605ab7f3af, type: 3}
-  player2: {fileID: 7735168987000850623, guid: 4f2047539348a0547a08871b66fb91f5, type: 3}
+  player1:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  player2:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   spawnpoint: {fileID: 8437040765193352206, guid: 73d806f60aae95d4b8347e84ac48f94e, type: 3}
+  randPlayer1: 0
+  randPlayer2: 0

@@ -25,6 +25,7 @@ public class Boss : MonoBehaviour
         if (curHealth <= 0)
         {
             Debug.Log("Boss dead");
+            FindObjectOfType<AudioManager>().Play("BossDeath");
             Destroy(gameObject);
             SceneManager.LoadScene("ThanksForPlaying");
 

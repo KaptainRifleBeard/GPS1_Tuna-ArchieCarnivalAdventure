@@ -9,8 +9,8 @@ public class PlayerSpawn : SelectPlayMode
     public GameObject[] player1;
     public GameObject[] player2;
     public GameObject spawnpoint;
-    public int randPlayer1 = 0;
-    public int randPlayer2 = 0;
+    [HideInInspector] public int randPlayer1 = 0;
+    [HideInInspector] public int randPlayer2 = 0;
 
     public void Start()
     {

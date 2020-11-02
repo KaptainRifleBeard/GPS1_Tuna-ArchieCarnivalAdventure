@@ -687,6 +687,8 @@ MonoBehaviour:
   - {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
   - {fileID: 4792513933652447641, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
   spawnpoint: {fileID: 686458678672794597, guid: 5ccd37590c3d7794d86125da08243664, type: 3}
+  randPlayer1: 0
+  randPlayer2: 0
 --- !u!1 &1540815895
 GameObject:
   m_ObjectHideFlags: 0

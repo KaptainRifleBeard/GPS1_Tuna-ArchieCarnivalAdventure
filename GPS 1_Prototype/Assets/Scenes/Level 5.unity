@@ -1356,9 +1356,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 313ed914ca42e5945949aaffd41abbd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 1839992176}
-  player2: {fileID: 1071731728}
+  player1:
+  - {fileID: 0}
+  player2:
+  - {fileID: 0}
   spawnpoint: {fileID: 220077327}
+  randPlayer1: 0
+  randPlayer2: 0
 --- !u!4 &220257145 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8708648632388318486, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -10217,11 +10221,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8708648632388318486, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
   m_PrefabInstance: {fileID: 1071618320}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1071731728 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-  m_PrefabInstance: {fileID: 935165181}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1083308816 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8708648632388318486, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -16990,11 +16989,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8708648632388318486, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
   m_PrefabInstance: {fileID: 1836595137}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1839992176 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6947847080659075361, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
-  m_PrefabInstance: {fileID: 1002796997}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1843556575
 PrefabInstance:

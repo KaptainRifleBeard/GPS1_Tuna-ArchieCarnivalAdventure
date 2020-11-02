@@ -33912,11 +33912,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5966679220161686128, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 655edb6a2a356cc49919901c355bbc1e, type: 3}
+    - target: {fileID: 5966679220161686128, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6947847080659075361, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
       propertyPath: m_Name
       value: Tuna_Right_DartSheet
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5966679220161686128, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
 --- !u!1001 &1361095801
 PrefabInstance:
