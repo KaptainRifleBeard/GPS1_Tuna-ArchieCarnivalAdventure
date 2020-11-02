@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 8242029573218300842}
   - component: {fileID: 5229087313502671791}
   - component: {fileID: 3363068203983215171}
+  - component: {fileID: 8662453681736146183}
   m_Layer: 9
   m_Name: Tuna_Right_DartSheet
   m_TagString: Player
@@ -286,3 +287,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
+--- !u!114 &8662453681736146183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947847080659075361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 926f0caffcab2ca4c99893dcef445d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: []
+  pos: {fileID: 0}
+  switchWeapon: 0
