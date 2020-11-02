@@ -6,7 +6,7 @@ using UnityEngine.Assertions.Must;
 
 public class RandomSpawner : MonoBehaviour
 {
-    public Transform spawnPoints;
+    public Transform[] spawnPoints;
     public GameObject[] enemyPrefabs;
     public GameObject barrier;
     public int numbersEnemy;
@@ -31,13 +31,12 @@ public class RandomSpawner : MonoBehaviour
 
         if (isSpawn)
         {
-            transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-
             int randEnemy = Random.Range(0, enemyPrefabs.Length);
+            int randSP = Random.Range(0, spawnPoints.Length);
 
             if (numbersEnemy > 0)
             {
-                Instantiate(enemyPrefabs[randEnemy], spawnPoints.position, transform.rotation);
+                Instantiate(enemyPrefabs[randEnemy], spawnPoints[randSP].position, transform.rotation);
                 numbersEnemy--;
                
 

@@ -20,32 +20,28 @@ public class RammingAttack : EnemyMovement
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
     }
-
+     
     void checkDistance()
     {
-
-        if (Vector2.Distance(transform.position, target.position) > stopRadius)
+        if (Vector3.Distance(target.position, transform.position) <= followRadius)
         {
-            if (Vector3.Distance(target.position, transform.position) <= followRadius)
+            transform.position = Vector3.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
+        }
+        else
+        {
+            if (isFacingRight)
             {
-                transform.position = Vector3.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
+                angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+                transform.Translate(2 * enemySpeed * Time.deltaTime, 0, 0);
+                transform.localScale = new Vector2(1, 1);  //(1, 1) -> refer to enemy's scale in transform
             }
             else
             {
-                if (isFacingRight)
-                {
-                    angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
-                    transform.Translate(2 * enemySpeed * Time.deltaTime, 0, 0);
-                    transform.localScale = new Vector2(1, 1);  //(1, 1) -> refer to enemy's scale in transform
-                }
-                else
-                {
-                    angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-                    transform.Translate(-2 * enemySpeed * Time.deltaTime, 0, 0);
-                    transform.localScale = new Vector2(-1, 1); //flip enemy
-                }
+                transform.Translate(-2 * enemySpeed * Time.deltaTime, 0, 0);
+                transform.localScale = new Vector2(-1, 1); //flip enemy
             }
         }
     }
@@ -92,7 +88,7 @@ public class RammingAttack : EnemyMovement
     }
     public IEnumerator AttackDelay()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(0.5f);
         RammingDelay = false;
         StartCoroutine(ChangeRammingBool());
 
@@ -102,13 +98,11 @@ public class RammingAttack : EnemyMovement
         yield return new WaitForSeconds(3f);
         checkDistance();
     }
-
     void Update()
     {
         if (target != null)
         {
             StartCoroutine(WhenStartSpawn());
-
             if (isRamming == true && RammingDelay == false)
             {
                 ramming();

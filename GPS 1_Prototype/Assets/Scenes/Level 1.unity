@@ -26900,11 +26900,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5686476583088943978, guid: 22deb264b63e8e842a1c7241b2367158, type: 3}
   m_PrefabInstance: {fileID: 974788539}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &830520969 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-  m_PrefabInstance: {fileID: 5102352042859548036}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &835353730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38919,7 +38914,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1:
   - {fileID: 1415051384}
-  - {fileID: 830520969}
   player2:
   - {fileID: 1081315394}
   - {fileID: 312728907}
