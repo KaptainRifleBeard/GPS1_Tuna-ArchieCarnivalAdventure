@@ -9,16 +9,7 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
-        foreach(Sound s in sounds)
-        {
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.clip = s.clip;
-
-            s.source.volume = s.volumn; 
-            s.source.pitch = s.pitch;
-            s.source.loop = s.loop;
-        }
-        DontDestroyOnLoad(transform.gameObject);
+        DontDestroyOnLoad(gameObject);
 
         if (instance == null)
         {
@@ -29,6 +20,17 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
+        foreach (Sound s in sounds)
+        {
+            s.source = gameObject.AddComponent<AudioSource>();
+            s.source.clip = s.clip;
+
+            s.source.volume = s.volumn; 
+            s.source.pitch = s.pitch;
+            s.source.loop = s.loop;
+        }
+        
     }
 
 
@@ -44,6 +46,7 @@ public class AudioManager : MonoBehaviour
     {
         Play("BGM");
     }
+
 
 }
 

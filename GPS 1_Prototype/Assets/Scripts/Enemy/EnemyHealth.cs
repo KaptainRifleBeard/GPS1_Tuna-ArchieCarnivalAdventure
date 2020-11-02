@@ -18,6 +18,8 @@ public class EnemyHealth : MonoBehaviour
 
             if (health < 0)
             {
+                FindObjectOfType<AudioManager>().Play("EnemyDeath");
+
                 CountKill.killAmount += 1;
                 Destroy(gameObject);
                 itemDrop();

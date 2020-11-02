@@ -46,14 +46,25 @@ MonoBehaviour:
   sounds:
   - name: BGM
     clip: {fileID: 8300000, guid: 655edb6a2a356cc49919901c355bbc1e, type: 3}
-    volumn: 1
+    volumn: 0.1
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: ButtonPress
     clip: {fileID: 8300000, guid: b5e35a7fbfaa69d49b65d31e6b1f5b43, type: 3}
+    volumn: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossDeath
+    clip: {fileID: 8300000, guid: e8b165b8c3b368e4d86ecb4c841e500c, type: 3}
     volumn: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  bgm: {fileID: 0}
+  - name: EnemyDeath
+    clip: {fileID: 8300000, guid: a399336bc17e81e45b7376002a0969ec, type: 3}
+    volumn: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

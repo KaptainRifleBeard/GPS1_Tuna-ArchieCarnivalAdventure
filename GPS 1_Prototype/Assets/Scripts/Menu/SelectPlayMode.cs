@@ -30,4 +30,8 @@ public class SelectPlayMode : MonoBehaviour
     {
         return isDual;
     }
+    public void buttonClick()
+    {
+        FindObjectOfType<AudioManager>().Play("ButtonPress");
+    }
 }
