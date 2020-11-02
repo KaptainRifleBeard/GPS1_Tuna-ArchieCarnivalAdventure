@@ -189,6 +189,10 @@ MonoBehaviour:
   knockbackCount: 0.2
   knockbackLength: 0.2
   isKnockbackRight: 0
+  up: {fileID: 21300000, guid: b2f2a5aff5382604a9799884211da5e7, type: 3}
+  down: {fileID: 21300000, guid: aae60a9a566f7854f91c6e197ef819dd, type: 3}
+  left: {fileID: 21300000, guid: 20c5cc443c7556447b7670e44bbcd177, type: 3}
+  right: {fileID: 21300000, guid: b45a42a45c711b243903c51ce8152635, type: 3}
 --- !u!114 &4792513933652447639
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,17 +6,17 @@ using UnityEngine.UI;
 
 public class CountTicket : MonoBehaviour
 {
-    Text text;
-    public static int ticketAmount;
+    public Text Score;
+    public static int ticketAmount = 0;
 
     void Start()
     {
         DontDestroyOnLoad(gameObject);
-        text = GetComponent<Text>();
+        Score = GetComponent<Text>();
     }
 
     void Update()
-    {   
-        text.text = ticketAmount.ToString();
+    {
+        Score.text = ticketAmount.ToString();
     }
 }

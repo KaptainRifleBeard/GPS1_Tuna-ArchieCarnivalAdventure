@@ -680,9 +680,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 009245a74b0f77c4b8824a6551b459f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: {fileID: 5676702311962482803, guid: 60cc09ea661a7874bb9ab9605ab7f3af, type: 3}
-  player2: {fileID: 7735168987000850623, guid: 4f2047539348a0547a08871b66fb91f5, type: 3}
-  spawnpoint: {fileID: 636698184750820578, guid: 4970fd821fdab564fa548e92a6317d30, type: 3}
+  player1:
+  - {fileID: 6947847080659075361, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
+  - {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
+  player2:
+  - {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
+  - {fileID: 4792513933652447641, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
+  spawnpoint: {fileID: 686458678672794597, guid: 5ccd37590c3d7794d86125da08243664, type: 3}
 --- !u!1 &1540815895
 GameObject:
   m_ObjectHideFlags: 0

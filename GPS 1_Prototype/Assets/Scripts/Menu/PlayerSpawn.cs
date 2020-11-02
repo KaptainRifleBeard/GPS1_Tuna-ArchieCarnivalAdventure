@@ -9,11 +9,16 @@ public class PlayerSpawn : SelectPlayMode
     public GameObject[] player1;
     public GameObject[] player2;
     public GameObject spawnpoint;
+    public int randPlayer1 = 0;
+    public int randPlayer2 = 0;
 
-    void Start()
+    public void Start()
     {
-        int randPlayer1 = Random.Range(0, player1.Length);
-        int randPlayer2 = Random.Range(0, player2.Length);
+        randPlayer1 = Random.Range(0, player1.Length);
+        randPlayer2 = Random.Range(0, player2.Length);
+
+        player1 = GameObject.FindGameObjectsWithTag("Player");
+        player2 = GameObject.FindGameObjectsWithTag("Player2");
 
         if (getIsDual())
         {

@@ -149,12 +149,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   barrier: {fileID: 0}
+  player1:
+  - {fileID: 6947847080659075361, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
+  - {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
+  player2:
+  - {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
+  - {fileID: 4792513933652447641, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
+  p1Position: []
+  p2Position: []
   enemySpeed: 1
   isStop: 0
   isRamming: 1
   RammingDelay: 0
   isFacingRight: 0
-  followRadius: 5
+  followRadius: 4
   stopRadius: 2
   rammingRadius: 3
 --- !u!114 &6563126998001851108
