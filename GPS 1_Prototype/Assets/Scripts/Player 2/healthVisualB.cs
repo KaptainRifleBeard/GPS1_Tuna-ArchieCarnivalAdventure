@@ -63,7 +63,11 @@ public class healthVisualB : MonoBehaviour
         Debug.Log(y);
         p2IsDead = true;
 
-
+        if (p2IsDead == true)
+        {
+            Destroy(GameObject.Find("Player"));
+            Destroy(GameObject.Find("Player2"));
+        }
         if (y == 3)
         {
             SceneManager.LoadScene(6);
@@ -101,7 +105,7 @@ public class healthVisualB : MonoBehaviour
     {
         GameObject hgo = new GameObject("Heart", typeof(Image)); // heartGameObject
 
-        hgo.transform.parent = transform;           // Set as child of this transform
+        hgo.transform.SetParent(gameObject.transform);          // Set as child of this transform
         hgo.transform.localPosition = Vector3.zero;
         hgo.transform.localScale = Vector3.one;
 

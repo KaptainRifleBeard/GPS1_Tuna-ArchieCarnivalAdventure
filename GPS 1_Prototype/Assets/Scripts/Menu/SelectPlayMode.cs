@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SelectPlayMode : MonoBehaviour
 {
-   static bool isDual = false;
+   public static bool isDual = false;
 
     public void SoloGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-
-    public void DualGame()
+        
+    public void DualGame()  
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Debug.Log("isDual");

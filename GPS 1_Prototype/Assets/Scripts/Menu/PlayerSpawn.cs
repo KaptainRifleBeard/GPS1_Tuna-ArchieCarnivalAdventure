@@ -15,14 +15,15 @@ public class PlayerSpawn : SelectPlayMode
         int randPlayer1 = Random.Range(0, player1.Length);
         int randPlayer2 = Random.Range(0, player2.Length);
 
-
-        player1[randPlayer1].transform.position = spawnpoint.transform.position;
-
         if (getIsDual())
         {
             Debug.Log("trigger dual");
             player1[randPlayer1].transform.position = spawnpoint.transform.position;
             player2[randPlayer2].transform.position = spawnpoint.transform.position;
+        }
+        else
+        {
+            player1[randPlayer1].transform.position = spawnpoint.transform.position;
         }
     }
 }
