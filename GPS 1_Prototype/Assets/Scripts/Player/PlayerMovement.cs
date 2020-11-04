@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -24,8 +26,9 @@ public class PlayerMovement : MonoBehaviour
     public bool isKnockbackRight;
 
     //Changing  sprite
-    private SpriteRenderer rend;
+    public SpriteRenderer rend;
     public Sprite up, down, left, right;
+    GameObject ballClone;
 
     private void Start()
     {
@@ -35,27 +38,44 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-
         if (Input.GetKeyDown(myShoot))
         {
-            GameObject ballClone = Instantiate(bulletPrefab, bulletSpawnPOS.position, bulletSpawnPOS.rotation);
+
+            if (rend.sprite == up)
+            {
+                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y + 0.5f), bulletSpawnPOS.rotation);
+            }
+            else if (rend.sprite == down)
+            {
+                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y - 0.5f), bulletSpawnPOS.rotation);
+       
+            }
+            else
+            {
+                ballClone = Instantiate(bulletPrefab, bulletSpawnPOS.position, bulletSpawnPOS.rotation);
+            }
+
         }
+
     }
 
     private void FixedUpdate()
     {
+        
         //if not knockback, player able to move
         if (knockbackCount <= 0)
         {
             if (Input.GetKey(myleft))
             {
                 rb.AddForce(Vector3.left * force, ForceMode2D.Impulse);
+                //playerVisual.rotation = Quaternion.Euler(180, 0, 180); 
                 rend.sprite = left;
 
             }
             if (Input.GetKey(myright))
             {
                 rb.AddForce(Vector3.right * force, ForceMode2D.Impulse);
+                //playerVisual.rotation = Quaternion.Euler(0, 0, 0);
                 rend.sprite = right;
 
             }

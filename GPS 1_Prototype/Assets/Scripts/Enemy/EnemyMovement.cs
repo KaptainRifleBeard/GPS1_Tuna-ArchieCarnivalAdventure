@@ -7,7 +7,6 @@ public class EnemyMovement : MonoBehaviour
 {
     protected Vector3 direction;
     public Transform target;
-    public Transform barrier;
     protected Rigidbody2D rb;
     protected float angle;
 

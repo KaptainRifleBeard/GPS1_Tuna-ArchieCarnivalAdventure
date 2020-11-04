@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8304869474179345339}
   - component: {fileID: 8304869474179345332}
   - component: {fileID: 3666218058283652690}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: carnival stand 3 prop
   m_TagString: Tilemap
   m_Icon: {fileID: 0}
@@ -69,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 159034209
-  m_SortingLayer: 0
+  m_SortingLayerID: 295468807
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 1f6018e52a80748458877fb0c16fc8af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
