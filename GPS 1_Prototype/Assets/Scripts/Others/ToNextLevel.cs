@@ -5,19 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class ToNextLevel : MonoBehaviour
 {
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            LoadToNextLevel();
-        }
-    }
     public void LoadToNextLevel()
     {
-        Debug.Log("NextLevel");
-        SceneManager.LoadScene("WinScreen");
-        //SceneManager.UnloadScene("Level 1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
 
     }
 }

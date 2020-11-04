@@ -21,11 +21,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void Continue()
-    {
-        SceneManager.LoadScene("Level 5");
-    }
-
     public void backToMainMenu()
     {
         SceneManager.LoadScene(0);
@@ -34,5 +29,14 @@ public class MainMenu : MonoBehaviour
     public void buttonClick()
     {
         FindObjectOfType<AudioManager>().Play("ButtonPress");
+    }
+
+    public void ContinueToLevel3()
+    {
+        SceneManager.LoadScene("Level 3");
+    }
+    public void ContinueToLevel5()
+    {
+        SceneManager.LoadScene("Level 5");
     }
 }

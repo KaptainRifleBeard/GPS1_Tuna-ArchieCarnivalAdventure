@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     public GameObject bossBullet;
     public bool isBossBullet = false;
+    public GameObject winScreen;
 
     void Start()
     {
@@ -27,6 +29,12 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("BossBullet"))
         {
             isBossBullet = true;
+        }
+
+        if (other.gameObject.CompareTag("ToNextLevel"))
+        {
+            winScreen.SetActive(true);
+
         }
 
     }

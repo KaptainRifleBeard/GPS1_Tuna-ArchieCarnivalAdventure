@@ -23,6 +23,7 @@ TagManager:
   - RoomBoundary
   - Healthpack
   - TicketScore
+  - ToNextLevel
   layers:
   - Default
   - TransparentFX

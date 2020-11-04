@@ -160,6 +160,7 @@ MonoBehaviour:
   knockbackCount: 0.2
   knockbackLength: 0.2
   isKnockbackRight: 0
+  rend: {fileID: 0}
   up: {fileID: 21300000, guid: 45a63e065250ce64bbe389b30a8d97d7, type: 3}
   down: {fileID: 21300000, guid: 76d154af599849a47bfe2849bdc2f45f, type: 3}
   left: {fileID: 21300000, guid: ee745f12c99e65945805392538f78576, type: 3}
@@ -249,7 +250,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5a9a6a6eca58b5f42a23d74b2b0500e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b4aa913ef5344dd4baa3af058f3605c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
