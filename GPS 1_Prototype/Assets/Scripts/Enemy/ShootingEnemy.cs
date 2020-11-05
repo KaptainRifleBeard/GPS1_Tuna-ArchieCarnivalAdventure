@@ -14,7 +14,6 @@ public class ShootingEnemy : MonoBehaviour
     public float stopRadius;
     public float attackRadius;
 
-    private Rigidbody2D rb;
     public GameObject bullet;
 
     public float startTimeBtwShoot;
@@ -23,9 +22,11 @@ public class ShootingEnemy : MonoBehaviour
     public bool isP1 = false;
     public bool isP2 = false;
 
-    GameObject[] player1s;
-    GameObject[] player2s;
     private float distance;
+
+
+
+
     void checkDistance()
     {
         
@@ -40,11 +41,15 @@ public class ShootingEnemy : MonoBehaviour
         }
         else if (Vector2.Distance(transform.position, target.position) < retreatRadius)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, -enemySpeed *2 * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, target.position, -enemySpeed * 2 * Time.deltaTime);
         }
 
     }
    
+
+
+
+
     void OnTriggerEnter2D(Collider2D collision)     
     {
         if (collision.gameObject.CompareTag("Tilemap") || collision.gameObject.CompareTag("Barrier") || collision.gameObject.CompareTag("Stage"))
@@ -53,9 +58,12 @@ public class ShootingEnemy : MonoBehaviour
         }
     }
 
+
+
+
+
     void Start()
     {
-        rb = this.GetComponent<Rigidbody2D>();
         timeBtwShoot = startTimeBtwShoot;
 
         target = GameObject.FindGameObjectWithTag("Player").transform;

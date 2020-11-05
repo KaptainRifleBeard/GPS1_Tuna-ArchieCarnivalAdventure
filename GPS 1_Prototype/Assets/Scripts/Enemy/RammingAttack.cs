@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using UnityEditorInternal;
 using UnityEngine;
 
-public class RammingAttack : EnemyMovement
+public class RammingAttack : MonoBehaviour
 {
+    public Transform target;
+    public GameObject[] players;
+    private float distance;
+
     public float enemySpeed;
 
     public bool isRamming;
@@ -15,67 +19,32 @@ public class RammingAttack : EnemyMovement
     public float stopRadius;
     public float rammingRadius;
 
-    void Start()
-    {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
-
-        player1 = GameObject.FindGameObjectsWithTag("Player");
-        player2 = GameObject.FindGameObjectsWithTag("Player2");
-
-        randPlayer1 = Random.Range(0, player1.Length);
-        randPlayer2 = Random.Range(0, player2.Length);
-    }
      
+
     void checkDistance()
     {
-        //! Player1
-        if (Vector3.Distance(player1[randPlayer1].transform.position, transform.position) <= followRadius)
+        if (Vector2.Distance(transform.position, target.position) <= followRadius)
         {
-            transform.position = Vector3.MoveTowards(transform.position, player1[randPlayer1].transform.position, enemySpeed * Time.deltaTime); 
-
+            transform.position = Vector2.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
         }
-        else if(Vector3.Distance(player2[randPlayer2].transform.position, transform.position) <= followRadius)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, player2[randPlayer2].transform.position, enemySpeed * Time.deltaTime);
-            
-        }
-        else
-        {
-            if (isFacingRight)
-            {
-                angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-                transform.Translate(2 * enemySpeed * Time.deltaTime, 0, 0);
-                transform.localScale = new Vector2(1, 1);  //(1, 1) -> refer to enemy's scale in transform
-            }
-            else
-            {
-                angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-                transform.Translate(-2 * enemySpeed * Time.deltaTime, 0, 0);
-                transform.localScale = new Vector2(-1, 1); //flip enemy
-            }
-        }
-
     }
 
     void ramming()
     {
-        if(isRamming != false)
+        if (isRamming == true)
         {
-            //! Player1
-            if (Vector3.Distance(player1[randPlayer1].transform.position, transform.position) <= rammingRadius)
+            GetComponent<TouchEnemyGetDamage>().damageAmount = 1;
+            if (Vector3.Distance(target.transform.position, transform.position) <= rammingRadius)
             {
-                enemySpeed = 3;
-                transform.position = Vector3.MoveTowards(transform.position, player1[randPlayer1].transform.position, enemySpeed * Time.deltaTime);
-            }
-            else if(Vector3.Distance(player2[randPlayer2].transform.position, transform.position) <= rammingRadius)
-            {
-                enemySpeed = 3;
-                transform.position = Vector3.MoveTowards(transform.position, player2[randPlayer2].transform.position, enemySpeed * Time.deltaTime);
+                enemySpeed = 8;
+                transform.position = Vector2.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
             }
         }
     }
+
+
+
+
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -98,6 +67,9 @@ public class RammingAttack : EnemyMovement
         }
     }
 
+
+
+
     public IEnumerator ChangeRammingBool()
     {
         yield return new WaitForSeconds(3f);
@@ -116,19 +88,43 @@ public class RammingAttack : EnemyMovement
         yield return new WaitForSeconds(0.5f);
         checkDistance();
     }
+
+
+
+
+    void Start()
+    {
+        RammingDelay = false;
+        isRamming = true;
+
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+        players = GameObject.FindGameObjectsWithTag("Player");
+
+        for (int i = 0; i < players.Length; i++)
+        {
+            distance = Vector2.Distance(this.transform.position, players[i].transform.position);
+
+            if (distance < followRadius)
+            {
+                target = players[i].transform;
+                followRadius = distance;
+            }
+        }
+    }
     void Update()
     {
-        if (player1 != null || player2 != null)
+        if (target != null)
         {
-            StartCoroutine(WhenStartSpawn());
-            if (isRamming == true && RammingDelay == false)
-            {
-                ramming();
-                GetComponent<TouchEnemyGetDamage>().damageAmount = 1;
+            Debug.Log(Time.deltaTime);
 
-            }
-            if (RammingDelay == true && isRamming == false)
+            if (RammingDelay == false && isRamming == true)
             {
+                StartCoroutine(WhenStartSpawn());
+                ramming();
+            }
+            else if (RammingDelay == true && isRamming == false)
+            {
+                enemySpeed = 4;
                 StartCoroutine(AttackDelay());
                 GetComponent<TouchEnemyGetDamage>().damageAmount = 0;
             }
