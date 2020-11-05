@@ -75,8 +75,6 @@ public class BossMovement : MonoBehaviour
                 turnDir();
             }
 
-
-
         }
 
     }

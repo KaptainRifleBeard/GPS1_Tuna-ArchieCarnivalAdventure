@@ -544,6 +544,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 783354101, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.077
+      objectReference: {fileID: 0}
+    - target: {fileID: 783354101, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.41
+      objectReference: {fileID: 0}
     - target: {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
       propertyPath: m_Name
       value: Tuna_Right_Unicorn
@@ -34867,6 +34875,14 @@ PrefabInstance:
     - target: {fileID: 6947847080659075361, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
       propertyPath: m_Name
       value: Tuna_Right_DartSheet
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344445300380373317, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.131
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344445300380373317, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.019
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}

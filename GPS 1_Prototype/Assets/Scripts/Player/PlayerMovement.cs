@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     public GameObject bulletPrefab;
+    GameObject ballClone;
+
     public Transform bulletSpawnPOS;
     public Transform playerVisual;
 
@@ -28,31 +30,38 @@ public class PlayerMovement : MonoBehaviour
     //Changing  sprite
     public SpriteRenderer rend;
     public Sprite up, down, left, right;
-    GameObject ballClone;
-
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         rend = GetComponent<SpriteRenderer>();
+
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(myShoot))
+        if (Input.GetKeyDown(myShoot))  
         {
+            if (rend.sprite == up)          
+            {
+                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y + 1f), bulletSpawnPOS.rotation);
+                ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
 
-            if (rend.sprite == up)
-            {
-                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y + 0.5f), bulletSpawnPOS.rotation);
             }
-            else if (rend.sprite == down)
+            else if (rend.sprite == down)   
             {
-                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y - 0.5f), bulletSpawnPOS.rotation);
-       
+                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y - 1f), bulletSpawnPOS.rotation);
+                ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
+
             }
-            else
+            else if (rend.sprite == left)
             {
-                ballClone = Instantiate(bulletPrefab, bulletSpawnPOS.position, bulletSpawnPOS.rotation);
+                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x - .5f, bulletSpawnPOS.position.y), bulletSpawnPOS.rotation);
+                ballClone.transform.right = -transform.right.normalized;
+            }
+            else if(rend.sprite == right)
+            {
+                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x + .5f, bulletSpawnPOS.position.y), bulletSpawnPOS.rotation);
+
             }
 
         }
@@ -68,14 +77,12 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(myleft))
             {
                 rb.AddForce(Vector3.left * force, ForceMode2D.Impulse);
-                //playerVisual.rotation = Quaternion.Euler(180, 0, 180); 
                 rend.sprite = left;
 
             }
             if (Input.GetKey(myright))
             {
                 rb.AddForce(Vector3.right * force, ForceMode2D.Impulse);
-                //playerVisual.rotation = Quaternion.Euler(0, 0, 0);
                 rend.sprite = right;
 
             }
