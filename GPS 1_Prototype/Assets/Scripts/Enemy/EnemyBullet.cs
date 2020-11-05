@@ -7,33 +7,40 @@ public class EnemyBullet: MonoBehaviour
     public bool isKnockback;
     public float speed;
 
-    Player player;
-    private Vector2 dir;
+    public Player player;
+    public PlayerB playerB;
+
+    public Vector2 dir;
 
     public Rigidbody2D rb;
 
 
     void Start()
     {
-        player = GameObject.FindObjectOfType<Player>();
         rb = GetComponent<Rigidbody2D>();
-        dir = (player.transform.position - transform.position).normalized * speed;
-        rb.velocity = new Vector2(dir.x, dir.y);
 
+        player = GameObject.FindObjectOfType<Player>();
+        dir = (player.transform.position - transform.position).normalized * speed;
+
+        playerB = GameObject.FindObjectOfType<PlayerB>();
+        dir = (playerB.transform.position - transform.position).normalized * speed;
+
+        rb.velocity = new Vector2(dir.x, dir.y);
         Destroy(gameObject, 3f);
     }
 
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Tilemap") || other.gameObject.CompareTag("Barrier"))
+        if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Player2") || 
+            other.gameObject.CompareTag("Tilemap") || other.gameObject.CompareTag("Barrier"))
         {
             Destroy(gameObject);
         }
 
         if (isKnockback)
         {
-            if (other.gameObject.CompareTag("Player"))
+            if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Player2"))
             {
                 Destroy(gameObject);
 
@@ -56,6 +63,7 @@ public class EnemyBullet: MonoBehaviour
 
     void Update()
     {
+        
 
     }
 

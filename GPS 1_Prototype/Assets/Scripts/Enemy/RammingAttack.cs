@@ -7,7 +7,6 @@ public class RammingAttack : EnemyMovement
 {
     public float enemySpeed;
 
-    public bool isStop;
     public bool isRamming;
     public bool RammingDelay;
     public bool isFacingRight;

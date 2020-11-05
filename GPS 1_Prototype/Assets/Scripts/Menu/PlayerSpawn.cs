@@ -28,7 +28,7 @@ public class PlayerSpawn : SelectPlayMode
         }
         else
         {
-            player1[randPlayer1].transform.position = spawnpoint.transform.position;
+            player1[0].transform.position = spawnpoint.transform.position;
         }
     }
 }

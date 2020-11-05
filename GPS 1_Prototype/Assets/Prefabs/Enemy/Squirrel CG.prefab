@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4873296659191329507}
   - component: {fileID: 1000318475821974123}
   - component: {fileID: 6747341288618957594}
-  - component: {fileID: 3266716694818215965}
   - component: {fileID: 8603972411106823151}
   - component: {fileID: 2065724728100411040}
   m_Layer: 0
@@ -31,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1728797383049502557}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.725423, y: 4.571246, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7737384143131024973}
   m_Father: {fileID: 0}
@@ -122,44 +121,19 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.66324806, y: -0.010697603}
+  m_Offset: {x: -0.105917454, y: -0.0021233559}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.5066667, y: 1.8666667}
+    oldSize: {x: 1.88, y: 1.4}
     newSize: {x: 3.76, y: 2.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8130455, y: 2.4148889}
+  m_Size: {x: 0.6983843, y: 1.0258493}
   m_EdgeRadius: 0
---- !u!114 &3266716694818215965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728797383049502557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 033e036e2f44d1d4e9082acefca38652, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 2568920336892274364, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
-  barrier: {fileID: 0}
-  enemySpeed: 2
-  isStop: 0
-  isRetreat: 1
-  isRamming: 0
-  isKamikaze: 0
-  isFacingRight: 0
-  followRadius: 5
-  stopRadius: 2
-  retreatRadius: 2
-  attackRadius: 0
-  rammingRadius: 2
 --- !u!114 &8603972411106823151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,11 +164,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e846f7f5326ed0f48a9800b73bc4f8bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 858264659239609202, guid: 2bfc8d24217a5fa41a353629e929e910, type: 3}
   target: {fileID: 0}
-  bulletSpeed: 10
+  players: []
+  enemySpeed: 5
+  retreatRadius: 3
+  stopRadius: 4
+  attackRadius: 4
+  bullet: {fileID: 858264659239609202, guid: 2bfc8d24217a5fa41a353629e929e910, type: 3}
   startTimeBtwShoot: 2
-  attackRadius: 3
+  isP1: 0
+  isP2: 0
 --- !u!1 &2054104115976679871
 GameObject:
   m_ObjectHideFlags: 0

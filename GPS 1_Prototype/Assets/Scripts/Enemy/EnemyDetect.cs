@@ -44,7 +44,7 @@ public class EnemyDetect : EnemyMovement
                     angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
                     transform.Translate(2 * enemySpeed * Time.deltaTime, 0, 0);
-                    //transform.localScale = new Vector2(1, 1);  //(1, 1) -> refer to enemy's scale in transform
+                    transform.localScale = new Vector2(1, 1);  //(1, 1) -> refer to enemy's scale in transform
                 }
                 else
                 {

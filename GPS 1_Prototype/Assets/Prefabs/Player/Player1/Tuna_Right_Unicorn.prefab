@@ -265,7 +265,7 @@ MonoBehaviour:
   myleft: 97
   myright: 100
   myShoot: 102
-  bulletPrefab: {fileID: 3845957326143269495, guid: 82e95de1a6d96d542bc05a011e24c815, type: 3}
+  bulletPrefab: {fileID: 2323648173347776814, guid: 1bad0375dfab8944f8f3d25263d77bf3, type: 3}
   bulletSpawnPOS: {fileID: 783354101}
   playerVisual: {fileID: 5102352043661919831}
   knockback: 10
