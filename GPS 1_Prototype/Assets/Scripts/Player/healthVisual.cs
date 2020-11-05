@@ -14,6 +14,7 @@ public class healthVisual : MonoBehaviour
 
     public bool p1IsDead = false;
     healthSystem hs;
+    public GameObject loseScreen;
 
     private void Awake()
     {
@@ -67,15 +68,7 @@ public class healthVisual : MonoBehaviour
         Debug.Log(y);
 
         p1IsDead = true;
-       
-        if (y == 3)
-        {
-            SceneManager.LoadScene(6);
-        }
-        else if(y == 4)
-        {
-            SceneManager.LoadScene(7);
-        }
+        loseScreen.SetActive(true);
 
         if (p1IsDead == true)
         {

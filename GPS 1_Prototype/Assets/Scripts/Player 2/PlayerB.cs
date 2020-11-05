@@ -6,6 +6,7 @@ public class PlayerB : MonoBehaviour
 {
     public GameObject bossBullet;
     public bool isBossBullet = false;
+    public GameObject winScreen;
 
     void Start()
     {
@@ -28,7 +29,11 @@ public class PlayerB : MonoBehaviour
         {
             isBossBullet = true;
         }
+        if (other.gameObject.CompareTag("ToNextLevel"))
+        {
+            winScreen.SetActive(true);
 
+        }
     }
 
     public void heal(int healAmount)

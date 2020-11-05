@@ -14,6 +14,7 @@ public class healthVisualB : MonoBehaviour
 
     healthSystemB hs;
     public bool p2IsDead = false;
+    public GameObject loseScreen;
 
     private void Awake()
     {
@@ -62,21 +63,13 @@ public class healthVisualB : MonoBehaviour
         Debug.Log("Dead!");
         Debug.Log(y);
         p2IsDead = true;
+        loseScreen.SetActive(true);
 
         if (p2IsDead == true)
         {
             Destroy(GameObject.Find("Player"));
             Destroy(GameObject.Find("Player2"));
         }
-        if (y == 3)
-        {
-            SceneManager.LoadScene(6);
-        }
-        else if (y == 4)
-        {
-            SceneManager.LoadScene(7);
-        }
-
     }
 
     private void healthSystem_OnDamaged(object sender, System.EventArgs e)
