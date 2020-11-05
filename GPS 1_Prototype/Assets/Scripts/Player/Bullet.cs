@@ -7,7 +7,6 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D rb;
     public GameObject snowBallEffect;
     public float speed;
-    public Transform dir;
 
     void Start()
     {

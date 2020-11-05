@@ -106,7 +106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350785892284607552}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.372, y: 0.249, z: -2}
+  m_LocalPosition: {x: -0.014, y: 0.332, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2618565113730814945}
@@ -265,14 +265,14 @@ MonoBehaviour:
   myleft: 276
   myright: 275
   myShoot: 107
-  bulletPrefab: {fileID: 3845957326143269495, guid: 82e95de1a6d96d542bc05a011e24c815, type: 3}
+  bulletPrefab: {fileID: 5327312428992973655, guid: 2b16f94fc77adec458487e5e431510a1, type: 3}
   bulletSpawnPOS: {fileID: 876953754675200695}
   playerVisual: {fileID: 2618565113730814945}
   knockback: 10
   knockbackCount: 0.2
   knockbackLength: 0.2
   isKnockbackRight: 0
-  rend: {fileID: 0}
+  rend: {fileID: 191350890692293418}
   up: {fileID: 21300000, guid: 33264ac66f04aa0439688d8c6d52372c, type: 3}
   down: {fileID: 21300000, guid: d77329e2473411846b5bb154a9248392, type: 3}
   left: {fileID: 21300000, guid: 3b4d41ae3cbf4a842aab025d78f76766, type: 3}
