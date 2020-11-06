@@ -586,7 +586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5102352043661919831, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5102352043661919831, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -606,11 +606,6 @@ PrefabInstance:
       objectReference: {fileID: 1603125441}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
---- !u!1 &24619412 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-  m_PrefabInstance: {fileID: 24619411}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &31480532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5486848847448680903, guid: 7660addf5b26fe247ae003a6639c3b96, type: 3}
@@ -2230,7 +2225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2568920336892274364, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2568920336892274364, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -30148,11 +30143,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7653782673656269652, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.19
+      value: 11.15
       objectReference: {fileID: 0}
     - target: {fileID: 7653782673656269652, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.91
+      value: 2.05
       objectReference: {fileID: 0}
     - target: {fileID: 7653782673656269652, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30176,7 +30171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7653782673656269652, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7653782673656269652, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -30204,12 +30199,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7653782673656269658, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
       propertyPath: m_Name
-      value: Player2SpawnPoint
+      value: Archie_SpawnPoint
       objectReference: {fileID: 0}
     - target: {fileID: 7653782673656269658, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
       propertyPath: m_Icon
       value: 
       objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 7653782673656269658, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7653782673656269659, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
       propertyPath: player1
       value: 
@@ -30239,15 +30238,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1107035749}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313ed914ca42e5945949aaffd41abbd0, type: 3}
+  m_Script: {fileID: 11500000, guid: 11f77d930e02a284b808d526d9c96c06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player:
   - {fileID: 198300683}
   - {fileID: 1758714146}
-  spawnpoint: {fileID: 1107035749}
-  randPlayer1: 0
-  randPlayer2: 0
+  spawnpointB: {fileID: 1107035749}
+  randPlayer: 0
 --- !u!1001 &1107962837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37100,11 +37098,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player:
-  - {fileID: 24619412}
   - {fileID: 1390383411}
+  - {fileID: 1390383411}
+  - {fileID: 198300683}
+  - {fileID: 1758714146}
   spawnpoint: {fileID: 1456496935}
-  randPlayer1: 0
-  randPlayer2: 0
+  randPlayer: 0
 --- !u!1001 &1458238599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52780,7 +52779,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7653782673656269658, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
       propertyPath: m_Name
-      value: Player1SpawnPoint
+      value: Tuna_SpawnPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 7653782673656269658, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7653782673656269659, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
       propertyPath: player1

@@ -37,7 +37,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()  
     {
-        t = Test.Max();
+        //t = Test.Max();
 
         ////! Player1
         ////To rotate the enemy facing the player
