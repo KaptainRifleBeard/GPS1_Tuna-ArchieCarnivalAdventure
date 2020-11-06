@@ -84,7 +84,7 @@ public class KamikazeEnemy : MonoBehaviour
         {
             enemySpeed = 6;
             transform.position = Vector3.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
-
+  
         }
     }
 
