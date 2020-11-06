@@ -17,7 +17,7 @@ public class KnockBackEnemy : MonoBehaviour
 
     public float startTimeBtwShoot;
     private float timeBtwShoot;
-
+    
     public float distance;
 
 
