@@ -5,27 +5,11 @@ using UnityEngine;
 public class EnemyBullet: MonoBehaviour
 {
     public bool isKnockback;
-    public float speed;
-
-    public Player player;
-    public PlayerB playerB;
-
-    public Vector2 dir;
-
     public Rigidbody2D rb;
-
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
-        player = GameObject.FindObjectOfType<Player>();
-        dir = (player.transform.position - transform.position).normalized * speed;
-
-        playerB = GameObject.FindObjectOfType<PlayerB>();
-        dir = (playerB.transform.position - transform.position).normalized * speed;
-
-        rb.velocity = new Vector2(dir.x, dir.y);
         Destroy(gameObject, 3f);
     }
 
@@ -58,12 +42,6 @@ public class EnemyBullet: MonoBehaviour
                 }
             }
         }
-
-    }
-
-    void Update()
-    {
-        
 
     }
 

@@ -1,14 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
 using UnityEngine;
 
-public class ShootingEnemy : MonoBehaviour
+public class KnockBackEnemy : MonoBehaviour
 {
     public Transform target;
-    public GameObject[] players;
     public Transform shootPos;
+    public GameObject[] players;
 
     public float enemySpeed;
     public float retreatRadius;
@@ -20,20 +18,18 @@ public class ShootingEnemy : MonoBehaviour
     public float startTimeBtwShoot;
     private float timeBtwShoot;
 
-
-    private float distance;
+    public float distance;
 
 
 
 
     void checkDistance()
     {
-        
         if (Vector2.Distance(transform.position, target.position) > stopRadius)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
         }
-        else if (Vector2.Distance(transform.position, target.position) > retreatRadius && 
+        else if (Vector2.Distance(transform.position, target.position) > retreatRadius &&
                  Vector2.Distance(transform.position, target.position) < stopRadius)
         {
             transform.position = this.transform.position;
@@ -44,12 +40,12 @@ public class ShootingEnemy : MonoBehaviour
         }
 
     }
-   
 
 
 
 
-    void OnTriggerEnter2D(Collider2D collision)     
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Tilemap") || collision.gameObject.CompareTag("Barrier") || collision.gameObject.CompareTag("Stage"))
         {
@@ -80,28 +76,32 @@ public class ShootingEnemy : MonoBehaviour
         }
 
     }
+    public Vector2 dir;
 
     void Update()
     {
         if (target != null)
         {
+
             checkDistance();
-            if (Vector2.Distance(target.position, transform.position) < attackRadius)
+
+            if (Vector2.Distance(transform.position, target.position) < stopRadius)
             {
+                transform.position = this.transform.position;
                 if (timeBtwShoot <= 0)
                 {
-                    GameObject b = Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
-                    b.GetComponent<Rigidbody2D>().velocity = (target.position - b.transform.position).normalized * 10; 
-                    timeBtwShoot = startTimeBtwShoot;  //shoot delay
+                    GameObject b =Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
+                    b.GetComponent<Rigidbody2D>().velocity = (target.position - b.transform.position).normalized * 10;
 
+                    timeBtwShoot = startTimeBtwShoot;  //shoot delay
                 }
                 else
                 {
                     timeBtwShoot -= Time.deltaTime;
                 }
             }
+            
 
         }
     }
 }
-

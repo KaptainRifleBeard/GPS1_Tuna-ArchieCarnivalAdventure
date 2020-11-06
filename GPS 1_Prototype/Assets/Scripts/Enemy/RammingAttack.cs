@@ -115,8 +115,6 @@ public class RammingAttack : MonoBehaviour
     {
         if (target != null)
         {
-            Debug.Log(Time.deltaTime);
-
             if (RammingDelay == false && isRamming == true)
             {
                 StartCoroutine(WhenStartSpawn());
