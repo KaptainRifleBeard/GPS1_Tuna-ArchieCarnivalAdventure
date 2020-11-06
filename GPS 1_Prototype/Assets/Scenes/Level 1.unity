@@ -2529,6 +2529,9 @@ MonoBehaviour:
   - {fileID: 333750130}
   - {fileID: 755078907}
   enemyPrefabs:
+  - {fileID: 478126117108005190, guid: 4e6c986f5d47bfc439a8c82548474fd0, type: 3}
+  - {fileID: 1705503264492024359, guid: 532f21b69f136d94cbb3b0db41c6ecb3, type: 3}
+  - {fileID: 8345169510538593497, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
   - {fileID: 1728797383049502557, guid: fd43fc284e6688d498c7a8396f76a851, type: 3}
   barrier: {fileID: 1389932119}
   numbersEnemy: 0
@@ -15680,6 +15683,9 @@ MonoBehaviour:
   - {fileID: 1095176440}
   enemyPrefabs:
   - {fileID: 478126117108005190, guid: 4e6c986f5d47bfc439a8c82548474fd0, type: 3}
+  - {fileID: 1705503264492024359, guid: 532f21b69f136d94cbb3b0db41c6ecb3, type: 3}
+  - {fileID: 8345169510538593497, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
+  - {fileID: 1728797383049502557, guid: fd43fc284e6688d498c7a8396f76a851, type: 3}
   barrier: {fileID: 1224461098}
   numbersEnemy: 0
   isSpawn: 0
@@ -30299,6 +30305,9 @@ MonoBehaviour:
   - {fileID: 1094342940}
   enemyPrefabs:
   - {fileID: 478126117108005190, guid: 4e6c986f5d47bfc439a8c82548474fd0, type: 3}
+  - {fileID: 1705503264492024359, guid: 532f21b69f136d94cbb3b0db41c6ecb3, type: 3}
+  - {fileID: 8345169510538593497, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
+  - {fileID: 1728797383049502557, guid: fd43fc284e6688d498c7a8396f76a851, type: 3}
   barrier: {fileID: 515868475}
   numbersEnemy: 0
   isSpawn: 0
@@ -40933,6 +40942,9 @@ MonoBehaviour:
   - {fileID: 655058114}
   enemyPrefabs:
   - {fileID: 478126117108005190, guid: 4e6c986f5d47bfc439a8c82548474fd0, type: 3}
+  - {fileID: 1705503264492024359, guid: 532f21b69f136d94cbb3b0db41c6ecb3, type: 3}
+  - {fileID: 8345169510538593497, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
+  - {fileID: 1728797383049502557, guid: fd43fc284e6688d498c7a8396f76a851, type: 3}
   barrier: {fileID: 0}
   numbersEnemy: 0
   isSpawn: 0
@@ -43383,6 +43395,9 @@ MonoBehaviour:
   - {fileID: 1877424428}
   - {fileID: 385450157}
   enemyPrefabs:
+  - {fileID: 478126117108005190, guid: 4e6c986f5d47bfc439a8c82548474fd0, type: 3}
+  - {fileID: 478126117108005190, guid: 4e6c986f5d47bfc439a8c82548474fd0, type: 3}
+  - {fileID: 478126117108005190, guid: 4e6c986f5d47bfc439a8c82548474fd0, type: 3}
   - {fileID: 478126117108005190, guid: 4e6c986f5d47bfc439a8c82548474fd0, type: 3}
   barrier: {fileID: 361588041}
   numbersEnemy: 0
@@ -52670,63 +52685,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7653782673656269659, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 878df991e1e67f243a56695fd48481f4, type: 3}
---- !u!1001 &8345169512117469798
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593440, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8345169510538593497, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
-      propertyPath: m_Name
-      value: Robotic Hot Acorn Vendor
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3f0138d9c887b684ebb9c571b33b7537, type: 3}
 --- !u!1001 &8866007779254473920
 PrefabInstance:
   m_ObjectHideFlags: 0
