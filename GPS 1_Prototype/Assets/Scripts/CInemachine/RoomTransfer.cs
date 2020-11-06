@@ -14,7 +14,7 @@ public class RoomTransfer : MonoBehaviour
             virtualCamera.SetActive(true);
         }
     }
-
+        
     private void OnTriggerExit2D(Collider2D other)
     {
         virtualCamera.SetActive(false);

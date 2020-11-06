@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KnockBackEnemy : MonoBehaviour
 {
-    public Transform target;
+    GameObject target = null;
     public Transform shootPos;
     public GameObject[] players;
 
@@ -25,18 +25,18 @@ public class KnockBackEnemy : MonoBehaviour
 
     void checkDistance()
     {
-        if (Vector2.Distance(transform.position, target.position) > stopRadius)
+        if (Vector2.Distance(transform.position, target.transform.position) > stopRadius)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
         }
-        else if (Vector2.Distance(transform.position, target.position) > retreatRadius &&
-                 Vector2.Distance(transform.position, target.position) < stopRadius)
+        else if (Vector2.Distance(transform.position, target.transform.position) > retreatRadius &&
+                 Vector2.Distance(transform.position, target.transform.position) < stopRadius)
         {
             transform.position = this.transform.position;
         }
-        else if (Vector2.Distance(transform.position, target.position) < retreatRadius)
+        else if (Vector2.Distance(transform.position, target.transform.position) < retreatRadius)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, -enemySpeed * 2 * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, -enemySpeed * 2 * Time.deltaTime);
         }
 
     }
@@ -61,17 +61,19 @@ public class KnockBackEnemy : MonoBehaviour
     {
         timeBtwShoot = startTimeBtwShoot;
 
-        target = GameObject.FindGameObjectWithTag("Player").transform;
         players = GameObject.FindGameObjectsWithTag("Player");
 
-        for (int i = 0; i < players.Length; i++)
-        {
-            distance = Vector2.Distance(this.transform.position, players[i].transform.position);
 
-            if (distance < retreatRadius)
+        float distanceToClosestEnemy = Mathf.Infinity;
+        GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
+
+        foreach (GameObject currentPlayer in allPlayers)
+        {
+            float distanceToEnemy = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
+            if (distanceToEnemy < distanceToClosestEnemy)
             {
-                target = players[i].transform;
-                retreatRadius = distance;
+                distanceToClosestEnemy = distanceToEnemy;
+                target = currentPlayer;
             }
         }
 
@@ -85,13 +87,13 @@ public class KnockBackEnemy : MonoBehaviour
 
             checkDistance();
 
-            if (Vector2.Distance(transform.position, target.position) < stopRadius)
+            if (Vector2.Distance(transform.position, target.transform.position) < stopRadius)
             {
                 transform.position = this.transform.position;
                 if (timeBtwShoot <= 0)
                 {
                     GameObject b =Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
-                    b.GetComponent<Rigidbody2D>().velocity = (target.position - b.transform.position).normalized * 10;
+                    b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
 
                     timeBtwShoot = startTimeBtwShoot;  //shoot delay
                 }

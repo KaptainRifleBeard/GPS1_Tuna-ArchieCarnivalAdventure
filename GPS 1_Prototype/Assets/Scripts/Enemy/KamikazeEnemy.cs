@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KamikazeEnemy : MonoBehaviour
 {
-    public Transform target;
+    GameObject target = null;
     public GameObject[] players;
     public bool isKamikaze;
 
@@ -17,9 +17,9 @@ public class KamikazeEnemy : MonoBehaviour
 
     void checkDistance()
     {
-        if (Vector2.Distance(transform.position, target.position) < attackRadius)
+        if (Vector2.Distance(transform.position, target.transform.position) < attackRadius)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
         }
         else
         {
@@ -63,27 +63,29 @@ public class KamikazeEnemy : MonoBehaviour
 
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
         players = GameObject.FindGameObjectsWithTag("Player");
 
-        for (int i = 0; i < players.Length; i++)
-        {
-            distance = Vector2.Distance(this.transform.position, players[i].transform.position);
 
-            if (distance < attackRadius)
+        float distanceToClosestEnemy = Mathf.Infinity;
+        GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
+
+        foreach (GameObject currentPlayer in allPlayers)
+        {
+            float distanceToEnemy = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
+            if (distanceToEnemy < distanceToClosestEnemy)
             {
-                target = players[i].transform;
-                attackRadius = distance;
+                distanceToClosestEnemy = distanceToEnemy;
+                target = currentPlayer;
             }
         }
 
     }
     void kamikaze()
     {
-        if (Vector3.Distance(target.position, transform.position) < attackRadius)
+        if (Vector3.Distance(target.transform.position, transform.position) < attackRadius)
         {
             enemySpeed = 6;
-            transform.position = Vector3.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
   
         }
     }

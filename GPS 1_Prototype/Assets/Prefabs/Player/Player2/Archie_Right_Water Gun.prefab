@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 3526382445633449830}
   m_Layer: 9
   m_Name: Archie_Right_Water Gun
-  m_TagString: Player2
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

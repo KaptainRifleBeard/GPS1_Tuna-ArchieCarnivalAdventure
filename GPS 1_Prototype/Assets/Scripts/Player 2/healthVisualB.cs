@@ -63,12 +63,11 @@ public class healthVisualB : MonoBehaviour
         Debug.Log("Dead!");
         Debug.Log(y);
         p2IsDead = true;
-        loseScreen.SetActive(true);
 
         if (p2IsDead == true)
         {
+            loseScreen.SetActive(true);
             Destroy(GameObject.Find("Player"));
-            Destroy(GameObject.Find("Player2"));
         }
     }
 

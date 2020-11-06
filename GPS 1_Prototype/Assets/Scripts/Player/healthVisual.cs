@@ -68,12 +68,11 @@ public class healthVisual : MonoBehaviour
         Debug.Log(y);
 
         p1IsDead = true;
-        loseScreen.SetActive(true);
 
         if (p1IsDead == true)
         {
+            loseScreen.SetActive(true);
             Destroy(GameObject.Find("Player"));
-            Destroy(GameObject.Find("Player2"));
         }
     }
 

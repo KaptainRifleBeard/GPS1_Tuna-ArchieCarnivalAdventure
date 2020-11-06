@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class RammingAttack : MonoBehaviour
 {
-    public Transform target;
+    GameObject target = null;
     public GameObject[] players;
     private float distance;
 
@@ -23,9 +23,9 @@ public class RammingAttack : MonoBehaviour
 
     void checkDistance()
     {
-        if (Vector2.Distance(transform.position, target.position) <= followRadius)
+        if (Vector2.Distance(transform.position, target.transform.position) <= followRadius)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
         }
     }
 
@@ -37,7 +37,7 @@ public class RammingAttack : MonoBehaviour
             if (Vector3.Distance(target.transform.position, transform.position) <= rammingRadius)
             {
                 enemySpeed = 8;
-                transform.position = Vector2.MoveTowards(transform.position, target.position, enemySpeed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
             }
         }
     }
@@ -97,17 +97,18 @@ public class RammingAttack : MonoBehaviour
         RammingDelay = false;
         isRamming = true;
 
-        target = GameObject.FindGameObjectWithTag("Player").transform;
         players = GameObject.FindGameObjectsWithTag("Player");
 
-        for (int i = 0; i < players.Length; i++)
-        {
-            distance = Vector2.Distance(this.transform.position, players[i].transform.position);
+        float distanceToClosestEnemy = Mathf.Infinity;
+        GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
 
-            if (distance < followRadius)
+        foreach (GameObject currentPlayer in allPlayers)
+        {
+            float distanceToEnemy = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
+            if (distanceToEnemy < distanceToClosestEnemy)
             {
-                target = players[i].transform;
-                followRadius = distance;
+                distanceToClosestEnemy = distanceToEnemy;
+                target = currentPlayer;
             }
         }
     }
