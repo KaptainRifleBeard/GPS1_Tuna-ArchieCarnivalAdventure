@@ -264,7 +264,7 @@ MonoBehaviour:
   mydown: 274
   myleft: 276
   myright: 275
-  myShoot: 107
+  myShoot: 47
   bulletPrefab: {fileID: 5327312428992973655, guid: 2b16f94fc77adec458487e5e431510a1, type: 3}
   bulletSpawnPOS: {fileID: 876953754675200695}
   playerVisual: {fileID: 2618565113730814945}
@@ -291,4 +291,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
-  winScreen: {fileID: 0}
+  winScreen: {fileID: 6591397554099653514, guid: d38677c9c7525464f8504a1f6878ae7a, type: 3}

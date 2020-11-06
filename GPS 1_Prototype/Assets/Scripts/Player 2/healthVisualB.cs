@@ -23,7 +23,7 @@ public class healthVisualB : MonoBehaviour
     private void Start()
     {
         healthSystemB hs = new healthSystemB(3); // number of maximum heart 
-        Debug.Log(hs);
+
         p2IsDead = false;
         SetHealthSystem(hs);
     }
@@ -61,13 +61,12 @@ public class healthVisualB : MonoBehaviour
     {
         int y = SceneManager.GetActiveScene().buildIndex;
         Debug.Log("Dead!");
-        Debug.Log(y);
         p2IsDead = true;
 
         if (p2IsDead == true)
         {
             loseScreen.SetActive(true);
-            Destroy(GameObject.Find("Player"));
+            //Destroy(GameObject.Find("Player"));
         }
     }
 
@@ -79,7 +78,6 @@ public class healthVisualB : MonoBehaviour
     {
         RefreshAllHearts();
     }
-
 
     private void RefreshAllHearts()   ///// make the health can be decrease
     /// if delete this it will always be full health

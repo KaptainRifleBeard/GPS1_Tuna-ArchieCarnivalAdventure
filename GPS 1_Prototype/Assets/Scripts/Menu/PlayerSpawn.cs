@@ -10,53 +10,39 @@ public class PlayerSpawn : SelectPlayMode
     public GameObject spawnpoint;
 
     public int randPlayer = 0;
-    public int currPlayerNum;
+    static int currPlayer;
 
 
-    public void Start()
+    void Start()
     {
-        randPlayer = Random.Range(0, player.Length);
-        currPlayerNum = randPlayer;
+        randPlayer = Random.Range(0, player.Length);    
 
-        if (isDual)
+        if (WinLoseScreen.isRetryLevel == true)
         {
-            int randP = Random.Range(0, 1);
-            player[randP].transform.position = spawnpoint.transform.position;
+            player[currPlayer].transform.position = spawnpoint.transform.position;  
         }
         else
-        {
-            player[randPlayer].transform.position = spawnpoint.transform.position;
+        {           
+            if (isDual)
+            {
+                int randP = Random.Range(0, 1);
+                player[randP].transform.position = spawnpoint.transform.position;
+            }
+            else
+            {
+                player[randPlayer].transform.position = spawnpoint.transform.position;
+                currPlayer = randPlayer;
+                Debug.Log("last player" + currPlayer);
+
+            }
         }
 
-
     }
-    void update()
+        
+     void Update()
     {
-
-        if (GetComponent<WinLoseScreen>().isRetryLevel == true)
-        {
-            if (currPlayerNum == 0)
-            {
-                player[0].transform.position = spawnpoint.transform.position;
-
-            }
-            else if (currPlayerNum == 1)
-            {
-                player[1].transform.position = spawnpoint.transform.position;
-
-            }
-            else if (currPlayerNum == 2)
-            {
-                player[2].transform.position = spawnpoint.transform.position;
-
-            }
-            else if (currPlayerNum == 3)
-            {
-                player[3].transform.position = spawnpoint.transform.position;
-
-            }
-        }
-
-
+        
     }
+
+
 }

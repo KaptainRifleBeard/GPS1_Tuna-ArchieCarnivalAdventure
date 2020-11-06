@@ -291,4 +291,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
-  winScreen: {fileID: 0}
+  winScreen: {fileID: 6591397554099653514, guid: d38677c9c7525464f8504a1f6878ae7a, type: 3}

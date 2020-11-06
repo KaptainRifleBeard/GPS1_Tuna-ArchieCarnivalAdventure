@@ -69,15 +69,15 @@ public class ShootingEnemy : MonoBehaviour
         players = GameObject.FindGameObjectsWithTag("Player");
 
 
-        float distanceToClosestEnemy = Mathf.Infinity;
+        float distanceToClosestPlayer = Mathf.Infinity;
         GameObject[] allPlayers= GameObject.FindGameObjectsWithTag("Player");
 
         foreach (GameObject currentPlayer in allPlayers)
         {
-            float distanceToEnemy = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
-            if (distanceToEnemy < distanceToClosestEnemy)
+            float distanceToPlayer = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
+            if (distanceToPlayer < distanceToClosestPlayer)
             {
-                distanceToClosestEnemy = distanceToEnemy;
+                distanceToClosestPlayer = distanceToPlayer;
                 target = currentPlayer;
             }
         }
@@ -103,8 +103,6 @@ public class ShootingEnemy : MonoBehaviour
     {
         if (target != null)
         {
-            Debug.Log(target);
-
             checkDistance();
             if (Vector2.Distance(target.transform.position, transform.position) < attackRadius)
             {

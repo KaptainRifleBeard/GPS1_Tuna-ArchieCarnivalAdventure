@@ -31,7 +31,7 @@ public class PlayerB : MonoBehaviour
         }
         if (other.gameObject.CompareTag("ToNextLevel"))
         {
-            winScreen.SetActive(true);
+            //winScreen.SetActive(true);
 
         }
     }

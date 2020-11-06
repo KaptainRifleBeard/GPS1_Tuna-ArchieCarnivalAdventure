@@ -23,7 +23,7 @@ public class RammingAttack : MonoBehaviour
 
     void checkDistance()
     {
-        if (Vector2.Distance(transform.position, target.transform.position) <= followRadius)
+        if (Vector2.Distance(transform.position, target.transform.position) < followRadius)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
         }
@@ -86,7 +86,7 @@ public class RammingAttack : MonoBehaviour
     public IEnumerator WhenStartSpawn()
     {
         yield return new WaitForSeconds(0.5f);
-        checkDistance();
+        isRamming = true;
     }
 
 
@@ -99,15 +99,16 @@ public class RammingAttack : MonoBehaviour
 
         players = GameObject.FindGameObjectsWithTag("Player");
 
-        float distanceToClosestEnemy = Mathf.Infinity;
+
+        float distanceToClosestPlayer = Mathf.Infinity;
         GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
 
         foreach (GameObject currentPlayer in allPlayers)
         {
-            float distanceToEnemy = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
-            if (distanceToEnemy < distanceToClosestEnemy)
+            float distanceToPlayer = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
+            if (distanceToPlayer < distanceToClosestPlayer)
             {
-                distanceToClosestEnemy = distanceToEnemy;
+                distanceToClosestPlayer = distanceToPlayer;
                 target = currentPlayer;
             }
         }
@@ -116,14 +117,16 @@ public class RammingAttack : MonoBehaviour
     {
         if (target != null)
         {
+            checkDistance();
+
             if (RammingDelay == false && isRamming == true)
             {
-                StartCoroutine(WhenStartSpawn());
+                enemySpeed = 4;
                 ramming();
             }
             else if (RammingDelay == true && isRamming == false)
             {
-                enemySpeed = 4;
+                enemySpeed = 0;
                 StartCoroutine(AttackDelay());
                 GetComponent<TouchEnemyGetDamage>().damageAmount = 0;
             }

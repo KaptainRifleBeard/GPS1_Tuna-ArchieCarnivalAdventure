@@ -9,6 +9,8 @@ public class RandomSpawner : MonoBehaviour
     public Transform[] spawnPoints;
     public GameObject[] enemyPrefabs;
     public GameObject barrier;
+
+    public GameObject blockExit;
     public int numbersEnemy;
 
     public bool isSpawn = false;
@@ -19,6 +21,7 @@ public class RandomSpawner : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Player2"))
         {
             isSpawn = true;
+            blockExit.SetActive(true);
         }
     }
     void Start()
@@ -44,6 +47,8 @@ public class RandomSpawner : MonoBehaviour
             if (GameObject.FindGameObjectsWithTag("Enemy").Length <= 0)
             {
                 DestroyImmediate(barrier, true);
+                DestroyImmediate(blockExit, true);
+
             }
         }
        

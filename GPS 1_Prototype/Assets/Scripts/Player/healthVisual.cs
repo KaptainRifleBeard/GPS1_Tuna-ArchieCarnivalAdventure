@@ -24,9 +24,7 @@ public class healthVisual : MonoBehaviour
     {
         p1IsDead = false;
 
-        healthSystem hs = new healthSystem(3); // number of maximum heart 
-        Debug.Log(hs);
-
+        healthSystem hs = new healthSystem(3); // number of maximum heart
         SetHealthSystem(hs);
 
     }
@@ -65,14 +63,15 @@ public class healthVisual : MonoBehaviour
 
         int y = SceneManager.GetActiveScene().buildIndex;
         Debug.Log("Dead!");
-        Debug.Log(y);
 
         p1IsDead = true;
 
         if (p1IsDead == true)
         {
             loseScreen.SetActive(true);
-            Destroy(GameObject.Find("Player"));
+        
+            //Destroy(GameObject.Find("Player"));
+
         }
     }
 

@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
     public GameObject bossBullet;
     public bool isBossBullet = false;
     public GameObject winScreen;
-
     void Start()
     {
         DontDestroyOnLoad(gameObject);  //the player wont destroy after load to next level
@@ -33,14 +32,15 @@ public class Player : MonoBehaviour
 
         if (other.gameObject.CompareTag("ToNextLevel"))
         {
-            winScreen.SetActive(true);
+            //winScreen.SetActive(true);
 
         }
 
     }
-
+        
     public void heal(int healAmount)
     {
         healthVisual.HealthSystem.addHealth(healAmount);
     }
+
 }
