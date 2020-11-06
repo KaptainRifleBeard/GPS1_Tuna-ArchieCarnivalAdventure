@@ -41,12 +41,6 @@ public class PauseMenu : MonoBehaviour
             GameObject.Destroy(player);
 
         }
-        GameObject[] player2s = GameObject.FindGameObjectsWithTag("Player2");
-        foreach (GameObject player2 in player2s)
-        {
-            GameObject.Destroy(player2);
-
-        }
 
         SceneManager.LoadScene(0);
         Time.timeScale = 1f;

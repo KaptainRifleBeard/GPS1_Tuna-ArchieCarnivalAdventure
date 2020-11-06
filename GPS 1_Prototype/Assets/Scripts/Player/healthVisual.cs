@@ -69,7 +69,6 @@ public class healthVisual : MonoBehaviour
         if (p1IsDead == true)
         {
             loseScreen.SetActive(true);
-        
             //Destroy(GameObject.Find("Player"));
 
         }

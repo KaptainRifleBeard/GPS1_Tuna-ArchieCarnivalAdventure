@@ -11,7 +11,7 @@ public class BossSpawn : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Instantiate(boss, spawnPoints.position, Quaternion.identity);
+            Instantiate(boss, spawnPoints.position, Quaternion.identity);   
             Destroy(gameObject);
         }
     }

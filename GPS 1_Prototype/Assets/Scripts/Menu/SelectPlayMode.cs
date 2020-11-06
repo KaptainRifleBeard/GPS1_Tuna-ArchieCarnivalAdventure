@@ -10,8 +10,10 @@ public class SelectPlayMode : MonoBehaviour
     public void SoloGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        isDual = false;
+
     }
-        
+
     public void DualGame()  
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

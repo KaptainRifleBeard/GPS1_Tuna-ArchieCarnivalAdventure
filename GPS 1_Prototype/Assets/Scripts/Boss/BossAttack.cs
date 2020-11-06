@@ -8,7 +8,10 @@ public class BossAttack : MonoBehaviour
     public GameObject bullet;
     public GameObject laserPrefab;
 
-    public Transform target;
+    public GameObject[] players;
+    GameObject target = null;
+
+    //public Transform target;
     public Transform shootPos_left;
     public Transform shootPos_right;
     public Transform laserPos;
@@ -53,12 +56,15 @@ public class BossAttack : MonoBehaviour
     {
         if (isShoot)
         {
-            if (Vector3.Distance(target.position, transform.position) < attackRadius)
+            if (Vector3.Distance(target.transform.position, transform.position) < attackRadius)
             {
                 if (timeBtwShoot <= 0)
                 {
-                    Instantiate(bullet, shootPos_left.position, transform.rotation);
-                    Instantiate(bullet, shootPos_right.position, transform.rotation);
+                    GameObject b = Instantiate(bullet, shootPos_left.position, transform.rotation);
+                    //GameObject b2 = Instantiate(bullet, shootPos_right.position, transform.rotation);
+
+                    b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+                    //b2.GetComponent<Rigidbody2D>().velocity = Vector2.MoveTowards(transform.position, target.transform.position, 10 * Time.deltaTime);
 
                     timeBtwShoot = startTimeBtwShoot;  //shoot delay
                 }
@@ -111,13 +117,30 @@ public class BossAttack : MonoBehaviour
 
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        //target = GameObject.FindGameObjectWithTag("Player").transform;
         timeBtwShoot = startTimeBtwShoot;
         lineOfSight.enabled = false;
 
         //laserPrefab.SetActive(false);
         isLaser = false;
         bossMove = true;
+
+
+        players = GameObject.FindGameObjectsWithTag("Player");
+
+
+        float distanceToClosestPlayer = Mathf.Infinity;
+        GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
+
+        foreach (GameObject currentPlayer in allPlayers)
+        {
+            float distanceToPlayer = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
+            if (distanceToPlayer < distanceToClosestPlayer)
+            {
+                distanceToClosestPlayer = distanceToPlayer;
+                target = currentPlayer;
+            }
+        }
     }
 
     void Update()

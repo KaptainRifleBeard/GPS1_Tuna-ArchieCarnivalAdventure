@@ -8,7 +8,6 @@ public class BossBullet : MonoBehaviour
 
     private Transform player;
 
-    public float speed;
     public bool isDrumBullet = false;
     public int health;
 
@@ -30,32 +29,32 @@ public class BossBullet : MonoBehaviour
             }
         }
 
-        if (other.gameObject.CompareTag("Stage"))
-        {
-            transform.position = new Vector3(1f, 1f, 3f);
-        }
+        //if (other.gameObject.CompareTag("Stage"))
+        //{
+        //    transform.position = new Vector3(1f, 1f, 3f);
+        //}
 
     }
 
     void Start()
     {
-        player = GameObject.FindWithTag("Player").transform;
-        target = new Vector2(player.position.x, player.position.y);
+        //player = GameObject.FindWithTag("Player").transform;
+       // target = new Vector2(player.position.x, player.position.y);
+        Destroy(gameObject, 3f);
 
     }
 
     void Update()
     {
-        if(player != null)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-            Destroy(gameObject, 3f);
+        //if(player != null)
+        //{
+        //    transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
 
-            if (transform.position.x == target.x && transform.position.y == target.y)
-            {
-                Destroy(gameObject);
-            }
-        }
+        //    if (transform.position.x == target.x && transform.position.y == target.y)
+        //    {
+        //        Destroy(gameObject);
+        //    }
+        //}
         
      
     }

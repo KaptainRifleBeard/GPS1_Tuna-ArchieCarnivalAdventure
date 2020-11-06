@@ -13892,6 +13892,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8708648632388318486, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
   m_PrefabInstance: {fileID: 1241236888}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &296601656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 296601657}
+  m_Layer: 0
+  m_Name: StorePlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &296601657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296601656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 56.548126, y: -27.09625, z: -153.61131}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &296625794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43252,7 +43282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restart: 0
-  pauseMenu: {fileID: 1102924834213465902, guid: 4fa70a1630a594c4f89ea74f1e35ae11, type: 3}
+  pauseMenu: {fileID: 936932810}
 --- !u!114 &1663596204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43266,6 +43296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winscreen: {fileID: 0}
+  storepoint: {fileID: 296601656}
 --- !u!114 &1663596205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54294,7 +54325,7 @@ PrefabInstance:
     - target: {fileID: 2259994838397980625, guid: 5fbb08bb04086d34f98056ac3de1d34a, type: 3}
       propertyPath: loseScreen
       value: 
-      objectReference: {fileID: 12793124848874624, guid: adb55c18e010e8e4cb770f62456945e1, type: 3}
+      objectReference: {fileID: 1130504218}
     - target: {fileID: 6105696431749009194, guid: 5fbb08bb04086d34f98056ac3de1d34a, type: 3}
       propertyPath: m_Name
       value: 'p2HealthVisual '
@@ -54607,7 +54638,7 @@ PrefabInstance:
     - target: {fileID: 5517424102586503288, guid: 4de506483d9a9dd4bb4df5abe70c1bdf, type: 3}
       propertyPath: loseScreen
       value: 
-      objectReference: {fileID: 12793124848874624, guid: adb55c18e010e8e4cb770f62456945e1, type: 3}
+      objectReference: {fileID: 1130504218}
     - target: {fileID: 5517424102586503288, guid: 4de506483d9a9dd4bb4df5abe70c1bdf, type: 3}
       propertyPath: spawnpoint
       value: 

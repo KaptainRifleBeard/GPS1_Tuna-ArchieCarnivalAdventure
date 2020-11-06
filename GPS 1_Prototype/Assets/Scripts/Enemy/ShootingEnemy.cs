@@ -10,6 +10,7 @@ public class ShootingEnemy : MonoBehaviour
     public GameObject[] players;
     GameObject target = null;
 
+
     public Transform shootPos;
 
     public float enemySpeed;
