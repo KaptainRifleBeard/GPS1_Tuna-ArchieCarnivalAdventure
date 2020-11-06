@@ -18,5 +18,16 @@ public class Healthpack : MonoBehaviour
             Destroy(gameObject);
 
         }
+
+
+        PlayerB playerB = collision.GetComponent<PlayerB>();
+        if (playerB != null)
+        {
+            Debug.Log("i hit player ady!!!!!!!!!!!");
+            playerB.heal(healAmount);
+            addHealth = true;
+            Destroy(gameObject);
+
+        }
     }
 }

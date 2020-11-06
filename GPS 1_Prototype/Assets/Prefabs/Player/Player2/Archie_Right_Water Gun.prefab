@@ -264,7 +264,7 @@ MonoBehaviour:
   mydown: 274
   myleft: 276
   myright: 275
-  myShoot: 107
+  myShoot: 47
   bulletPrefab: {fileID: 5327312428992973655, guid: 2b16f94fc77adec458487e5e431510a1, type: 3}
   bulletSpawnPOS: {fileID: 876953754675200695}
   playerVisual: {fileID: 2618565113730814945}
