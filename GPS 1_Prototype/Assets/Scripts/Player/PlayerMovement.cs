@@ -43,13 +43,13 @@ public class PlayerMovement : MonoBehaviour
         {
             if (rend.sprite == up)          
             {
-                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y + .5f), bulletSpawnPOS.rotation);
+                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y + 1f), bulletSpawnPOS.rotation);
                 ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
 
             }
             else if (rend.sprite == down)   
             {
-                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y - .5f), bulletSpawnPOS.rotation);
+                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y - 1f), bulletSpawnPOS.rotation);
                 ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
 
             }
