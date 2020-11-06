@@ -26163,11 +26163,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
---- !u!1 &871686077 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-  m_PrefabInstance: {fileID: 24619411}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &875398781
 GameObject:
   m_ObjectHideFlags: 0
@@ -36991,10 +36986,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player:
+  - {fileID: 1390383411}
+  - {fileID: 1390383411}
   - {fileID: 198300683}
   - {fileID: 1758714146}
-  - {fileID: 1390383411}
-  - {fileID: 871686077}
   spawnpoint: {fileID: 1456496935}
   randPlayer1: 0
   randPlayer2: 0

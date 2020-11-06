@@ -8,8 +8,8 @@ public class PlayerSpawn : SelectPlayMode
 {
     public GameObject[] player;
     public GameObject spawnpoint;
-    public int randPlayer1; 
-    public int randPlayer2;
+    public int randPlayer1 = 0; 
+    public int randPlayer2 = 2  ;
 
     public void Start()
     {
