@@ -27849,7 +27849,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 10.502014, y: 6.3585815}
+  m_AnchoredPosition: {x: 10.501953, y: 6.3583984}
   m_SizeDelta: {x: 305.74536, y: 82.42853}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &936932812
@@ -31577,7 +31577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 10.502014, y: 6.3585815}
+  m_AnchoredPosition: {x: 10.501953, y: 6.3583984}
   m_SizeDelta: {x: 305.74536, y: 82.42853}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1130504220
@@ -41669,7 +41669,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 10.502014, y: 6.3585815}
+  m_AnchoredPosition: {x: 10.501953, y: 6.3583984}
   m_SizeDelta: {x: 305.74536, y: 82.42853}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1603125443
@@ -54389,11 +54389,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7031355174702660, guid: b2ba890fb88ca9444b48c85c3d51bfb1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -162.46158
+      value: -162.46143
       objectReference: {fileID: 0}
     - target: {fileID: 7031355174702660, guid: b2ba890fb88ca9444b48c85c3d51bfb1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 99.09656
+      value: 99.09668
       objectReference: {fileID: 0}
     - target: {fileID: 7031355174702660, guid: b2ba890fb88ca9444b48c85c3d51bfb1, type: 3}
       propertyPath: m_SizeDelta.x
@@ -54886,7 +54886,7 @@ Transform:
   m_GameObject: {fileID: 6947847080626411453}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 53.501255, y: -28.132883, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_Children:
   - {fileID: 7344445300480018393}
   - {fileID: 9202682047016213651}
@@ -55288,7 +55288,7 @@ Transform:
   m_GameObject: {fileID: 4792513932336402698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 54.5, y: -26, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_Children:
   - {fileID: 4792513933366646338}
   - {fileID: 6965910518216637831}
@@ -55309,6 +55309,7 @@ GameObject:
   - component: {fileID: 4792513932336402694}
   - component: {fileID: 4792513932336402695}
   - component: {fileID: 4792513932336402692}
+  - component: {fileID: 4792513932336402700}
   m_Layer: 9
   m_Name: Archie_Right_Nacho Cheese
   m_TagString: Player
@@ -55337,6 +55338,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &4792513932336402700
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4792513932336402698}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f1c8aa0fcf5ea3f41844530a78d88665, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &4792513933366646338
 Transform:
   m_ObjectHideFlags: 0
@@ -55453,7 +55473,7 @@ Transform:
   m_GameObject: {fileID: 5102352043637649350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 56.24, y: -27.95, z: -1.9711875}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_Children:
   - {fileID: 801546598}
   - {fileID: 2118521234}
@@ -55525,6 +55545,7 @@ GameObject:
   - component: {fileID: 5102352043637649345}
   - component: {fileID: 5102352043637649346}
   - component: {fileID: 5952042256569361603}
+  - component: {fileID: 5102352043637649351}
   m_Layer: 9
   m_Name: Tuna_Right_Unicorn
   m_TagString: Player
@@ -55532,6 +55553,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &5102352043637649351
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102352043637649350}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e475a174c2914ce4d8733badb5499e7b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &5229087313468294451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55717,6 +55757,7 @@ GameObject:
   - component: {fileID: 8242029573250966838}
   - component: {fileID: 5229087313468294451}
   - component: {fileID: 3363068203948772575}
+  - component: {fileID: 6947847080626411454}
   m_Layer: 9
   m_Name: Tuna_Right_DartSheet
   m_TagString: Player
@@ -55724,6 +55765,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &6947847080626411454
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947847080626411453}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b50a0f73b5b0d04cb73567be16ada8b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &6965910518216637831
 Transform:
   m_ObjectHideFlags: 0
@@ -55955,7 +56015,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8143154806285043622}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92231f05dbfdbb54db9eae8dd56a8c31, type: 3}
   m_Name: 

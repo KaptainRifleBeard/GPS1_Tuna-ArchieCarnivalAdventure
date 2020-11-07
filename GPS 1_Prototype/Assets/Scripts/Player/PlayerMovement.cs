@@ -30,10 +30,13 @@ public class PlayerMovement : MonoBehaviour
     //Changing  sprite
     public SpriteRenderer rend;
     public Sprite up, down, left, right;
+    private Animator anim;
+    private Vector2 lastMove;
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         rend = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
 
     }
 
@@ -78,25 +81,25 @@ public class PlayerMovement : MonoBehaviour
             {
                 rb.AddForce(Vector3.left * force, ForceMode2D.Impulse);
                 rend.sprite = left;
-
+               
             }
             if (Input.GetKey(myright))
             {
                 rb.AddForce(Vector3.right * force, ForceMode2D.Impulse);
                 rend.sprite = right;
-
+               
             }
             if (Input.GetKey(myup))
             {
                 rb.AddForce(Vector3.up * force, ForceMode2D.Impulse);
                 rend.sprite = up;
-
+              
             }
             if (Input.GetKey(mydown))
             {
                 rb.AddForce(Vector3.down * force, ForceMode2D.Impulse);
                 rend.sprite = down;
-
+              
             }
 
         }
@@ -114,6 +117,34 @@ public class PlayerMovement : MonoBehaviour
             }
             knockbackCount -= Time.deltaTime;
         }
+        anim.SetFloat("moveX", rb.velocity.x);
+        anim.SetFloat("moveY", rb.velocity.y);
+
+        if(Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
+        {
+            anim.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
+            anim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
+        }
+
+        
+
+        //if (Input.anyKey == true)
+        //{
+        //    anim.SetFloat("moveX", rb.velocity.x);
+        //    anim.SetFloat("moveY", rb.velocity.y);
+        //}
+        //else
+        //{
+        //    anim.SetFloat("lastMoveX", rb.velocity.x);
+        //    anim.SetFloat("lastMoveY", rb.velocity.y);
+        //}
+
+        //if (force == 0)
+        //{
+        //    anim.SetFloat("lastMoveX", rb.velocity.x);
+        //    anim.SetFloat("lastMoveY", rb.velocity.y);
+
+        //}
     }
 
 }
