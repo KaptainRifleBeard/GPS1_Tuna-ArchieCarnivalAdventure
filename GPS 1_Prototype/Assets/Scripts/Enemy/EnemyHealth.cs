@@ -9,11 +9,21 @@ public class EnemyHealth : MonoBehaviour
 
     private int randNum;
     public int health;
+    bool walk = false;
 
-   void OnTriggerEnter2D(Collider2D collision)
+    private enum State {idle, walking, hurt}
+    private State state = State.idle;
+
+    public Animator animator;
+
+
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
+
         if (collision.gameObject.CompareTag("PlayerBullet"))
         {
+            walk = true;
             health = health - 5;    //later change it to player bullet damage
 
             if (health < 0)
@@ -24,6 +34,24 @@ public class EnemyHealth : MonoBehaviour
                 Destroy(gameObject);
                 itemDrop();
             }
+        }
+        else
+        {
+            walk = false; 
+
+        }
+
+
+    }
+    public void Update()
+    {
+        if(walk)
+        {
+            //animator.SetBool("isGetDamage", true);
+        }
+        else
+        {
+           // animator.SetBool("isGetDamage", false);
         }
     }
 

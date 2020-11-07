@@ -13,7 +13,7 @@ public class healthVisualB : MonoBehaviour
     private healthSystemB healthSystem1; //curently not using , for private only
 
     healthSystemB hs;
-    public bool p2IsDead = false;
+    public static bool p2IsDead = false;
     public GameObject loseScreen;
 
     private void Awake()
@@ -65,8 +65,37 @@ public class healthVisualB : MonoBehaviour
 
         if (p2IsDead == true)
         {
-            loseScreen.SetActive(true);
+            //GameObject[] player1s = GameObject.FindGameObjectsWithTag("Player");
+            //foreach (GameObject player in player1s)
+            //{
+            //    GameObject.Destroy(player);
+
+            //}
+
+            //To lose screen
+            if (y == 3)
+            {
+                SceneManager.LoadScene(6);
+            }
+            else if (y == 5)
+            {
+                SceneManager.LoadScene(8);
+            }
+            else if (y == 4)
+            {
+                SceneManager.LoadScene(7);
+            }
+
+
+
+            //loseScreen.SetActive(true);
+            //if (WinLoseScreen.isRetryLevel == true)
+            //{
+
+            //}
             //Destroy(GameObject.Find("Player"));
+
+
         }
     }
 

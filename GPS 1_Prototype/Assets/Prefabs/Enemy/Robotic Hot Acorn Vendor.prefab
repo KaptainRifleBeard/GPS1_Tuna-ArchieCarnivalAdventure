@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8345169510538593444}
   - component: {fileID: 8345169510538593447}
   - component: {fileID: 8345169510538593446}
+  - component: {fileID: 1928797449}
   m_Layer: 0
   m_Name: Robotic Hot Acorn Vendor
   m_TagString: Enemy
@@ -155,6 +156,7 @@ MonoBehaviour:
   - {fileID: 3773963557549178165, guid: d353df6bbebce72438193614011e1252, type: 3}
   - {fileID: 4502006490992129713, guid: b7add24eabcd6274190bddc388ffb2b1, type: 3}
   health: 10
+  animator: {fileID: 1928797449}
 --- !u!114 &8345169510538593447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,12 +169,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556c3969123d1194e81f766ba94c74c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   players: []
   isKamikaze: 1
   enemySpeed: 3
   attackRadius: 5
   isFacingRight: 0
+  animator: {fileID: 1928797449}
 --- !u!114 &8345169510538593446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,3 +188,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+--- !u!95 &1928797449
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8345169510538593497}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b758327d2ac91bc4aa0ccaf31192fd3a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -9,6 +9,7 @@ public class ShootingEnemy : MonoBehaviour
     //public Transform target;
     public GameObject[] players;
     GameObject target = null;
+    public Animator animator;
 
 
     public Transform shootPos;
@@ -25,24 +26,37 @@ public class ShootingEnemy : MonoBehaviour
 
 
     private float distance;
+    SpriteRenderer up, down;
 
-
-
+    private void RotateTowards(Vector2 target)
+    {
+        var offset = -90f;
+        Vector2 direction = target - (Vector2)transform.position;
+        direction.Normalize();
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(Vector3.forward * (angle + offset));
+    }
 
     void checkDistance()
     {
-        
+
         if (Vector2.Distance(transform.position, target.transform.position) > stopRadius)
         {
+            animator.SetBool("isAttack", true);
+
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
         }
         else if (Vector2.Distance(transform.position, target.transform.position) > retreatRadius && 
                  Vector2.Distance(transform.position, target.transform.position) < stopRadius)
         {
+            animator.SetBool("isAttack", false);
+
             transform.position = this.transform.position;
         }
         else if (Vector2.Distance(transform.position, target.transform.position) < retreatRadius)
         {
+            animator.SetBool("isAttack", false);
+
             transform.position = Vector3.MoveTowards(transform.position, target.transform.position, -enemySpeed * 2 * Time.deltaTime);
         }
 
@@ -59,7 +73,6 @@ public class ShootingEnemy : MonoBehaviour
             transform.position = this.transform.position;
         }
 
-        
     }
     
     void Start()
@@ -110,7 +123,7 @@ public class ShootingEnemy : MonoBehaviour
                 if (timeBtwShoot <= 0)
                 {
                     GameObject b = Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
-                    b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10; 
+                    b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
                     timeBtwShoot = startTimeBtwShoot;  //shoot delay
 
                 }
@@ -118,8 +131,10 @@ public class ShootingEnemy : MonoBehaviour
                 {
                     timeBtwShoot -= Time.deltaTime;
                 }
+
+                
             }
-            
+
         }
     }
 }

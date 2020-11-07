@@ -41,24 +41,24 @@ public class WinLoseScreen : MonoBehaviour
 
         int y = SceneManager.GetActiveScene().buildIndex;
         isRetryLevel = true;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
 
 
-        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
-        foreach (GameObject player in players)
-        {
-            if (y == 4)
-            {
-                GameObject.Destroy(player);
-                Instantiate(player, storepoint.transform.position, Quaternion.identity);
+        //GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        //foreach (GameObject player in players)
+        //{
+        //    if (y == 4)
+        //    {
+        //        GameObject.Destroy(player);
+        //        Instantiate(player, storepoint.transform.position, Quaternion.identity);
 
-            }
-            else
-            {
-                GameObject.Destroy(player);
-            }
-        }
+        //    }
+        //    else
+        //    {
+        //        GameObject.Destroy(player);
+        //    }
+        //}
 
 
         //GameObject player = GameObject.FindGameObjectWithTag("Player");

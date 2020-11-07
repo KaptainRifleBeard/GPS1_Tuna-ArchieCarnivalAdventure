@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D rb;
     public GameObject snowBallEffect;
     public float speed;
+    public int damageAmount = 0;
 
     void Start()
     {
@@ -29,8 +30,10 @@ public class Bullet : MonoBehaviour
             Instantiate(snowBallEffect, transform.position, transform.rotation);
             Destroy(gameObject);
         }
-    
 
+
+        //Different bullet damage
+        
     }
 
 

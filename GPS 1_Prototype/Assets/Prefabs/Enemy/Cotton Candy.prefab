@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1705503264492024356}
   - component: {fileID: 1705503264492024382}
   - component: {fileID: 1705503264492024353}
+  - component: {fileID: 1071224273}
   m_Layer: 11
   m_Name: Cotton Candy
   m_TagString: Enemy
@@ -173,7 +174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04be29ce244ad8941a1ec07883ea0efd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   shootPos: {fileID: 1705503265134901487}
   players: []
   enemySpeed: 4
@@ -183,6 +183,7 @@ MonoBehaviour:
   bullet: {fileID: 6315984082081447239, guid: 6120f096b4112344494591c0600d5d43, type: 3}
   startTimeBtwShoot: 2
   distance: 0
+  animator: {fileID: 1071224273}
   dir: {x: 0, y: 0}
 --- !u!114 &1705503264492024353
 MonoBehaviour:
@@ -205,6 +206,26 @@ MonoBehaviour:
   - {fileID: 4502006490992129713, guid: b7add24eabcd6274190bddc388ffb2b1, type: 3}
   - {fileID: 3773963557549178165, guid: d353df6bbebce72438193614011e1252, type: 3}
   health: 20
+  animator: {fileID: 1071224273}
+--- !u!95 &1071224273
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705503264492024359}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 42eafe99265114542847d007bec56a7a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1705503265134901486
 GameObject:
   m_ObjectHideFlags: 0
