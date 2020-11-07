@@ -20,22 +20,25 @@ public class KnockBackEnemy : MonoBehaviour
     
     public float distance;
 
-
+    public Animator animator;
 
 
     void checkDistance()
     {
         if (Vector2.Distance(transform.position, target.transform.position) > stopRadius)
         {
+            animator.SetBool("isWalk", true);
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
         }
         else if (Vector2.Distance(transform.position, target.transform.position) > retreatRadius &&
                  Vector2.Distance(transform.position, target.transform.position) < stopRadius)
         {
+            animator.SetBool("isWalk", false);
             transform.position = this.transform.position;
         }
         else if (Vector2.Distance(transform.position, target.transform.position) < retreatRadius)
         {
+            animator.SetBool("isWalk", true);
             transform.position = Vector3.MoveTowards(transform.position, target.transform.position, -enemySpeed * 2 * Time.deltaTime);
         }
 

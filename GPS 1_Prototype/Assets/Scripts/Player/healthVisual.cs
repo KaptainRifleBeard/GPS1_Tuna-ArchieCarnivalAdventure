@@ -69,12 +69,36 @@ public class healthVisual : MonoBehaviour
 
         if (p1IsDead == true)
         {
-            loseScreen.SetActive(true);
-            if (WinLoseScreen.isRetryLevel == true)
-            {
+            //GameObject[] player1s = GameObject.FindGameObjectsWithTag("Player");
+            //foreach (GameObject player in player1s)
+            //{
+            //    GameObject.Destroy(player);
 
+            //}
+
+            //To lose screen
+            if (y == 3)
+            {
+                SceneManager.LoadScene(6);  
             }
+            else if (y == 5)
+            {
+                SceneManager.LoadScene(8);
+            }
+            else if (y == 4)
+            {
+                SceneManager.LoadScene(7);
+            }
+
+
+
+            //loseScreen.SetActive(true);
+            //if (WinLoseScreen.isRetryLevel == true)
+            //{
+
+            //}
             //Destroy(GameObject.Find("Player"));
+
 
         }
     }

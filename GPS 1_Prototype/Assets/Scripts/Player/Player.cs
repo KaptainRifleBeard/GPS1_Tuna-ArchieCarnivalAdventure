@@ -11,7 +11,18 @@ public class Player : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(gameObject);  //the player wont destroy after load to next level
+
     }
+
+    private void Update()
+    {
+        if (healthVisual.p1IsDead == true)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
     public void DamageKnockback(Vector3 kbDir, float kbDis, int damageAmount)
     {
         transform.position += kbDir * kbDis;

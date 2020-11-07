@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.Assertions.Must;
+using UnityEngine.SceneManagement;
 
-public class PlayerSpawn : MonoBehaviour
+public class PlayerSpawn : SelectPlayMode
 {
     public GameObject[] player;
     public GameObject spawnpoint;
-    public GameObject storepoint;
 
     public int randPlayer = 0;
     static int currPlayer;
@@ -19,16 +19,25 @@ public class PlayerSpawn : MonoBehaviour
         randPlayer = Random.Range(0, player.Length);
         currPlayer = randPlayer;
 
-        if (SelectPlayMode.isDual == true)
+
+        player[randPlayer].transform.position = spawnpoint.transform.position;
+
+        if (isDual == true)
         {
-            int randP = Random.Range(0, 1);
+            int randP = Random.Range(0, player.Length);
             player[randP].transform.position = spawnpoint.transform.position;
         }
-        else if (SelectPlayMode.isDual == false)
+
+    }
+
+    void Update()
+    {
+        int y = SceneManager.GetActiveScene().buildIndex;
+
+        if (healthVisual.p1IsDead == true && y == 4)
         {
             player[randPlayer].transform.position = spawnpoint.transform.position;
 
         }
-
     }
 }

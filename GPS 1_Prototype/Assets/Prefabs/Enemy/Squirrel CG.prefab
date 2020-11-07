@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6747341288618957594}
   - component: {fileID: 8603972411106823151}
   - component: {fileID: 2065724728100411040}
+  - component: {fileID: 2889686111753656734}
   m_Layer: 0
   m_Name: Squirrel CG
   m_TagString: Enemy
@@ -155,6 +156,7 @@ MonoBehaviour:
   - {fileID: 4502006490992129713, guid: b7add24eabcd6274190bddc388ffb2b1, type: 3}
   - {fileID: 3773963557549178165, guid: d353df6bbebce72438193614011e1252, type: 3}
   health: 15
+  animator: {fileID: 2889686111753656734}
 --- !u!114 &2065724728100411040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,8 +169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e846f7f5326ed0f48a9800b73bc4f8bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   players: []
+  animator: {fileID: 2889686111753656734}
   shootPos: {fileID: 7737384143131024973}
   enemySpeed: 5
   retreatRadius: 3
@@ -176,6 +178,25 @@ MonoBehaviour:
   attackRadius: 4
   bullet: {fileID: 858264659239609202, guid: 2bfc8d24217a5fa41a353629e929e910, type: 3}
   startTimeBtwShoot: 2
+--- !u!95 &2889686111753656734
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728797383049502557}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 426de8f9dbbe6d64a958ec075e4beddc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2054104115976679871
 GameObject:
   m_ObjectHideFlags: 0
