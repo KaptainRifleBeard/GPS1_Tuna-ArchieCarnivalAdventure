@@ -7,7 +7,9 @@ public class WinLoseScreen : MonoBehaviour
 {
     public static bool isRetryLevel;
     public GameObject winscreen;
+    public GameObject spawnpoint;
     public GameObject storepoint;
+    public GameObject[] player;
 
     //public GameObject p1_dart;
     //public GameObject p1_uni;
@@ -36,32 +38,37 @@ public class WinLoseScreen : MonoBehaviour
 
     public void RetryLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        int y = SceneManager.GetActiveScene().buildIndex;
         isRetryLevel = true;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
-        GameObject[] player1s = GameObject.FindGameObjectsWithTag("Player");
-        foreach (GameObject player in player1s)
+
+
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        foreach (GameObject player in players)
         {
-            //GameObject.Destroy(player);
-            player.transform.position = storepoint.transform.position;
+            if (y == 4)
+            {
+                GameObject.Destroy(player);
+                Instantiate(player, storepoint.transform.position, Quaternion.identity);
 
+            }
+            else
+            {
+                GameObject.Destroy(player);
+            }
         }
-    }
-    public void RetryLevelfromLevel3()
-    {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        //isRetryLevel = true;
 
+
+        //GameObject player = GameObject.FindGameObjectWithTag("Player");
+        //player.transform.position = spawnpoint.transform.position;
         //GameObject[] player1s = GameObject.FindGameObjectsWithTag("Player");
         //foreach (GameObject player in player1s)
         //{
-        //    GameObject.Destroy(player);
+        //    //GameObject.Destroy(player);
 
         //}
-        //p1_dart.SetActive(true);
-        //p1_uni.SetActive(true);
-        //p2_water.SetActive(true);
-        //p2_cheese.SetActive(true);
     }
 
 }

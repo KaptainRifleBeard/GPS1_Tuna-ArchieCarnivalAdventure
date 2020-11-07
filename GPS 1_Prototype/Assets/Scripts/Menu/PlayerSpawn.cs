@@ -8,6 +8,7 @@ public class PlayerSpawn : MonoBehaviour
 {
     public GameObject[] player;
     public GameObject spawnpoint;
+    public GameObject storepoint;
 
     public int randPlayer = 0;
     static int currPlayer;
@@ -16,6 +17,8 @@ public class PlayerSpawn : MonoBehaviour
     void Start()
     {
         randPlayer = Random.Range(0, player.Length);
+        currPlayer = randPlayer;
+
         if (SelectPlayMode.isDual == true)
         {
             int randP = Random.Range(0, 1);
@@ -24,14 +27,7 @@ public class PlayerSpawn : MonoBehaviour
         else if (SelectPlayMode.isDual == false)
         {
             player[randPlayer].transform.position = spawnpoint.transform.position;
-            currPlayer = randPlayer;
 
-        }
-
-
-        if (WinLoseScreen.isRetryLevel == true)
-        {
-            player[currPlayer].transform.position = spawnpoint.transform.position;  
         }
 
     }

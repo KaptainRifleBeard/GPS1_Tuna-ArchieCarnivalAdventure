@@ -12,9 +12,10 @@ public class healthVisual : MonoBehaviour
     private List<HeartImage> heartImageList;
     private healthSystem healthSystem1; //curently not using , for private only
 
-    public bool p1IsDead = false;
+    public static bool p1IsDead = false;
     healthSystem hs;
     public GameObject loseScreen;
+    public GameObject storepoint;
 
     private void Awake()
     {
@@ -69,6 +70,10 @@ public class healthVisual : MonoBehaviour
         if (p1IsDead == true)
         {
             loseScreen.SetActive(true);
+            if (WinLoseScreen.isRetryLevel == true)
+            {
+
+            }
             //Destroy(GameObject.Find("Player"));
 
         }

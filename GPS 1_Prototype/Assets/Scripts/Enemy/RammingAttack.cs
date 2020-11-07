@@ -7,6 +7,8 @@ public class RammingAttack : MonoBehaviour
 {
     GameObject target = null;
     public GameObject[] players;
+    public Animator animator;
+
     private float distance;
 
     public float enemySpeed;
@@ -36,6 +38,7 @@ public class RammingAttack : MonoBehaviour
             GetComponent<TouchEnemyGetDamage>().damageAmount = 1;
             if (Vector3.Distance(target.transform.position, transform.position) <= rammingRadius)
             {
+
                 enemySpeed = 8;
                 transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
             }
@@ -117,18 +120,30 @@ public class RammingAttack : MonoBehaviour
     {
         if (target != null)
         {
+
             checkDistance();
 
             if (RammingDelay == false && isRamming == true)
             {
+
                 enemySpeed = 4;
                 ramming();
             }
             else if (RammingDelay == true && isRamming == false)
             {
+
                 enemySpeed = 0;
                 StartCoroutine(AttackDelay());
                 GetComponent<TouchEnemyGetDamage>().damageAmount = 0;
+            }
+
+            if(isRamming)
+            {
+                animator.SetBool("toRam", true);
+            }
+            else
+            {
+                animator.SetBool("toRam", false);
             }
 
         }
