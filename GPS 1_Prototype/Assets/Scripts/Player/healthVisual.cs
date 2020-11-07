@@ -69,6 +69,8 @@ public class healthVisual : MonoBehaviour
 
         if (p1IsDead == true)
         {
+
+
             //GameObject[] player1s = GameObject.FindGameObjectsWithTag("Player");
             //foreach (GameObject player in player1s)
             //{

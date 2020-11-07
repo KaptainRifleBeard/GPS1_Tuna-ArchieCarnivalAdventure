@@ -11,22 +11,18 @@ public class PlayerSpawn : SelectPlayMode
     public GameObject spawnpoint;
 
     public int randPlayer = 0;
-    static int currPlayer;
-
+    public static int currPlayer;
 
     void Start()
     {
         randPlayer = Random.Range(0, player.Length);
         currPlayer = randPlayer;
 
+        Debug.Log("randplayer = " + randPlayer);
+        Debug.Log("currplayer = " + currPlayer);
 
         player[randPlayer].transform.position = spawnpoint.transform.position;
-
-        if (isDual == true)
-        {
-            int randP = Random.Range(0, player.Length);
-            player[randP].transform.position = spawnpoint.transform.position;
-        }
+       
 
     }
 

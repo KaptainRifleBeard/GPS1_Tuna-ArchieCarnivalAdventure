@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 5102352043661919826}
   - component: {fileID: 5102352043661919825}
   - component: {fileID: 5952042256580595024}
+  - component: {fileID: 2735981600521951514}
   m_Layer: 9
   m_Name: Tuna_Right_Unicorn
   m_TagString: Player
@@ -141,8 +142,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5102352043661919829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.2, y: 28.9, z: -6.54}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 57.611874, y: -28.25375, z: -1.9711875}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_Children:
   - {fileID: 783354101}
   - {fileID: 2133964801}
@@ -277,6 +278,7 @@ MonoBehaviour:
   down: {fileID: 21300000, guid: 6d98252ebe0f0084aa24596e9e41d3ca, type: 3}
   left: {fileID: 21300000, guid: 6249f228f4ba0904db7b720a75145369, type: 3}
   right: {fileID: 21300000, guid: 5826a92bbee2d7c469d5ec1ac1d8f91a, type: 3}
+  anim: {fileID: 2735981600521951514}
 --- !u!114 &5952042256580595024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,4 +293,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
-  winScreen: {fileID: 6591397554099653514, guid: d38677c9c7525464f8504a1f6878ae7a, type: 3}
+  winScreen: {fileID: 0}
+--- !u!95 &2735981600521951514
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102352043661919829}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e475a174c2914ce4d8733badb5499e7b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

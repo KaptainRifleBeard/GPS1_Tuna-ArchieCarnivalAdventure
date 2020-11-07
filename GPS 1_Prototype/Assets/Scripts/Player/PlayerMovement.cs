@@ -30,13 +30,15 @@ public class PlayerMovement : MonoBehaviour
     //Changing  sprite
     public SpriteRenderer rend;
     public Sprite up, down, left, right;
-    private Animator anim;
+    public Animator anim;
     private Vector2 lastMove;
+
+
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        rend = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
+        rend = gameObject.GetComponent<SpriteRenderer>();
+        anim = gameObject.GetComponent<Animator>();
 
     }
 

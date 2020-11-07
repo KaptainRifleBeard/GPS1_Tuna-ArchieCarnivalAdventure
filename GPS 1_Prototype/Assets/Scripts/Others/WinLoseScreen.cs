@@ -41,6 +41,12 @@ public class WinLoseScreen : MonoBehaviour
 
         int y = SceneManager.GetActiveScene().buildIndex;
         isRetryLevel = true;
+
+
+
+
+
+
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
 

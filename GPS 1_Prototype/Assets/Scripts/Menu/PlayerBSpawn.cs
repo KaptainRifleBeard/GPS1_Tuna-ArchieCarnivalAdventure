@@ -7,16 +7,16 @@ public class PlayerBSpawn : SelectPlayMode
     public GameObject[] player;
     public GameObject spawnpointB;
 
-    public int randPlayer = 0;
+    [SerializeField] public static int randP = 0;
 
     public void Start()
     {
-        randPlayer = Random.Range(0, player.Length);
+        randP = Random.Range(0, player.Length);
 
         if (isDual)
         {
             Debug.Log("trigger dual");
-            player[randPlayer].transform.position = spawnpointB.transform.position;
+            player[randP].transform.position = spawnpointB.transform.position;
         }
     }
 }
