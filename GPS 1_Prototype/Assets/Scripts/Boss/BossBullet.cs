@@ -6,10 +6,11 @@ public class BossBullet : MonoBehaviour
 {
     private Vector2 target;
 
-    private Transform player;
+    //private GameObject player = null;
 
     public bool isDrumBullet = false;
     public int health;
+    public Rigidbody2D rb;
 
 
     void OnTriggerEnter2D(Collider2D other)
@@ -39,23 +40,29 @@ public class BossBullet : MonoBehaviour
     void Start()
     {
         //player = GameObject.FindWithTag("Player").transform;
-       // target = new Vector2(player.position.x, player.position.y);
+        // target = new Vector2(player.position.x, player.position.y);
         Destroy(gameObject, 3f);
+        rb = GetComponent<Rigidbody2D>();
 
     }
-
     void Update()
     {
-        //if(player != null)
-        //{
-        //    transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+        if (BossAttack.target != null)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, BossAttack.target.transform.position, 10 * Time.deltaTime);
 
-        //    if (transform.position.x == target.x && transform.position.y == target.y)
-        //    {
-        //        Destroy(gameObject);
-        //    }
-        //}
-        
-     
+            if (transform.position.x == target.x && transform.position.y == target.y)
+            {
+                Destroy(gameObject);
+            }
+        }
+
+
+
     }
 }
+
+
+
+
+

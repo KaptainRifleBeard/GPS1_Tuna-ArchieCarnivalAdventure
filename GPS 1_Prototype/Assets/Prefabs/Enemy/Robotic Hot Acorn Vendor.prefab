@@ -171,7 +171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players: []
   isKamikaze: 1
-  enemySpeed: 3
+  enemySpeed: 4
   attackRadius: 5
   isFacingRight: 0
   animator: {fileID: 1928797449}
@@ -196,7 +196,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8345169510538593497}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b758327d2ac91bc4aa0ccaf31192fd3a, type: 2}
   m_CullingMode: 0

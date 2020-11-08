@@ -116,6 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDrumBullet: 1
   health: 10
+  rb: {fileID: -6660735998406578018}
 --- !u!114 &4219046105339965669
 MonoBehaviour:
   m_ObjectHideFlags: 0

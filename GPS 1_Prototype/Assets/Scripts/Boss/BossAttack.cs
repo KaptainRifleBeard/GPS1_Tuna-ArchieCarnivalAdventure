@@ -9,9 +9,9 @@ public class BossAttack : MonoBehaviour
     public GameObject laserPrefab;
 
     public GameObject[] players;
-    GameObject target = null;
+    public static GameObject target = null;
 
-    //public Transform target;
+    //public Transform target;      
     public Transform shootPos_left;
     public Transform shootPos_right;
     public Transform laserPos;
@@ -59,12 +59,12 @@ public class BossAttack : MonoBehaviour
             if (Vector3.Distance(target.transform.position, transform.position) < attackRadius)
             {
                 if (timeBtwShoot <= 0)
-                {
+                {       
                     GameObject b = Instantiate(bullet, shootPos_left.position, transform.rotation);
                     GameObject b2 = Instantiate(bullet, shootPos_right.position, transform.rotation);
-
-                    b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
-                    b2.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+                        
+                    //b.transform.position = Vector2.MoveTowards(b.transform.position, target.transform.position, 10 * Time.deltaTime);
+                    //b2.GetComponent<Rigidbody2D>().velocity = Vector2.MoveTowards(transform.position, target.transform.position, 10 * Time.deltaTime);
 
                     timeBtwShoot = startTimeBtwShoot;  //shoot delay
                 }

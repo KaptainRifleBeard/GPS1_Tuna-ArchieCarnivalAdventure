@@ -52,7 +52,6 @@ public class KamikazeEnemy : MonoBehaviour
             }
             else
             {
-                animator.SetBool("isWalk", true);
 
                 isFacingRight = true;
             }
@@ -66,18 +65,17 @@ public class KamikazeEnemy : MonoBehaviour
 
     void Start()
     {
-        players = GameObject.FindGameObjectsWithTag("Player");
+        //players = GameObject.FindGameObjectsWithTag("Player");
 
-
-        float distanceToClosestEnemy = Mathf.Infinity;
+        float distanceToClosestPlayer = Mathf.Infinity;
         GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
 
         foreach (GameObject currentPlayer in allPlayers)
         {
-            float distanceToEnemy = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
-            if (distanceToEnemy < distanceToClosestEnemy)
+            float distanceToPlayer = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
+            if (distanceToPlayer < distanceToClosestPlayer)
             {
-                distanceToClosestEnemy = distanceToEnemy;
+                distanceToClosestPlayer = distanceToPlayer;
                 target = currentPlayer;
             }
         }
@@ -89,7 +87,7 @@ public class KamikazeEnemy : MonoBehaviour
         {
             enemySpeed = 6;
             transform.position = Vector3.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
-  
+
         }
     }
 
@@ -101,10 +99,6 @@ public class KamikazeEnemy : MonoBehaviour
             if(isKamikaze)
             {
                 kamikaze();
-            }
-            else
-            {
-                animator.SetBool("isWalk", false);
             }
 
 
