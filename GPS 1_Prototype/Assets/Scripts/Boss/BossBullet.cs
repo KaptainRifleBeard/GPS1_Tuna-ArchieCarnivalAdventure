@@ -49,7 +49,7 @@ public class BossBullet : MonoBehaviour
     {
         if (BossAttack.target != null)
         {
-            transform.position = Vector2.MoveTowards(transform.position, BossAttack.target.transform.position, 10 * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, BossAttack.target.transform.position, 6 * Time.deltaTime);
 
             if (transform.position.x == target.x && transform.position.y == target.y)
             {
