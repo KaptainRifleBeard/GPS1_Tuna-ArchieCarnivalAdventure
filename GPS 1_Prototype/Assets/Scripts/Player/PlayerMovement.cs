@@ -30,15 +30,15 @@ public class PlayerMovement : MonoBehaviour
     //Changing  sprite
     public SpriteRenderer rend;
     public Sprite up, down, left, right;
-    public Animator anim;
-    private Vector2 lastMove;
+    //public Animator anim;
+    //private Vector2 lastMove;
 
 
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        rend = gameObject.GetComponent<SpriteRenderer>();
-        anim = gameObject.GetComponent<Animator>();
+        //rend = gameObject.GetComponent<SpriteRenderer>();
+        //anim = gameObject.GetComponent<Animator>();
 
     }
 
@@ -46,15 +46,18 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(myShoot))  
         {
+            Debug.Log("isShoot");
             if (rend.sprite == up)          
             {
+                Debug.Log("ballClone");
+
                 ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y + 1f), bulletSpawnPOS.rotation);
                 ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
 
             }
             else if (rend.sprite == down)   
             {
-                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y - 1f), bulletSpawnPOS.rotation);
+                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y - 1.5f), bulletSpawnPOS.rotation);
                 ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
 
             }
@@ -65,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
             }
             else if(rend.sprite == right)
             {
+                Debug.Log("ballClone");
                 ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x + .5f, bulletSpawnPOS.position.y), bulletSpawnPOS.rotation);
 
             }
@@ -119,14 +123,14 @@ public class PlayerMovement : MonoBehaviour
             }
             knockbackCount -= Time.deltaTime;
         }
-        anim.SetFloat("moveX", rb.velocity.x);
-        anim.SetFloat("moveY", rb.velocity.y);
+        //anim.SetFloat("moveX", rb.velocity.x);
+        //anim.SetFloat("moveY", rb.velocity.y);
 
-        if(Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
-        {
-            anim.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
-            anim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
-        }
+        //if(Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
+        //{
+        //    anim.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
+        //    anim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
+        //}
 
         
 

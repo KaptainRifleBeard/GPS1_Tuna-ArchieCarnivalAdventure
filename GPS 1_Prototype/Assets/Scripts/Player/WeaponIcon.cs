@@ -5,33 +5,14 @@ using UnityEngine.UI;
 
 public class WeaponIcon : MonoBehaviour
 {
-    public Image image;
+    public static Image image;
 
     public Sprite dart_icon, uni_icon, cheese_icon, water_icon;
 
-    //public GameObject uni;
-    //public GameObject cheese;
-    //public GameObject water;
-
-
+        
     void Start()
     {
-        Debug.Log("CURRENT icon num: " + PlayerSpawn.currPlayer);
-
-
-        if (PlayerSpawn.currPlayer == 0)
-        {
-
-            image.sprite = dart_icon;
-
-        }
-        else if (PlayerSpawn.currPlayer == 1)
-        {
-            image.sprite = uni_icon;
-
-        }
-
-
+        image = GetComponent<Image>();
 
         //if (PlayerSpawn.randP == 0)
         //{

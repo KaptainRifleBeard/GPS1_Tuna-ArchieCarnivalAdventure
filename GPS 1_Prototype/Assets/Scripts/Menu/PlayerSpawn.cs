@@ -1,8 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography;
 using UnityEngine;
-using UnityEngine.Assertions.Must;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayerSpawn : SelectPlayMode
@@ -11,7 +10,9 @@ public class PlayerSpawn : SelectPlayMode
     public GameObject spawnpoint;
 
     public int randPlayer = 0;
-    public static int currPlayer;
+    public int currPlayer = 0;
+
+    public Sprite dart_icon, uni_icon, cheese_icon, water_icon;
 
     void Start()
     {
@@ -22,8 +23,19 @@ public class PlayerSpawn : SelectPlayMode
         Debug.Log("currplayer = " + currPlayer);
 
         player[randPlayer].transform.position = spawnpoint.transform.position;
-       
 
+
+        //if (currPlayer == 0)
+        //{
+        //    WeaponIcon.image.sprite = dart_icon;
+
+        //}
+        //if (currPlayer == 1)
+        //{
+
+        //    WeaponIcon.image.sprite = uni_icon;
+
+        //}
     }
 
     void Update()

@@ -138,6 +138,7 @@ MonoBehaviour:
   rb: {fileID: -828835210299662865}
   snowBallEffect: {fileID: 5298656711903525515, guid: fe36a094a8bf39f4e8bc46bb79880fbd, type: 3}
   speed: 10
+  damageAmount: 5
 --- !u!114 &-8777092282433227863
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2534,6 +2534,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2198626367860928560, guid: 4cbc248df62a78e4a8341fc75e9b04fd, type: 3}
   m_PrefabInstance: {fileID: 14764037}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &103124689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 103124691}
+  - component: {fileID: 103124690}
+  m_Layer: 0
+  m_Name: Tuna_SpawnPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &103124690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103124689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 313ed914ca42e5945949aaffd41abbd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player:
+  - {fileID: 6947847080659075361, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
+  - {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
+  spawnpoint: {fileID: 103124689}
+  randPlayer: 0
+  currPlayer: 0
+  dart_icon: {fileID: 21300000, guid: e634b2f5ab7b14c4c838d351c617972f, type: 3}
+  uni_icon: {fileID: 21300000, guid: 829100dcfc4fe2c4eabb62b1ad92d814, type: 3}
+  cheese_icon: {fileID: 21300000, guid: d3b50e3ee925e444c974a3c0edbc5bf3, type: 3}
+  water_icon: {fileID: 21300000, guid: 473121ccd67c3134794a47491f5cd804, type: 3}
+--- !u!4 &103124691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103124689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.1, y: 28.7, z: -6.54}
+  m_LocalScale: {x: 1.1239129, y: 1.1239129, z: 1.1239129}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &103531340
 GameObject:
   m_ObjectHideFlags: 0
@@ -8827,6 +8880,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc7cad7358d0c340bd5ecc6a36ac9c6, type: 3}
+--- !u!1 &328744217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 328744219}
+  - component: {fileID: 328744218}
+  m_Layer: 0
+  m_Name: Archie_SpawnPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &328744218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328744217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f77d930e02a284b808d526d9c96c06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player:
+  - {fileID: 4792513933652447641, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
+  - {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
+  spawnpointB: {fileID: 328744217}
+  randP: 0
+  cPlayer: 0
+  dart_icon: {fileID: 21300000, guid: e634b2f5ab7b14c4c838d351c617972f, type: 3}
+  uni_icon: {fileID: 21300000, guid: 829100dcfc4fe2c4eabb62b1ad92d814, type: 3}
+  cheese_icon: {fileID: 21300000, guid: d3b50e3ee925e444c974a3c0edbc5bf3, type: 3}
+  water_icon: {fileID: 21300000, guid: 473121ccd67c3134794a47491f5cd804, type: 3}
+--- !u!4 &328744219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328744217}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.079998, y: 28.66, z: -6.54}
+  m_LocalScale: {x: 1.1239129, y: 1.1239129, z: 1.1239129}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &329370014 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
@@ -21441,7 +21547,12 @@ MonoBehaviour:
   - {fileID: 4792513933652447641, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
   - {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
   spawnpointB: {fileID: 859597330}
-  randPlayer: 0
+  randP: 0
+  cPlayer: 0
+  dart_icon: {fileID: 0}
+  uni_icon: {fileID: 0}
+  cheese_icon: {fileID: 0}
+  water_icon: {fileID: 0}
 --- !u!4 &859597332
 Transform:
   m_ObjectHideFlags: 0
@@ -43498,6 +43609,11 @@ MonoBehaviour:
   - {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
   spawnpoint: {fileID: 1428052517}
   randPlayer: 0
+  currPlayer: 0
+  dart_icon: {fileID: 0}
+  uni_icon: {fileID: 0}
+  cheese_icon: {fileID: 0}
+  water_icon: {fileID: 0}
 --- !u!4 &1428052519
 Transform:
   m_ObjectHideFlags: 0
@@ -51095,6 +51211,23 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7642548753981125208, guid: 860e976ccddf39a4fa505a232db560b9, type: 3}
   m_PrefabInstance: {fileID: 1704538838}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1704538840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7642548753981125211, guid: 860e976ccddf39a4fa505a232db560b9, type: 3}
+  m_PrefabInstance: {fileID: 1704538838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1704538841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704538840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184d25cf2b058844c987fb64f538fa39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1704694628 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
@@ -58884,6 +59017,27 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7642548753981125208, guid: 860e976ccddf39a4fa505a232db560b9, type: 3}
   m_PrefabInstance: {fileID: 2027456082}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2027456084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7642548753981125211, guid: 860e976ccddf39a4fa505a232db560b9, type: 3}
+  m_PrefabInstance: {fileID: 2027456082}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2027456085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027456084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28aed9d1b9643434885ab5e2192786d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dart_icon: {fileID: 21300000, guid: e634b2f5ab7b14c4c838d351c617972f, type: 3}
+  uni_icon: {fileID: 21300000, guid: 829100dcfc4fe2c4eabb62b1ad92d814, type: 3}
+  cheese_icon: {fileID: 21300000, guid: d3b50e3ee925e444c974a3c0edbc5bf3, type: 3}
+  water_icon: {fileID: 21300000, guid: 473121ccd67c3134794a47491f5cd804, type: 3}
 --- !u!4 &2029172050 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6005425763329093877, guid: 8bc7cad7358d0c340bd5ecc6a36ac9c6, type: 3}

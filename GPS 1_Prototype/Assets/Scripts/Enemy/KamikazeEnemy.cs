@@ -16,9 +16,6 @@ public class KamikazeEnemy : MonoBehaviour
     protected Vector3 direction;
 
     public Animator animator;
-    private enum State { idle, walking, hurt }
-    private State state = State.idle;
-
     void checkDistance()
     {
         if (Vector2.Distance(transform.position, target.transform.position) < attackRadius)
@@ -100,7 +97,6 @@ public class KamikazeEnemy : MonoBehaviour
     {
         if (target != null)
         {
-            animator.SetInteger("state", (int)state);
             checkDistance();
             if(isKamikaze)
             {

@@ -10,11 +10,11 @@ public class Boss : MonoBehaviour
 
     public int maxHealth = 300;
     public int curHealth;
-
+    bool next = false;
     public IEnumerator BossDie()
     {
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("ThanksForPlaying");
+        next = true;
     }
 
     void Start()
@@ -34,7 +34,8 @@ public class Boss : MonoBehaviour
 
             FindObjectOfType<AudioManager>().Play("BossDeath");
             Destroy(gameObject);
-            StartCoroutine(BossDie());
+            SceneManager.LoadScene("ThanksForPlaying");
+
         }
     }
 
@@ -51,5 +52,6 @@ public class Boss : MonoBehaviour
     void Update()
     {
         boss.transform.localScale = new Vector3(1f, 1f, 1f);
+
     }
 }
