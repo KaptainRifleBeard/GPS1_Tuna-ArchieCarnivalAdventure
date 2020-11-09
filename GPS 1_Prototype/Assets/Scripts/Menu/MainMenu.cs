@@ -39,4 +39,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level 5");
     }
+
+    public void BacktoHowToPlay1()
+    {
+        SceneManager.LoadScene("HowToPlay");
+    }
+
+    public void NextHowToPlay()
+    {
+        SceneManager.LoadScene("HowToPlay 2");
+    }
 }
