@@ -7,7 +7,7 @@ public class BossMovement : MonoBehaviour
     protected Vector3 direction;
     protected Rigidbody2D rb;
 
-    public Transform target;
+    public GameObject target;
 
     protected float angle;
     public bool isFacingRight;
@@ -17,7 +17,19 @@ public class BossMovement : MonoBehaviour
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+
+        float distanceToClosestPlayer = Mathf.Infinity;
+        GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
+
+        foreach (GameObject currentPlayer in allPlayers)
+        {
+            float distanceToPlayer = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;
+            if (distanceToPlayer < distanceToClosestPlayer)
+            {
+                distanceToClosestPlayer = distanceToPlayer;
+                target = currentPlayer;
+            }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -70,7 +82,7 @@ public class BossMovement : MonoBehaviour
             if (GetComponent<BossAttack>().bossMove == true)
             {
                 //To rotate the enemy facing the player
-                rb.AddForce(target.position - transform.position, ForceMode2D.Impulse);
+                rb.AddForce(target.transform.position - transform.position, ForceMode2D.Impulse);
                 angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
                 turnDir();
             }
