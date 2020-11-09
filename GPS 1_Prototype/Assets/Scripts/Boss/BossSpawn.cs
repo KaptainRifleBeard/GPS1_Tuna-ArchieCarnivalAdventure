@@ -5,6 +5,8 @@ using UnityEngine;
 public class BossSpawn : MonoBehaviour
 {
     public GameObject boss;
+    public GameObject barrier;
+
     public Transform spawnPoints;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -13,6 +15,7 @@ public class BossSpawn : MonoBehaviour
         {
             Instantiate(boss, spawnPoints.position, Quaternion.identity);   
             Destroy(gameObject);
+            barrier.SetActive(true);
         }
     }
   
