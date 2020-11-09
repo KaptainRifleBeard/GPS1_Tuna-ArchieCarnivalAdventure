@@ -13,6 +13,5 @@ public class ToNextLevel : MonoBehaviour
             winScreen.SetActive(true);
         }
 
-
     }
 }

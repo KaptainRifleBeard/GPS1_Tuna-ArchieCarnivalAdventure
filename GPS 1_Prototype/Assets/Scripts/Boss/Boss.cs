@@ -10,11 +10,9 @@ public class Boss : MonoBehaviour
 
     public int maxHealth = 300;
     public int curHealth;
-    bool next = false;
     public IEnumerator BossDie()
     {
         yield return new WaitForSeconds(3f);
-        next = true;
     }
 
     void Start()

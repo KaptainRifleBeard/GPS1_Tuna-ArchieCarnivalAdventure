@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Healthpack : MonoBehaviour
 {
-    public static bool addHealth = false;
     [SerializeField] private int healAmount = 0;
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -14,7 +13,6 @@ public class Healthpack : MonoBehaviour
         {
             Debug.Log("i hit player ady!!!!!!!!!!!");
             player.heal(healAmount);
-            addHealth = true;
             Destroy(gameObject);
 
         }

@@ -15,10 +15,10 @@ public class PlayerB : MonoBehaviour
 
     private void Update()
     {
-        if (healthVisualB.p2IsDead == true)
-        {
-            Destroy(gameObject);
-        }
+        //if (healthVisualB.p2IsDead == true)
+        //{
+        //    Destroy(gameObject);
+        //}
     }
 
 

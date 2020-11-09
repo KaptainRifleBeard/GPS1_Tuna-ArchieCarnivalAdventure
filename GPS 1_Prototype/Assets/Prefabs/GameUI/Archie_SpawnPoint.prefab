@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9169036542916405954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.15, y: 2.05, z: -6.54}
+  m_LocalPosition: {x: 8.33, y: 2.48, z: -6.54}
   m_LocalScale: {x: 1.1239129, y: 1.1239129, z: 1.1239129}
   m_Children: []
   m_Father: {fileID: 0}
@@ -47,4 +47,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   spawnpointB: {fileID: 9169036542916405954}
-  randPlayer: 0
+  randP: 0
+  cPlayer: 0
+  dart_icon: {fileID: 21300000, guid: e634b2f5ab7b14c4c838d351c617972f, type: 3}
+  uni_icon: {fileID: 21300000, guid: 829100dcfc4fe2c4eabb62b1ad92d814, type: 3}
+  cheese_icon: {fileID: 21300000, guid: d3b50e3ee925e444c974a3c0edbc5bf3, type: 3}
+  water_icon: {fileID: 21300000, guid: 473121ccd67c3134794a47491f5cd804, type: 3}

@@ -42,10 +42,10 @@ public class PlayerBSpawn : SelectPlayMode
     {
         int y = SceneManager.GetActiveScene().buildIndex;
 
-        if (healthVisualB.p2IsDead == true && y == 4)
-        {
-            player[randP].transform.position = spawnpointB.transform.position;
+        //if (healthVisualB.p2IsDead == true && y == 4)
+        //{
+        //    player[randP].transform.position = spawnpointB.transform.position;
 
-        }
+        //}
     }
 }

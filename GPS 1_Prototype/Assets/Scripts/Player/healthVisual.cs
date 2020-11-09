@@ -62,45 +62,19 @@ public class healthVisual : MonoBehaviour
     public void healthSystem_OnDead(object sender, System.EventArgs e)
     {
 
-        int y = SceneManager.GetActiveScene().buildIndex;
         Debug.Log("Dead!");
-
         p1IsDead = true;
 
         if (p1IsDead == true)
         {
 
+            loseScreen.SetActive(true); 
 
-            //GameObject[] player1s = GameObject.FindGameObjectsWithTag("Player");
-            //foreach (GameObject player in player1s)
-            //{
-            //    GameObject.Destroy(player);
-
-            //}
-
-            //To lose screen
-            if (y == 3)
+            if (WinLoseScreen.isRetryLevel == true)
             {
-                SceneManager.LoadScene(6);  
+                p1IsDead = false;   
             }
-            else if (y == 5)
-            {
-                SceneManager.LoadScene(8);
-            }
-            else if (y == 4)
-            {
-                SceneManager.LoadScene(7);
-            }
-
-
-
-            //loseScreen.SetActive(true);
-            //if (WinLoseScreen.isRetryLevel == true)
-            //{
-
-            //}
             //Destroy(GameObject.Find("Player"));
-
 
         }
     }
@@ -124,6 +98,8 @@ public class healthVisual : MonoBehaviour
             HeartImage heartImage = heartImageList[i];
             healthSystem.Heart heart = heartList[i];
             heartImage.SetHeartFraments(heart.GetFragmentAmount());
+
+
         }
     }
 
@@ -168,8 +144,6 @@ public class healthVisual : MonoBehaviour
             }
         }
     }
-
-
 }
 
     

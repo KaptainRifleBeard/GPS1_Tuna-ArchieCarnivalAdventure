@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class PlayerSpawn : SelectPlayMode
 {
     public GameObject[] player;
+    public static GameObject playerRespawn;
+
     public GameObject spawnpoint;
 
     public int randPlayer = 0;
@@ -15,14 +17,23 @@ public class PlayerSpawn : SelectPlayMode
     public Sprite dart_icon, uni_icon, cheese_icon, water_icon;
 
     void Start()
-    {
-        randPlayer = Random.Range(0, player.Length);
+    {    
+        randPlayer = Random.Range(0, player.Length);    
         currPlayer = randPlayer;
 
         Debug.Log("randplayer = " + randPlayer);
-        Debug.Log("currplayer = " + currPlayer);
+        Debug.Log("currplayer = " + currPlayer);    
 
-        player[randPlayer].transform.position = spawnpoint.transform.position;
+        if(!WinLoseScreen.isRetryLevel)
+        {
+            player[randPlayer].transform.position = spawnpoint.transform.position;  
+        }
+
+
+        Debug.Log(player[currPlayer].name);
+        playerRespawn = player[currPlayer];
+
+
 
 
         //if (currPlayer == 0)
@@ -36,16 +47,5 @@ public class PlayerSpawn : SelectPlayMode
         //    WeaponIcon.image.sprite = uni_icon;
 
         //}
-    }
-
-    void Update()
-    {
-        int y = SceneManager.GetActiveScene().buildIndex;
-
-        if (healthVisual.p1IsDead == true && y == 4)
-        {
-            player[randPlayer].transform.position = spawnpoint.transform.position;
-
-        }
     }
 }

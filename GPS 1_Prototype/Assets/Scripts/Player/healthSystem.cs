@@ -24,6 +24,7 @@ public class healthSystem : MonoBehaviour
         {
             Heart heart = new Heart(2); // 1 heart can tahan how many damage
             heartList.Add(heart);
+
         }
 
         //heartList[heartList.Count - 1].setFragmentAmount(0);
@@ -63,10 +64,11 @@ public class healthSystem : MonoBehaviour
         for (int i =  0; i < heartList.Count; i++)
         {
             Heart heart = heartList[i];
+
             //check current health
             int emptyHeart = max_Heart - heart.GetFragmentAmount();
 
-            if(healAmount > emptyHeart)
+            if (healAmount > emptyHeart)
             {
                 healAmount -= emptyHeart;
                 heart.addHealth(emptyHeart);
@@ -77,7 +79,6 @@ public class healthSystem : MonoBehaviour
             }
         }
         OnHeal(this, EventArgs.Empty);
-
     }
 
     public bool IsDead()
@@ -122,6 +123,7 @@ public class healthSystem : MonoBehaviour
             {
                 fragments += h;
             }
+
         }
     }
 

@@ -65,12 +65,6 @@ public class healthVisualB : MonoBehaviour
 
         if (p2IsDead == true)
         {
-            //GameObject[] player1s = GameObject.FindGameObjectsWithTag("Player");
-            //foreach (GameObject player in player1s)
-            //{
-            //    GameObject.Destroy(player);
-
-            //}
 
             //To lose screen
             if (y == 3)
@@ -85,8 +79,6 @@ public class healthVisualB : MonoBehaviour
             {
                 SceneManager.LoadScene(7);
             }
-
-
 
             //loseScreen.SetActive(true);
             //if (WinLoseScreen.isRetryLevel == true)

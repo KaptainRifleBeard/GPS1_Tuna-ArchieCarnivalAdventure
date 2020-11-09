@@ -11,9 +11,6 @@ public class EnemyHealth : MonoBehaviour
     public int health;
     bool walk = false;
 
-    private enum State {idle, walking, hurt}
-    private State state = State.idle;
-
     public Animator animator;
 
 

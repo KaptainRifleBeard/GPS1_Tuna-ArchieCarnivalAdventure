@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class BossBullet : MonoBehaviour
 {
-    private Vector2 target;
-
     //private GameObject player = null;
 
     public bool isDrumBullet = false;
@@ -51,10 +49,6 @@ public class BossBullet : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, BossAttack.target.transform.position, 6 * Time.deltaTime);
 
-            if (transform.position.x == target.x && transform.position.y == target.y)
-            {
-                Destroy(gameObject);
-            }
         }
 
 

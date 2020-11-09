@@ -6,17 +6,19 @@ using UnityEngine.SceneManagement;
 public class WinLoseScreen : MonoBehaviour
 {
     public static bool isRetryLevel;
-    public GameObject winscreen;
+    public GameObject loseScreen;
+
+    //public GameObject winscreen;
     public GameObject spawnpoint;
-    public GameObject storepoint;
-    public GameObject[] player;
+    //public GameObject storepoint;
+    //public GameObject[] player;
 
     //public GameObject p1_dart;
     //public GameObject p1_uni;
     //public GameObject p2_water;
     //public GameObject p2_cheese;
     void Start()
-    {
+    {   
         isRetryLevel = false;   
     }
 
@@ -26,55 +28,50 @@ public class WinLoseScreen : MonoBehaviour
 
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    //void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Player"))
+    //    {
+    //        winscreen.SetActive(true);
+    //    }
+
+
+    //} 
+
+    public IEnumerator stopRetryLevel()
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            winscreen.SetActive(true);
-        }
-
-
+        yield return new WaitForSeconds(0.1f);
+        Debug.Log("is retry = false");
+        isRetryLevel = false;
     }
 
     public void RetryLevel()
     {
-
-        int y = SceneManager.GetActiveScene().buildIndex;
-        isRetryLevel = true;
-
-
-
-
-
-
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
+        if (healthVisual.p1IsDead == true)
+        {
+            PlayerSpawn.playerRespawn.transform.position = spawnpoint.transform.position;
+            isRetryLevel = true;
+            loseScreen.SetActive(false);
+            StartCoroutine(stopRetryLevel());
 
+            healthVisual.HealthSystem.addHealth(6);
+        }
 
-        //GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
-        //foreach (GameObject player in players)
-        //{
-        //    if (y == 4)
-        //    {
-        //        GameObject.Destroy(player);
-        //        Instantiate(player, storepoint.transform.position, Quaternion.identity);
-
-        //    }
-        //    else
-        //    {
-        //        GameObject.Destroy(player);
-        //    }
-        //}
-
-
-        //GameObject player = GameObject.FindGameObjectWithTag("Player");
-        //player.transform.position = spawnpoint.transform.position;
-        //GameObject[] player1s = GameObject.FindGameObjectsWithTag("Player");
-        //foreach (GameObject player in player1s)
-        //{
-        //    //GameObject.Destroy(player);
-
-        //}
     }
 
 }
+
+
+
+
+
+//GameObject player = GameObject.FindGameObjectWithTag("Player");
+//player.transform.position = spawnpoint.transform.position;
+//GameObject[] player1s = GameObject.FindGameObjectsWithTag("Player");
+//foreach (GameObject player in player1s)
+//{
+//    //GameObject.Destroy(player);
+
+//}

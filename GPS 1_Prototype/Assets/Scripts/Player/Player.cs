@@ -14,15 +14,6 @@ public class Player : MonoBehaviour
 
     }
 
-    private void Update()
-    {
-        if (healthVisual.p1IsDead == true)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-
     public void DamageKnockback(Vector3 kbDir, float kbDis, int damageAmount)
     {
         transform.position += kbDir * kbDis;
@@ -40,18 +31,12 @@ public class Player : MonoBehaviour
         {
             isBossBullet = true;
         }
-
-        if (other.gameObject.CompareTag("ToNextLevel"))
-        {
-            //winScreen.SetActive(true);
-
-        }
-
     }
         
     public void heal(int healAmount)
     {
         healthVisual.HealthSystem.addHealth(healAmount);
+        
     }
 
 }
