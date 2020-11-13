@@ -28,7 +28,7 @@ public class RandomSpawner : MonoBehaviour
 
     void Start()
     {
-        numbersEnemy = Random.Range(3, 6);
+        numbersEnemy = Random.Range(4, 6);
         newNumEnemy = numbersEnemy;
     }
 
