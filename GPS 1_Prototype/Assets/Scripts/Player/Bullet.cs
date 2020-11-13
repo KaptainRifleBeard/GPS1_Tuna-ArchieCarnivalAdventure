@@ -21,7 +21,8 @@ public class Bullet : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Stage") || other.gameObject.CompareTag("RoomManager") || other.gameObject.CompareTag("RegionDetectPlayer")
-            || other.gameObject.CompareTag("RoomBoundary") || other.gameObject.CompareTag("Ticket") || other.gameObject.CompareTag("PlayerBullet"))
+            || other.gameObject.CompareTag("RoomBoundary") || other.gameObject.CompareTag("Ticket") || other.gameObject.CompareTag("PlayerBullet") 
+            || other.gameObject.CompareTag("Healthpack"))
         {
             DontDestroyOnLoad(gameObject);
         }
@@ -30,7 +31,6 @@ public class Bullet : MonoBehaviour
             Instantiate(snowBallEffect, transform.position, transform.rotation);
             Destroy(gameObject);
         }
-
 
         //Different bullet damage
         
