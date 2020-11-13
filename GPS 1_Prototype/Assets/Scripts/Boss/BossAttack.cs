@@ -8,7 +8,6 @@ public class BossAttack : MonoBehaviour
     public GameObject bullet;
     public GameObject laserPrefab;
 
-    public GameObject[] players;
     public static GameObject target = null;
 
     //public Transform target;      
@@ -43,7 +42,7 @@ public class BossAttack : MonoBehaviour
     {
         yield return new WaitForSeconds(6f);
         attackTime = 0f;  //reset attack time
-        count = 0;  //reset number prefab
+        count = 0;  //reset number prefab of laser
         isLaser = false;
         bossMove = true;
     }
@@ -54,34 +53,26 @@ public class BossAttack : MonoBehaviour
 
     void shoot()
     {
-        if (isShoot)
+        if (Vector2.Distance(transform.position, target.transform.position) < attackRadius)
         {
-            if (Vector3.Distance(target.transform.position, transform.position) < attackRadius)
+            if (timeBtwShoot <= 0)
             {
-                if (timeBtwShoot <= 0)
-                {       
-                    GameObject b = Instantiate(bullet, shootPos_left.position, transform.rotation);
-                    GameObject b2 = Instantiate(bullet, shootPos_right.position, transform.rotation);
-                        
-                    //b.transform.position = Vector2.MoveTowards(b.transform.position, target.transform.position, 10 * Time.deltaTime);
-                    //b2.GetComponent<Rigidbody2D>().velocity = Vector2.MoveTowards(transform.position, target.transform.position, 10 * Time.deltaTime);
+                Instantiate(bullet, shootPos_left.position, transform.rotation);
+                Instantiate(bullet, shootPos_right.position, transform.rotation);
 
-                    timeBtwShoot = startTimeBtwShoot;  //shoot delay
-                }
-                else
-                {
-                    timeBtwShoot -= Time.deltaTime;
-                }
-
+                timeBtwShoot = startTimeBtwShoot;  //shoot delay
             }
-        }
+            else
+            {
+                timeBtwShoot -= Time.deltaTime;
+            }
 
+        }
     }
 
     void laser()
     {
         float distance = 10f;
-        float castDist = distance;
 
         if (isLaser)
         {
@@ -117,17 +108,12 @@ public class BossAttack : MonoBehaviour
 
     void Start()
     {
-        //target = GameObject.FindGameObjectWithTag("Player").transform;
         timeBtwShoot = startTimeBtwShoot;
         lineOfSight.enabled = false;
 
         //laserPrefab.SetActive(false);
         isLaser = false;
         bossMove = true;
-
-
-        players = GameObject.FindGameObjectsWithTag("Player");
-
 
         float distanceToClosestPlayer = Mathf.Infinity;
         GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
@@ -138,13 +124,16 @@ public class BossAttack : MonoBehaviour
             if (distanceToPlayer < distanceToClosestPlayer)
             {
                 distanceToClosestPlayer = distanceToPlayer;
-                target = currentPlayer;
+                target = currentPlayer; 
+                Debug.Log(target + "target is this");
+
             }
         }
     }
 
     void Update()
     {
+
         Debug.Log(attackTime);
         attackTime += Time.deltaTime;
         if (target != null)
@@ -158,7 +147,6 @@ public class BossAttack : MonoBehaviour
                     if (isShoot)
                     {
                         shoot();
-
                     }
                 }
                 if (attackTime >= 11 && attackTime <= 13)

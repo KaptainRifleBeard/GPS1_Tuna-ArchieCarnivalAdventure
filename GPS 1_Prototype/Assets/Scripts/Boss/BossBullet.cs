@@ -28,11 +28,6 @@ public class BossBullet : MonoBehaviour
             }
         }
 
-        //if (other.gameObject.CompareTag("Stage"))
-        //{
-        //    transform.position = new Vector3(1f, 1f, 3f);
-        //}
-
     }
 
     void Start()
@@ -50,8 +45,6 @@ public class BossBullet : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, BossAttack.target.transform.position, 6 * Time.deltaTime);
 
         }
-
-
 
     }
 }

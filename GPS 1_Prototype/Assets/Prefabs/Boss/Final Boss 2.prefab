@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1158088509218976804}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: ShootPos2
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 6631810307212261727}
   - component: {fileID: 3305347900020257657}
   - component: {fileID: 8104499612459988548}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: Final Boss 2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -313,7 +313,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   laserPrefab: {fileID: 4811060281354187962, guid: 8d3398562d8bd354bacc9128e7cde148, type: 3}
-  players: []
   shootPos_left: {fileID: 1822752161040802886}
   shootPos_right: {fileID: 1158088509218976804}
   laserPos: {fileID: 8251735649114394100}
@@ -332,7 +331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1822752161040802886}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: ShootPos1
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
@@ -362,7 +361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8251735649114394100}
-  m_Layer: 8
+  m_Layer: 11
   m_Name: LinePos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +391,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 784612920842815044, guid: abce580bb21c58446ba591f824eef86a, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 812670105366644326, guid: abce580bb21c58446ba591f824eef86a, type: 3}
       propertyPath: m_Name
@@ -400,15 +399,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 812670105366644326, guid: abce580bb21c58446ba591f824eef86a, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1658894599683300189, guid: abce580bb21c58446ba591f824eef86a, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4297001053057266888, guid: abce580bb21c58446ba591f824eef86a, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4991156843529783811, guid: abce580bb21c58446ba591f824eef86a, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -428,7 +427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7366329392960687299, guid: abce580bb21c58446ba591f824eef86a, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7441756172097647600, guid: abce580bb21c58446ba591f824eef86a, type: 3}
       propertyPath: m_Value
