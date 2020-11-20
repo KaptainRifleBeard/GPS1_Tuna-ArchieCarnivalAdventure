@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 5229087313502671791}
   - component: {fileID: 3363068203983215171}
   - component: {fileID: 7111357430270823050}
+  - component: {fileID: 267494532}
   m_Layer: 9
   m_Name: Tuna_Right_DartSheet
   m_TagString: Player
@@ -293,6 +294,7 @@ MonoBehaviour:
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
   winScreen: {fileID: 0}
+  anim: {fileID: 267494532}
 --- !u!95 &7111357430270823050
 Animator:
   serializedVersion: 3
@@ -312,3 +314,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &267494532
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947847080659075361}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 01688bbc8476fe345bd621732595fae1, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0

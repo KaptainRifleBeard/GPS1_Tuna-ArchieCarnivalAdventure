@@ -6,12 +6,15 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public GameObject bossBullet;
-    public bool isBossBullet = false;
+    public bool isBossBullet = false;   
     public GameObject winScreen;
+
+    public Animation anim;
+
     void Start()
     {
         DontDestroyOnLoad(gameObject);  //the player wont destroy after load to next level
-
+        anim = gameObject.GetComponent<Animation>();
     }
 
     public void DamageKnockback(Vector3 kbDir, float kbDis, int damageAmount)
@@ -31,12 +34,26 @@ public class Player : MonoBehaviour
         {
             isBossBullet = true;
         }
+
+        if (other.gameObject.CompareTag("EnemyBullet"))
+        {
+            anim.Play("TakeDamageVFX");
+        }
+       
     }
         
     public void heal(int healAmount)
     {
         healthVisual.HealthSystem.addHealth(healAmount);
         
+    }
+
+    void Update()
+    {
+        if (anim.isPlaying)
+        {
+            return;
+        }
     }
 
 }
