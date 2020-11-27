@@ -74,3 +74,9 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: EnemySpawn
+    clip: {fileID: 8300000, guid: 014fe6a67a3aa28439d4877dda2539a7, type: 3}
+    volumn: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

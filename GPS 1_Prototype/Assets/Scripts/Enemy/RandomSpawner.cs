@@ -15,12 +15,18 @@ public class RandomSpawner : MonoBehaviour
     public int newNumEnemy;
 
     [SerializeField]public bool isSpawn = false;
+    public IEnumerator SpawnDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        isSpawn = true;
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Player2"))
         {
-            isSpawn = true;
+            FindObjectOfType<AudioManager>().Play("EnemySpawn");
+            StartCoroutine(SpawnDelay());
             blockExit.SetActive(true);
         }
             
