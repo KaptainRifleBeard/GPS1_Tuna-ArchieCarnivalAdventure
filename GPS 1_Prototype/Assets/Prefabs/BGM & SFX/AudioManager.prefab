@@ -68,3 +68,9 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: PlayerShoot
+    clip: {fileID: 8300000, guid: 3c395cf3c3b780d479590e624faf15fc, type: 3}
+    volumn: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

@@ -44,8 +44,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(myShoot))  
+        if (Input.GetKeyDown(myShoot))
         {
+            FindObjectOfType<AudioManager>().Play("PlayerShoot");
+
             Debug.Log("isShoot");
             if (rend.sprite == up)          
             {
