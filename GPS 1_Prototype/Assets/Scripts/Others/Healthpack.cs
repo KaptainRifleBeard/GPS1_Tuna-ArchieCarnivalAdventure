@@ -12,7 +12,7 @@ public class Healthpack : MonoBehaviour
         if (player != null)
         {
             Debug.Log("i hit player ady!!!!!!!!!!!");
-            player.heal(healAmount);
+            player.heal(healAmount + 1);
             Destroy(gameObject);
 
         }

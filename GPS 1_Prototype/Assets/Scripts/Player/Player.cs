@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    public static HeartSystem Health;
+
     public GameObject bossBullet;
     public bool isBossBullet = false;   
     public GameObject winScreen;
@@ -20,7 +22,8 @@ public class Player : MonoBehaviour
     public void DamageKnockback(Vector3 kbDir, float kbDis, int damageAmount)
     {
         transform.position += kbDir * kbDis;
-        healthVisual.HealthSystem.Damage(damageAmount);
+        //healthVisual.HealthSystem.Damage(damageAmount);
+        Health.takeDamage(damageAmount);
     }
 
     public Vector3 GetPosition()
@@ -40,11 +43,12 @@ public class Player : MonoBehaviour
             anim.Play("TakeDamageVFX");
         }
        
-    }
+    }   
         
     public void heal(int healAmount)
     {
-        healthVisual.HealthSystem.addHealth(healAmount);
+        Health.healHealth();
+        //healthVisual.HealthSystem.addHealth(healAmount);
         
     }
 
