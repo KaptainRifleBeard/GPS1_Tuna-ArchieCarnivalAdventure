@@ -6,17 +6,11 @@ using UnityEngine.SceneManagement;
 public class WinLoseScreen : MonoBehaviour
 {
     public static bool isRetryLevel;
+    public static healthVisual health;
+
     public GameObject loseScreen;
-
-    //public GameObject winscreen;
     public GameObject spawnpoint;
-    //public GameObject storepoint;
-    //public GameObject[] player;
 
-    //public GameObject p1_dart;
-    //public GameObject p1_uni;
-    //public GameObject p2_water;
-    //public GameObject p2_cheese;
     void Start()
     {   
         isRetryLevel = false;   
@@ -28,15 +22,6 @@ public class WinLoseScreen : MonoBehaviour
 
     }
 
-    //void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Player"))
-    //    {
-    //        winscreen.SetActive(true);
-    //    }
-
-
-    //} 
 
     public IEnumerator stopRetryLevel()
     {
@@ -55,8 +40,8 @@ public class WinLoseScreen : MonoBehaviour
             isRetryLevel = true;
             loseScreen.SetActive(false);
             StartCoroutine(stopRetryLevel());
-
-            healthVisual.HealthSystem.addHealth(6);
+            Application.LoadLevel(Application.loadedLevel);
+            //healthVisual.HealthSystem.addHealth(6);
         }
 
     }

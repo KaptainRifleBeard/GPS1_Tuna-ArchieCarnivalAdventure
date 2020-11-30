@@ -26,8 +26,6 @@ public class healthSystem : MonoBehaviour
             heartList.Add(heart);
 
         }
-
-        //heartList[heartList.Count - 1].setFragmentAmount(0);
     }
 
     public List<Heart> GetHeartList()
@@ -76,6 +74,7 @@ public class healthSystem : MonoBehaviour
             else
             {
                 heart.addHealth(healAmount);
+                break;
             }
         }
         OnHeal(this, EventArgs.Empty);

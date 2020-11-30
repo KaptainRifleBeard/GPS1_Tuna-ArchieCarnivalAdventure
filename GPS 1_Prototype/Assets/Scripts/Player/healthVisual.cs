@@ -6,16 +6,14 @@ using UnityEngine.SceneManagement;
 public class healthVisual : MonoBehaviour
 {
     public static healthSystem HealthSystem;
-    [SerializeField] private Sprite heart0Sprite = null;
-    [SerializeField] private Sprite heart1Sprite = null;
-    [SerializeField] private Sprite heart2Sprite = null;
+    [SerializeField] private Sprite heart0Sprite;
+    [SerializeField] private Sprite heart1Sprite;
+    [SerializeField] private Sprite heart2Sprite;
     private List<HeartImage> heartImageList;
-    private healthSystem healthSystem1; //curently not using , for private only
 
     public static bool p1IsDead = false;
     healthSystem hs;
     public GameObject loseScreen;
-    public GameObject storepoint;
 
     private void Awake()
     {
@@ -74,8 +72,6 @@ public class healthVisual : MonoBehaviour
             {
                 p1IsDead = false;   
             }
-            //Destroy(GameObject.Find("Player"));
-
         }
     }
 
@@ -98,7 +94,6 @@ public class healthVisual : MonoBehaviour
             HeartImage heartImage = heartImageList[i];
             healthSystem.Heart heart = heartList[i];
             heartImage.SetHeartFraments(heart.GetFragmentAmount());
-
 
         }
     }

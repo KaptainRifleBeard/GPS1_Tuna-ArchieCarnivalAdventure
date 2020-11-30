@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public static HeartSystem Health; 
+    public HeartSystem Health; 
     public static healthSystem HealthSystem;
 
 
@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
     {
         transform.position += kbDir * kbDis;
         healthVisual.HealthSystem.Damage(damageAmount);
-        Health.takeDamage(damageAmount);
+        //Health.takeDamage(damageAmount);
     }
 
     public Vector3 GetPosition()
@@ -50,18 +50,17 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("EnemyBullet"))
         {
             StartCoroutine(getDamageVFX());
-
             //anim.Play("TakeDamageVFX");
         }
 
     }   
-    /*
+    
     public void heal(int healAmount)
     {
-        Health.healHealth(healAmount);
-        //healthVisual.HealthSystem.addHealth(healAmount);
+        //Health.healHealth(healAmount);
+        healthVisual.HealthSystem.addHealth(healAmount);
             
     }
-    */
+    
    
 }

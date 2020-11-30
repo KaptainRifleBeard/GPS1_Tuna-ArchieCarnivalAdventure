@@ -142,7 +142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6947847080659075361}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.36, y: 29.79, z: -11.997791}
+  m_LocalPosition: {x: -7.661872, y: 19.60375, z: -6.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7344445300380373317}
@@ -291,6 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df77643258addef41809d3c6354f0396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health: {fileID: 0}
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
   SetSpriteColor: {fileID: 4139652141421349596}

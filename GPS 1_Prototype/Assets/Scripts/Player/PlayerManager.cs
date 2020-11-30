@@ -39,6 +39,7 @@ public class PlayerManager : SelectPlayMode
     }
     void FixedUpdate()
     {
+        /*
         int y = SceneManager.GetActiveScene().buildIndex;
 
 
@@ -56,6 +57,7 @@ public class PlayerManager : SelectPlayMode
                 player[randP].transform.position = spawnpoint.transform.position;
             }
         }
+        */
     }
 
 }
