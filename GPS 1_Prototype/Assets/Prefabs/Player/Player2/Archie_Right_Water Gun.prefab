@@ -278,6 +278,7 @@ MonoBehaviour:
   down: {fileID: 21300000, guid: d77329e2473411846b5bb154a9248392, type: 3}
   left: {fileID: 21300000, guid: 3b4d41ae3cbf4a842aab025d78f76766, type: 3}
   right: {fileID: 21300000, guid: f0c3d42968ff2894688b817a6a9ec259, type: 3}
+  animator: {fileID: 2347292693046421319}
 --- !u!114 &3526382445633449830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,7 +304,7 @@ Animator:
   m_GameObject: {fileID: 8143154804536991367}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9aa17af058cecaa459dd841b43016e2f, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

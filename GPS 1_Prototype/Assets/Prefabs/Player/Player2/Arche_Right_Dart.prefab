@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 5930734986920911242}
   - component: {fileID: 7192374669331144234}
   - component: {fileID: 742444481030679328}
-  - component: {fileID: 391083524246329261}
+  - component: {fileID: 1077803427856717338}
   m_Layer: 9
   m_Name: Arche_Right_Dart
   m_TagString: Player
@@ -196,6 +196,7 @@ MonoBehaviour:
   down: {fileID: 3050286826593947450, guid: 373b1ff5a96378d4591f714d90a6ab21, type: 3}
   left: {fileID: -5839437857142484270, guid: fa89d4ab1228df34794fb390bd6572ab, type: 3}
   right: {fileID: 3799930955762541363, guid: 88bcff303d1094742807ef822162e957, type: 3}
+  animator: {fileID: 1077803427856717338}
 --- !u!114 &742444481030679328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +212,7 @@ MonoBehaviour:
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
   winScreen: {fileID: 0}
---- !u!95 &391083524246329261
+--- !u!95 &1077803427856717338
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -219,9 +220,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2501388723039364215}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 893fa6d99e988b64e94a8d0697157efb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9ccf62b949cda70428f8f2e69b738b09, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

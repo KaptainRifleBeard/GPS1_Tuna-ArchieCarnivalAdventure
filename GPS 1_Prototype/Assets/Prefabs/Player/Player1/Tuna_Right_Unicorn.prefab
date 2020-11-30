@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783354100}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.077, y: 0.459, z: 0}
+  m_LocalPosition: {x: 0.077, y: 0.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5102352043661919831}
@@ -278,6 +278,7 @@ MonoBehaviour:
   down: {fileID: -780322854029699893, guid: 2d162a89c0e3f7149ae28119d3e9b2bd, type: 3}
   left: {fileID: -8644962180845862883, guid: 01885f110f20d3f4985d7a6d4b310533, type: 3}
   right: {fileID: -2005775441489831848, guid: 36c9484a590f9af4d9498e706d833739, type: 3}
+  animator: {fileID: 2735981600521951514}
 --- !u!114 &5952042256580595024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,7 +294,6 @@ MonoBehaviour:
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
   winScreen: {fileID: 0}
-  anim: {fileID: 0}
 --- !u!95 &2735981600521951514
 Animator:
   serializedVersion: 3
@@ -302,9 +302,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5102352043661919829}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 32eb0934271b97b438e22ce1ea2c1b3c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

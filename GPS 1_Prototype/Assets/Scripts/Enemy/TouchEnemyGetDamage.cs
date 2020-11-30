@@ -31,11 +31,12 @@ public class TouchEnemyGetDamage : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        /*
         if (other.gameObject.CompareTag("Player"))
         {
             Health.takeDamage(damageAmount);
         }
-
+        */
 
     }
 }

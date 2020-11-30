@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 3084979549221026662}
   - component: {fileID: 3084979549221026663}
   - component: {fileID: 3084979549221026660}
-  - component: {fileID: 3084979549221026661}
   m_Layer: 0
   m_Name: Tuna_Right_Cheese
   m_TagString: Player
@@ -155,7 +154,7 @@ MonoBehaviour:
   myleft: 97
   myright: 100
   myShoot: 32
-  bulletPrefab: {fileID: 3845957326143269495, guid: 82e95de1a6d96d542bc05a011e24c815, type: 3}
+  bulletPrefab: {fileID: 8818107859876682882, guid: 21fa4cae7d5bc894aba507910fd39da9, type: 3}
   bulletSpawnPOS: {fileID: 3084979549756963770}
   playerVisual: {fileID: 3084979549221026658}
   knockback: 10
@@ -167,6 +166,7 @@ MonoBehaviour:
   down: {fileID: -2150141286517510830, guid: 9f16c6a734ba3264ab30d2b1e3d92c6b, type: 3}
   left: {fileID: 1463164356183700624, guid: 38d99ef2ebf313d4fab1a961620f765d, type: 3}
   right: {fileID: 8561576439798810214, guid: 061935de5affd85428a231b0b4eb5a49, type: 3}
+  animator: {fileID: 3084979549221026660}
 --- !u!114 &3084979549221026663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,7 +182,6 @@ MonoBehaviour:
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
   winScreen: {fileID: 0}
-  anim: {fileID: 3084979549221026661}
 --- !u!95 &3084979549221026660
 Animator:
   serializedVersion: 3
@@ -191,9 +190,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3084979549221026666}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc642b9a2f871a146a1304a045d93d94, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -202,22 +201,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!111 &3084979549221026661
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3084979549221026666}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 0}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &3084979549756963771
 GameObject:
   m_ObjectHideFlags: 0

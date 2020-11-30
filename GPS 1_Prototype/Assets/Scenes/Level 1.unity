@@ -13568,11 +13568,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6947847080659075361, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
   m_PrefabInstance: {fileID: 1110432737}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &267494525 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7111357430270823050, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
-  m_PrefabInstance: {fileID: 1110432737}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &273239543 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8708648632388318486, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
@@ -31296,24 +31291,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5229087313502671791, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 267494525}
     - target: {fileID: 6947847080659075361, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
       propertyPath: m_Name
       value: Tuna_Right_DartSheet
       objectReference: {fileID: 0}
-    - target: {fileID: 7111357430270823050, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111357430270823050, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 8c9e4c698488d5a4aa9315a6ad8fa615, type: 2}
-    m_RemovedComponents:
-    - {fileID: 267494532, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
 --- !u!1 &1115744972
 GameObject:
@@ -37963,11 +37945,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f699892b2819e74891e3a2f95604b9d, type: 3}
---- !u!95 &1423766329 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3084979549221026660, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
-  m_PrefabInstance: {fileID: 3084979550089971805}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1425722762 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1563337912385584782, guid: f17083edf24cca54a8fd2ec83ddb9dc1, type: 3}
@@ -54846,22 +54823,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Archie_Right_Dart
       objectReference: {fileID: 0}
-    - target: {fileID: 5930734986920911242, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1.0233333
-      objectReference: {fileID: 0}
-    - target: {fileID: 5930734986920911242, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.68666667
-      objectReference: {fileID: 0}
-    - target: {fileID: 5930734986920911242, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 1.0233333
-      objectReference: {fileID: 0}
-    - target: {fileID: 5930734986920911242, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 0.68666667
-      objectReference: {fileID: 0}
     - target: {fileID: 6877729787819332183, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 59.41
@@ -54906,37 +54867,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7192374669331144234, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1077803427856717338}
-    m_RemovedComponents:
-    - {fileID: 391083524246329261, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
---- !u!1 &1077803427856717337 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2501388723039364215, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
-  m_PrefabInstance: {fileID: 1077803427856717336}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1077803427856717338
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077803427856717337}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9ccf62b949cda70428f8f2e69b738b09, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2259994838204784567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55224,32 +55156,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3084979549221026660, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: fc642b9a2f871a146a1304a045d93d94, type: 2}
-    - target: {fileID: 3084979549221026660, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3084979549221026661, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
-      propertyPath: m_Animations.Array.data[0]
-      value: 
-      objectReference: {fileID: 7400000, guid: 01688bbc8476fe345bd621732595fae1, type: 2}
-    - target: {fileID: 3084979549221026662, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
-      propertyPath: bulletPrefab
-      value: 
-      objectReference: {fileID: 8818107859876682882, guid: 21fa4cae7d5bc894aba507910fd39da9, type: 3}
-    - target: {fileID: 3084979549221026662, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1423766329}
     - target: {fileID: 3084979549221026666, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
       propertyPath: m_Name
       value: Tuna_Right_Cheese
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3084979549221026661, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
 --- !u!1001 &4312565612065064114
 PrefabInstance:
@@ -55321,19 +55232,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4792513933652447641, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
   m_PrefabInstance: {fileID: 5485414870736058074}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &4792513932336402699 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1054534750013466582, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
-  m_PrefabInstance: {fileID: 5485414870736058074}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5102352043637649350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-  m_PrefabInstance: {fileID: 7149212497531057885}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &5102352043637649351 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2735981600521951514, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
   m_PrefabInstance: {fileID: 7149212497531057885}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5485414870736058074
@@ -55343,18 +55244,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1054534750013466582, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 893fa6d99e988b64e94a8d0697157efb, type: 2}
-    - target: {fileID: 1054534750013466582, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4792513933652447636, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 4792513932336402699}
     - target: {fileID: 4792513933652447639, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
       propertyPath: winScreen
       value: 
@@ -55611,37 +55500,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 783354101, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735981600521951514, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2735981600521951514, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 32eb0934271b97b438e22ce1ea2c1b3c, type: 2}
-    - target: {fileID: 5102352043661919825, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 5102352043637649351}
     - target: {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
       propertyPath: m_Name
       value: Tuna_Right_Unicorn
-      objectReference: {fileID: 0}
-    - target: {fileID: 5102352043661919830, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5102352043661919830, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5102352043661919830, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-      propertyPath: m_Color.b
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5102352043661919831, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -55691,10 +55552,6 @@ PrefabInstance:
       propertyPath: winScreen
       value: 
       objectReference: {fileID: 1603125441}
-    - target: {fileID: 5952042256580595024, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-      propertyPath: anim
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
 --- !u!224 &7642548753926027176
@@ -55796,6 +55653,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2347292693046421319, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9aa17af058cecaa459dd841b43016e2f, type: 2}
     - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
       propertyPath: m_LocalPosition.x
       value: 58.7
@@ -55848,10 +55709,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Archie_Right_Water Gun
       objectReference: {fileID: 0}
-    - target: {fileID: 8376137213530712315, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 8143154806285043623}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
 --- !u!1001 &7988522964286961214
@@ -55865,14 +55722,6 @@ PrefabInstance:
       propertyPath: winScreen
       value: 
       objectReference: {fileID: 1603125441}
-    - target: {fileID: 2995112394763041890, guid: 0738d5172332cf147b81fd7105903399, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 2995112394763041890, guid: 0738d5172332cf147b81fd7105903399, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 0.89
-      objectReference: {fileID: 0}
     - target: {fileID: 4829234754718727834, guid: 0738d5172332cf147b81fd7105903399, type: 3}
       propertyPath: m_Name
       value: Archie_Right_Unicorn
@@ -55921,44 +55770,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7359356301499136318, guid: 0738d5172332cf147b81fd7105903399, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 7988522964286961216}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0738d5172332cf147b81fd7105903399, type: 3}
---- !u!1 &7988522964286961215 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4829234754718727834, guid: 0738d5172332cf147b81fd7105903399, type: 3}
-  m_PrefabInstance: {fileID: 7988522964286961214}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &7988522964286961216
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7988522964286961215}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 711244a6cd25b7b4193397814dd8a723, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8143154806285043622 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-  m_PrefabInstance: {fileID: 7800904639147188754}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &8143154806285043623 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2347292693046421319, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
   m_PrefabInstance: {fileID: 7800904639147188754}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8866007779254473920

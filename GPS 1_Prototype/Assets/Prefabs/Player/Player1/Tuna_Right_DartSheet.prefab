@@ -127,7 +127,6 @@ GameObject:
   - component: {fileID: 5229087313502671791}
   - component: {fileID: 3363068203983215171}
   - component: {fileID: 7111357430270823050}
-  - component: {fileID: 267494532}
   m_Layer: 9
   m_Name: Tuna_Right_DartSheet
   m_TagString: Player
@@ -279,6 +278,7 @@ MonoBehaviour:
   down: {fileID: 21300000, guid: 76d154af599849a47bfe2849bdc2f45f, type: 3}
   left: {fileID: 21300000, guid: ee745f12c99e65945805392538f78576, type: 3}
   right: {fileID: 21300000, guid: cae18a8ff6a82d344a02f530f6579fa9, type: 3}
+  animator: {fileID: 7111357430270823050}
 --- !u!114 &3363068203983215171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,7 +294,6 @@ MonoBehaviour:
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
   winScreen: {fileID: 0}
-  anim: {fileID: 267494532}
 --- !u!95 &7111357430270823050
 Animator:
   serializedVersion: 3
@@ -303,9 +302,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6947847080659075361}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6b50a0f73b5b0d04cb73567be16ada8b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8c9e4c698488d5a4aa9315a6ad8fa615, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -314,19 +313,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!111 &267494532
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6947847080659075361}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: 01688bbc8476fe345bd621732595fae1, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0

@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 2995112394763041890}
   - component: {fileID: 7359356301499136318}
   - component: {fileID: 2407974712970996509}
+  - component: {fileID: 7988522964286961216}
   m_Layer: 0
   m_Name: Archie_Right_Unicorn
   m_TagString: Player
@@ -277,6 +278,7 @@ MonoBehaviour:
   down: {fileID: 3050286826593947450, guid: 3b415b8fe5926b64b8b3e763ba7026d1, type: 3}
   left: {fileID: -5839437857142484270, guid: d91c30791580d3744a03d8e652598164, type: 3}
   right: {fileID: 3799930955762541363, guid: d1d17f41de780264080c18dd3f329fc9, type: 3}
+  animator: {fileID: 7988522964286961216}
 --- !u!114 &2407974712970996509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,3 +294,22 @@ MonoBehaviour:
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
   winScreen: {fileID: 0}
+--- !u!95 &7988522964286961216
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4829234754718727834}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 711244a6cd25b7b4193397814dd8a723, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
