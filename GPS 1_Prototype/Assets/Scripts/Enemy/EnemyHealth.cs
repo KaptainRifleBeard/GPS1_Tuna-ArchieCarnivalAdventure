@@ -12,14 +12,26 @@ public class EnemyHealth : MonoBehaviour
     bool walk = false;
 
     public Animator animator;
+    public SpriteRenderer SetSpriteColor;
 
-
+    IEnumerator getDamageVFX()
+    {
+        for (int n = 0; n < 2; n++)
+        {
+            SetSpriteColor.color = Color.clear;
+            yield return new WaitForSeconds(0.1f);
+            SetSpriteColor.color = Color.white;
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
 
         if (collision.gameObject.CompareTag("PlayerBullet"))
         {
+            StartCoroutine(getDamageVFX());
+
             walk = true;
             health = health - 5;    //later change it to player bullet damage
 

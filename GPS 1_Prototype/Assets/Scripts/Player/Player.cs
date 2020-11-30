@@ -5,11 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public static HeartSystem Health;
+    public static HeartSystem Health; 
+    public static healthSystem HealthSystem;
+
 
     public GameObject bossBullet;
     public bool isBossBullet = false;   
-    public GameObject winScreen;
+    public SpriteRenderer SetSpriteColor;
+    IEnumerator getDamageVFX()
+    {
+        for (int n = 0; n < 2; n++)
+        {
+            SetSpriteColor.color = Color.red;
+            yield return new WaitForSeconds(0.1f);
+            SetSpriteColor.color = Color.white;
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
 
     void Start()
     {
@@ -19,7 +31,7 @@ public class Player : MonoBehaviour
     public void DamageKnockback(Vector3 kbDir, float kbDis, int damageAmount)
     {
         transform.position += kbDir * kbDis;
-        //healthVisual.HealthSystem.Damage(damageAmount);
+        healthVisual.HealthSystem.Damage(damageAmount);
         Health.takeDamage(damageAmount);
     }
 
@@ -37,9 +49,11 @@ public class Player : MonoBehaviour
 
         if (other.gameObject.CompareTag("EnemyBullet"))
         {
+            StartCoroutine(getDamageVFX());
+
             //anim.Play("TakeDamageVFX");
         }
-       
+
     }   
     /*
     public void heal(int healAmount)

@@ -54815,10 +54815,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 742444481030679328, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
-      propertyPath: winScreen
-      value: 
-      objectReference: {fileID: 1603125441}
     - target: {fileID: 2501388723039364215, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
       propertyPath: m_Name
       value: Archie_Right_Dart
@@ -55244,10 +55240,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4792513933652447639, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
-      propertyPath: winScreen
-      value: 
-      objectReference: {fileID: 1603125441}
     - target: {fileID: 4792513933652447641, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
       propertyPath: m_Name
       value: Archie_Right_Nacho Cheese
@@ -55548,10 +55540,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5952042256580595024, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-      propertyPath: winScreen
-      value: 
-      objectReference: {fileID: 1603125441}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
 --- !u!224 &7642548753926027176
@@ -55701,10 +55689,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3526382445633449830, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: winScreen
-      value: 
-      objectReference: {fileID: 1603125441}
     - target: {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
       propertyPath: m_Name
       value: Archie_Right_Water Gun
@@ -55718,10 +55702,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2407974712970996509, guid: 0738d5172332cf147b81fd7105903399, type: 3}
-      propertyPath: winScreen
-      value: 
-      objectReference: {fileID: 1603125441}
     - target: {fileID: 4829234754718727834, guid: 0738d5172332cf147b81fd7105903399, type: 3}
       propertyPath: m_Name
       value: Archie_Right_Unicorn

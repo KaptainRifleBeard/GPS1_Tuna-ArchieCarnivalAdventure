@@ -211,7 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
-  winScreen: {fileID: 0}
+  SetSpriteColor: {fileID: 4792513933652447643}
 --- !u!95 &1054534750013466582
 Animator:
   serializedVersion: 3

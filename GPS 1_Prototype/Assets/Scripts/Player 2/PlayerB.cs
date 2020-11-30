@@ -6,8 +6,17 @@ public class PlayerB : MonoBehaviour
 {
     public GameObject bossBullet;
     public bool isBossBullet = false;
-    public GameObject winScreen;
-
+    public SpriteRenderer SetSpriteColor;
+    IEnumerator getDamageVFX()
+    {
+        for (int n = 0; n < 2; n++)
+        {
+            SetSpriteColor.color = Color.red;
+            yield return new WaitForSeconds(0.1f);
+            SetSpriteColor.color = Color.white;
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
     void Start()
     {
         DontDestroyOnLoad(gameObject);  //the player wont destroy after load to next level
@@ -30,10 +39,11 @@ public class PlayerB : MonoBehaviour
         {
             isBossBullet = true;
         }
-        if (other.gameObject.CompareTag("ToNextLevel"))
+        if (other.gameObject.CompareTag("EnemyBullet"))
         {
-            //winScreen.SetActive(true);
+            StartCoroutine(getDamageVFX());
 
+            //anim.Play("TakeDamageVFX");
         }
     }
 
