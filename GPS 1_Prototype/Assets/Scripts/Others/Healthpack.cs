@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Healthpack : MonoBehaviour
 {
+    public static HeartSystem Health;
+
     [SerializeField] private int healAmount = 0;
 
     void OnTriggerEnter2D(Collider2D collision)
-    {
+    {/*
         Player player = collision.GetComponent<Player>();
         if (player != null)
         {
@@ -16,7 +18,12 @@ public class Healthpack : MonoBehaviour
             Destroy(gameObject);
 
         }
+        */
 
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Health.healHealth(healAmount);
+        }
 
     }
 }

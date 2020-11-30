@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Stage") || other.gameObject.CompareTag("RoomManager") || other.gameObject.CompareTag("RegionDetectPlayer")
             || other.gameObject.CompareTag("RoomBoundary") || other.gameObject.CompareTag("Ticket") || other.gameObject.CompareTag("PlayerBullet") 
-            || other.gameObject.CompareTag("Healthpack"))
+            || other.gameObject.CompareTag("Healthpack") || other.gameObject.CompareTag("Player"))
         {
             DontDestroyOnLoad(gameObject);
         }

@@ -14,6 +14,12 @@ public class HeartSystem : MonoBehaviour
 
     public Image[] healthImage;
     public Sprite[] healthSprite;
+    void Start()
+    {
+        currentHealth = startHeart * healthPerHeart;
+        maxHealth = maxHeartAmount * healthPerHeart;
+        checkHealthAmount();
+    }
 
     void checkHealthAmount()
     {
@@ -66,27 +72,19 @@ public class HeartSystem : MonoBehaviour
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, startHeart * healthPerHeart);
         UpdateHeart();
-
     }
 
-    public void healHealth()
+    public void healHealth(int amount)
     {
+        currentHealth += amount;
+
         currentHealth = startHeart * healthPerHeart;
         maxHealth = maxHeartAmount * healthPerHeart;
+
         checkHealthAmount();
 
     }
 
 
-    void Start()
-    {
-        currentHealth = startHeart * healthPerHeart;
-        maxHealth = maxHeartAmount * healthPerHeart;
-        checkHealthAmount();
-    }
-
-    void Update()
-    {
-        
-    }
+   
 }

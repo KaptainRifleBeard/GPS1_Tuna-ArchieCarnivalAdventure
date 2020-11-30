@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class TouchEnemyGetDamage : MonoBehaviour
 {
-    public int damageAmount = 0;
+    public static HeartSystem Health;
 
+    public int damageAmount = 0;
+    /*
     private void OnTriggerEnter2D(Collider2D collider) {
         Player player = collider.GetComponent<Player>();
 
@@ -24,5 +26,16 @@ public class TouchEnemyGetDamage : MonoBehaviour
             Vector3 knockbackDir = (playerB.GetPosition() - transform.position).normalized;
             playerB.DamageKnockback(knockbackDir, 0.5f, damageAmount);
         }
+    }
+    */
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Health.takeDamage(damageAmount);
+        }
+
+
     }
 }

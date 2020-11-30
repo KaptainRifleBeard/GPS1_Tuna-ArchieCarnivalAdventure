@@ -30,15 +30,12 @@ public class PlayerMovement : MonoBehaviour
     //Changing  sprite
     public SpriteRenderer rend;
     public Sprite up, down, left, right;
-    //public Animator anim;
-    //private Vector2 lastMove;
+    public Animator animator;
 
 
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        //rend = gameObject.GetComponent<SpriteRenderer>();
-        //anim = gameObject.GetComponent<Animator>();
 
     }
 
@@ -89,25 +86,45 @@ public class PlayerMovement : MonoBehaviour
             {
                 rb.AddForce(Vector3.left * force, ForceMode2D.Impulse);
                 rend.sprite = left;
-               
+
+                //Animation -> BlendTree
+                animator.SetFloat("Vertical", 0);
+                animator.SetFloat("Horizontal", -1);
+                animator.SetFloat("Speed", Vector3.left.sqrMagnitude);
+                
             }
             if (Input.GetKey(myright))
             {
                 rb.AddForce(Vector3.right * force, ForceMode2D.Impulse);
                 rend.sprite = right;
-               
+
+                //Animation -> BlendTree
+                animator.SetFloat("Vertical", 0);
+                animator.SetFloat("Horizontal", 1);
+                animator.SetFloat("Speed", Vector3.right.sqrMagnitude);
+
             }
             if (Input.GetKey(myup))
             {
                 rb.AddForce(Vector3.up * force, ForceMode2D.Impulse);
                 rend.sprite = up;
-              
+
+                //Animation -> BlendTree
+                animator.SetFloat("Vertical", 1);
+                animator.SetFloat("Horizontal", 0);
+                animator.SetFloat("Speed", Vector3.up.sqrMagnitude);
+
             }
             if (Input.GetKey(mydown))
             {
                 rb.AddForce(Vector3.down * force, ForceMode2D.Impulse);
                 rend.sprite = down;
-              
+
+                //Animation -> BlendTree
+                animator.SetFloat("Vertical", -1);
+                animator.SetFloat("Horizontal", 0);
+                animator.SetFloat("Speed", Vector3.down.sqrMagnitude);
+
             }
 
         }
