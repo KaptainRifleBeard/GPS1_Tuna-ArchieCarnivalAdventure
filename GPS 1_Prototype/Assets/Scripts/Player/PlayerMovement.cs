@@ -31,18 +31,14 @@ public class PlayerMovement : MonoBehaviour
     public SpriteRenderer rend;
     public Sprite up, down, left, right;
     public Animator animator;
-    private Vector2 direction;
 
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-
     }
 
     void Update()
     {
-        direction = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f);
-
         if (Input.GetKeyDown(myShoot))
         {
             FindObjectOfType<AudioManager>().Play("PlayerShoot");
@@ -81,57 +77,65 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //if not holding any key
-        animator.SetFloat("Vertical", 0);
-        animator.SetFloat("Horizontal", 0);
-        animator.SetFloat("Speed", 0);
-
-
         //if not knockback, player able to move
         if (knockbackCount <= 0)
         {
             if (Input.GetKey(myleft))
             {
+                //Animation -> BlendTree
+                if(Vector3.left != Vector3.zero)
+                {
+                    animator.SetFloat("Vertical", 0);
+                    animator.SetFloat("Horizontal", -1);
+                }
+
+                animator.SetFloat("Speed", force);
+
                 rb.AddForce(Vector3.left * force, ForceMode2D.Impulse);
                 rend.sprite = left;
-
-                //Animation -> BlendTree
-                animator.SetFloat("Vertical", 0);
-                animator.SetFloat("Horizontal", -1);
-                animator.SetFloat("Speed", -rb.velocity.x);
 
             }
             if (Input.GetKey(myright))
             {
+                //Animation -> BlendTree
+                if (Vector3.right != Vector3.zero)
+                {
+                    animator.SetFloat("Vertical", 0);
+                    animator.SetFloat("Horizontal", 1);
+                }
+                   
+                animator.SetFloat("Speed", force);
+
                 rb.AddForce(Vector3.right * force, ForceMode2D.Impulse);
                 rend.sprite = right;
-
-                //Animation -> BlendTree
-                animator.SetFloat("Vertical", 0);
-                animator.SetFloat("Horizontal", 1);
-                animator.SetFloat("Speed", rb.velocity.x);
-
             }
             if (Input.GetKey(myup))
             {
+                //Animation -> BlendTree
+                if (Vector3.up != Vector3.zero)
+                {
+                    animator.SetFloat("Vertical", 1);
+                    animator.SetFloat("Horizontal", 0);
+                }
+                animator.SetFloat("Speed", force);
+
                 rb.AddForce(Vector3.up * force, ForceMode2D.Impulse);
                 rend.sprite = up;
-
-                //Animation -> BlendTree
-                animator.SetFloat("Vertical", 1);
-                animator.SetFloat("Horizontal", 0);
-                animator.SetFloat("Speed", rb.velocity.y);
 
             }
             if (Input.GetKey(mydown))
             {
+                //Animation -> BlendTree
+                if (Vector3.down != Vector3.zero)
+                {
+                    animator.SetFloat("Vertical", -1);
+                    animator.SetFloat("Horizontal", 0);
+                }
+                animator.SetFloat("Speed", force);
+
                 rb.AddForce(Vector3.down * force, ForceMode2D.Impulse);
                 rend.sprite = down;
 
-                //Animation -> BlendTree
-                animator.SetFloat("Vertical", -1);
-                animator.SetFloat("Horizontal", 0);
-                animator.SetFloat("Speed", -rb.velocity.y);
 
             }
 
