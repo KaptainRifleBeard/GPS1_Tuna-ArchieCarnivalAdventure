@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3084979549221026662}
   - component: {fileID: 3084979549221026663}
   - component: {fileID: 3084979549221026660}
+  - component: {fileID: 327768977119828463}
   m_Layer: 0
   m_Name: Tuna_Right_Cheese
   m_TagString: Player
@@ -123,7 +124,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.13337135, y: -0.25783062}
+  m_Offset: {x: 0.13883972, y: -0.23959923}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -134,7 +135,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8577156, y: 0.53055763}
+  m_Size: {x: 0.86865234, y: 0.5670204}
   m_EdgeRadius: 0
 --- !u!114 &3084979549221026662
 MonoBehaviour:
@@ -179,6 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df77643258addef41809d3c6354f0396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health: {fileID: 0}
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
   SetSpriteColor: {fileID: 3084979549221026659}
@@ -201,6 +203,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &327768977119828463
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3084979549221026666}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.18045044, y: 0.24612617}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.25, y: 1.14}
+    newSize: {x: 1.25, y: 1.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7505722, y: 0.41438293}
+  m_EdgeRadius: 0
 --- !u!1 &3084979549756963771
 GameObject:
   m_ObjectHideFlags: 0

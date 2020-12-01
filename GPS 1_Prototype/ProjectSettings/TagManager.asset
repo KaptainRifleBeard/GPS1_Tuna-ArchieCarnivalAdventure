@@ -24,6 +24,7 @@ TagManager:
   - Healthpack
   - TicketScore
   - ToNextLevel
+  - Props
   layers:
   - Default
   - TransparentFX
@@ -38,7 +39,7 @@ TagManager:
   - Tilemap
   - Enemy
   - Booths
-  - 
+  - Props
   - 
   - 
   - 
@@ -78,4 +79,10 @@ TagManager:
     locked: 0
   - name: Heart
     uniqueID: 249454779
+    locked: 0
+  - name: Props
+    uniqueID: 164535711
+    locked: 0
+  - name: PlayerBullet
+    uniqueID: 3140826417
     locked: 0
