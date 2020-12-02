@@ -30673,7 +30673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -79, y: -108}
+  m_AnchoredPosition: {x: -94, y: -85}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807976784
@@ -30696,7 +30696,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Enemy Killed: '
+  m_text: 'Enemies Defeated:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -30759,7 +30759,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -97.44639, w: 0}
+  m_margin: {x: -35.18115, y: 0, z: -97.44639, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -62972,11 +62972,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8971338953071049446, guid: ed98d064478bcec4c85eb77a2fa57811, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 141
+      value: 212
       objectReference: {fileID: 0}
     - target: {fileID: 8971338953071049446, guid: ed98d064478bcec4c85eb77a2fa57811, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 4
+      value: -3.3
       objectReference: {fileID: 0}
     - target: {fileID: 8971338953071049446, guid: ed98d064478bcec4c85eb77a2fa57811, type: 3}
       propertyPath: m_SizeDelta.x
