@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8603972411106823151}
   - component: {fileID: 2065724728100411040}
   - component: {fileID: 2889686111753656734}
+  - component: {fileID: 4193732999345377243}
   m_Layer: 0
   m_Name: Squirrel CG
   m_TagString: Enemy
@@ -122,18 +123,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.105917454, y: -0.0021233559}
+  m_Offset: {x: -0.105917454, y: 0.002248764}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.752, y: 0.56}
+    oldSize: {x: 0.83555555, y: 0.62222224}
     newSize: {x: 3.76, y: 2.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6983843, y: 1.0258493}
+  m_Size: {x: 0.6983843, y: 0.73146915}
   m_EdgeRadius: 0
 --- !u!114 &8603972411106823151
 MonoBehaviour:
@@ -198,6 +199,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &4193732999345377243
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728797383049502557}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.09907484, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.83555555, y: 0.62222224}
+    newSize: {x: 3.76, y: 2.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.52084637, y: 0.62222224}
+  m_EdgeRadius: 0
 --- !u!1 &2054104115976679871
 GameObject:
   m_ObjectHideFlags: 0

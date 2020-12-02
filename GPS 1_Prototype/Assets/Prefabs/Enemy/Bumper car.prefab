@@ -106,7 +106,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.766, y: 0.596}
+    oldSize: {x: 1.0942857, y: 0.85142857}
     newSize: {x: 3.83, y: 2.98}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -174,7 +174,7 @@ MonoBehaviour:
   dropItems:
   - {fileID: 3773963557549178165, guid: d353df6bbebce72438193614011e1252, type: 3}
   - {fileID: 4502006490992129713, guid: b7add24eabcd6274190bddc388ffb2b1, type: 3}
-  health: 10
+  health: 30
   animator: {fileID: 435691570}
   SetSpriteColor: {fileID: 478126117108005189}
 --- !u!114 &75199676910489054
@@ -203,18 +203,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.040358543, y: -0.28256416}
+  m_Offset: {x: 0.033783436, y: -0.09678006}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.766, y: 0.596}
+    oldSize: {x: 1.0942857, y: 0.85142857}
     newSize: {x: 3.83, y: 2.98}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3284645, y: 0.58041096}
+  m_Size: {x: 0.84849644, y: 0.55739355}
   m_EdgeRadius: 0
 --- !u!95 &435691570
 Animator:
