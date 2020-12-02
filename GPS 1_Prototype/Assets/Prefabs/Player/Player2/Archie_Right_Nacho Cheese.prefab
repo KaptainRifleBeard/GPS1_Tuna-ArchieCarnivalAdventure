@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 4792513933652447636}
   - component: {fileID: 4792513933652447639}
   - component: {fileID: 1054534750013466582}
-  - component: {fileID: 2504548476557870473}
   m_Layer: 9
   m_Name: Archie_Right_Nacho Cheese
   m_TagString: Player
@@ -150,11 +149,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 4792513933652447641}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: de23531af7c33a54ea083c4e6e59d10b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.02540207, y: -0.21379662}
+  m_Offset: {x: 0.04401779, y: -0.05862713}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -165,7 +164,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.92022705, y: 0.5223007}
+  m_Size: {x: 0.57686615, y: 0.8326397}
   m_EdgeRadius: 0
 --- !u!114 &4792513933652447636
 MonoBehaviour:
@@ -232,32 +231,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &2504548476557870473
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4792513933652447641}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.14065361, y: 0.18827343}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5533333, y: 1.1333333}
-    newSize: {x: 1.5533333, y: 1.1333333}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.6680336, y: 0.36783028}
-  m_EdgeRadius: 0
 --- !u!1 &7211694331618893738
 GameObject:
   m_ObjectHideFlags: 0

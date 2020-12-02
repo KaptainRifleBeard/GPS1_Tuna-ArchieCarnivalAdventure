@@ -68,8 +68,14 @@ TagManager:
   - name: Booths
     uniqueID: 1040763779
     locked: 0
+  - name: Props
+    uniqueID: 164535711
+    locked: 0
   - name: Player
     uniqueID: 1415558411
+    locked: 0
+  - name: PlayerBullet
+    uniqueID: 3140826417
     locked: 0
   - name: UI
     uniqueID: 988509715
@@ -79,10 +85,4 @@ TagManager:
     locked: 0
   - name: Heart
     uniqueID: 249454779
-    locked: 0
-  - name: Props
-    uniqueID: 164535711
-    locked: 0
-  - name: PlayerBullet
-    uniqueID: 3140826417
     locked: 0
