@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public HeartSystem Health; 
     public static healthSystem HealthSystem;
 
 

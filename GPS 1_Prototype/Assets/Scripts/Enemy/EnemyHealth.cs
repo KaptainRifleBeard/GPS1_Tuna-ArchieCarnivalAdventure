@@ -18,7 +18,7 @@ public class EnemyHealth : MonoBehaviour
     {
         for (int n = 0; n < 2; n++)
         {
-            SetSpriteColor.color = Color.clear;
+            SetSpriteColor.color = Color.red;
             yield return new WaitForSeconds(0.1f);
             SetSpriteColor.color = Color.white;
             yield return new WaitForSeconds(0.1f);
