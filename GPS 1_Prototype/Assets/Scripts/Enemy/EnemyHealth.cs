@@ -73,13 +73,14 @@ public class EnemyHealth : MonoBehaviour
         randNum = Random.Range(0, 101); // 100% total for determining loot chance;
         Debug.Log("Random Number is " + randNum);
 
+        /*
         if (randNum > 40 && randNum <= 75) 
         {
             itemNum = 0; //num in item list
             Instantiate(dropItems[itemNum], gameObject.transform.position, Quaternion.identity);
 
-        }
-        else if (randNum > 22 && randNum <= 39)
+        }*/
+        if (randNum > 0 && randNum <= 49)
         {
             itemNum = 1; //num in item list
             Instantiate(dropItems[itemNum], gameObject.transform.position, Quaternion.identity);
