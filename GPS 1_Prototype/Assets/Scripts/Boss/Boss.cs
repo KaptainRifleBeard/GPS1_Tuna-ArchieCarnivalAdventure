@@ -10,9 +10,21 @@ public class Boss : MonoBehaviour
 
     public int maxHealth = 300;
     public int curHealth;
+    public SpriteRenderer SetSpriteColor;
+
     public IEnumerator BossDie()
     {
         yield return new WaitForSeconds(3f);
+    }
+    IEnumerator getDamageVFX()
+    {
+        for (int n = 0; n < 2; n++)
+        {
+            SetSpriteColor.color = Color.red;
+            yield return new WaitForSeconds(0.1f);
+            SetSpriteColor.color = Color.white;
+            yield return new WaitForSeconds(0.1f);
+        }
     }
 
     void Start()
@@ -42,6 +54,7 @@ public class Boss : MonoBehaviour
     {
         if (other.gameObject.CompareTag("PlayerBullet"))
         {
+            StartCoroutine(getDamageVFX());
             takeDamage(5);
         }
 
