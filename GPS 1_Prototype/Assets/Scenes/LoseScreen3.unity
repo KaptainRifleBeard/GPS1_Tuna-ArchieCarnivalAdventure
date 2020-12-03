@@ -338,10 +338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 009245a74b0f77c4b8824a6551b459f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: []
-  spawnpoint: {fileID: 8437040765193352206, guid: 73d806f60aae95d4b8347e84ac48f94e, type: 3}
-  storepoint: {fileID: 0}
-  randPlayer: 0
 --- !u!1 &1112706582
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,6 +835,7 @@ GameObject:
   - component: {fileID: 1925820619}
   - component: {fileID: 1925820618}
   - component: {fileID: 1925820617}
+  - component: {fileID: 1925820621}
   m_Layer: 5
   m_Name: RetryButton
   m_TagString: Untagged
@@ -959,6 +956,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925820615}
   m_CullTransparentMesh: 0
+--- !u!114 &1925820621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925820615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f37ed4b5552b134c8a22f6b6da5bd69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: space
 --- !u!1 &2055402801
 GameObject:
   m_ObjectHideFlags: 0
