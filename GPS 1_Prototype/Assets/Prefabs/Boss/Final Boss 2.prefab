@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 6631810307212261727}
   - component: {fileID: 3305347900020257657}
   - component: {fileID: 8104499612459988548}
+  - component: {fileID: 1189015160}
   m_Layer: 11
   m_Name: Final Boss 2
   m_TagString: Enemy
@@ -111,7 +112,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 159f238e37c256841a73594adc506acc, type: 3}
+  m_Sprite: {fileID: 8906403843403749678, guid: 5bb34befc5e55f44fbbc8a08a8ae7599, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -160,7 +161,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 5.12}
+    oldSize: {x: 4.405, y: 3.9150004}
     newSize: {x: 10.24, y: 10.24}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -322,6 +323,26 @@ MonoBehaviour:
   isLaser: 0
   bossMove: 0
   lineOfSight: {fileID: 3714752046850760503}
+  animator: {fileID: 1189015160}
+--- !u!95 &1189015160
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5509125654289213871}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 25d441931b5b7104cb737b6d6f464c10, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5724673421284408849
 GameObject:
   m_ObjectHideFlags: 0

@@ -46,7 +46,7 @@ MonoBehaviour:
   sounds:
   - name: BGM
     clip: {fileID: 8300000, guid: e47ca574f71a8264584fbc18824cb0dc, type: 3}
-    volumn: 0.1
+    volumn: 0.2
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -76,7 +76,19 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: EnemySpawn
     clip: {fileID: 8300000, guid: 014fe6a67a3aa28439d4877dda2539a7, type: 3}
-    volumn: 0.2
+    volumn: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CorkGunShoot
+    clip: {fileID: 8300000, guid: 93b2cc8b02a215d4fa9c0f017e909f6b, type: 3}
+    volumn: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CottonShoot
+    clip: {fileID: 8300000, guid: 40fe0d7e5c8290c40bfc267cc7c4b5e8, type: 3}
+    volumn: 0.4
     pitch: 1
     loop: 0
     source: {fileID: 0}

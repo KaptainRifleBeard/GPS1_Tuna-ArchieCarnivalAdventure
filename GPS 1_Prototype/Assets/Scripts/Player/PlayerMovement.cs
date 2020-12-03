@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
     public int direction;
     public Animator animator;
 
-    private AudioManager audio;
+    //private AudioManager audio;
 
     private void Start()
     {

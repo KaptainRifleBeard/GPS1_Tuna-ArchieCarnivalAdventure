@@ -122,6 +122,8 @@ public class ShootingEnemy : MonoBehaviour
             {
                 if (timeBtwShoot <= 0)
                 {
+                    FindObjectOfType<AudioManager>().Play("CorkGunShoot");
+
                     GameObject b = Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
                     b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
                     timeBtwShoot = startTimeBtwShoot;  //shoot delay

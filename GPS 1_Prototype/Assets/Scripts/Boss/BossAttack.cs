@@ -29,6 +29,7 @@ public class BossAttack : MonoBehaviour
 
     RaycastHit2D hit;
     public LineRenderer lineOfSight;
+    public Animator animator;
 
     //! 3 seconds aiming 
     public IEnumerator aimDuration()
@@ -40,23 +41,32 @@ public class BossAttack : MonoBehaviour
     //! 6 seconds laser attack
     public IEnumerator laserDuration()
     {
+        animator.SetBool("isLaser", true);
         yield return new WaitForSeconds(6f);
+        animator.SetBool("isLaser", false);
+
         attackTime = 0f;  //reset attack time
         count = 0;  //reset number prefab of laser
         isLaser = false;
         bossMove = true;
     }
 
-    //! After laser, wait 3 seconds to shoot
-    //! Boss shoot bullet for 10 seconds
-
+    public IEnumerator shootAnim()
+    {
+        animator.SetBool("isShoot", true);
+        yield return new WaitForSeconds(1f);
+        animator.SetBool("isShoot", false);
+    }
 
     void shoot()
     {
+
         if (Vector2.Distance(transform.position, target.transform.position) < attackRadius)
         {
             if (timeBtwShoot <= 0)
             {
+                StartCoroutine(shootAnim()); //play animation
+
                 Instantiate(bullet, shootPos_left.position, transform.rotation);
                 Instantiate(bullet, shootPos_right.position, transform.rotation);
 
