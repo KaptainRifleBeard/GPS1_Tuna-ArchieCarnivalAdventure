@@ -9,14 +9,20 @@ public class Healthpack : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Player player = collision.GetComponent<Player>();
+        PlayerB playerB = collision.GetComponent<PlayerB>();
+
         if (player != null)
         {
-            Debug.Log("i hit player ady!!!!!!!!!!!");
             player.heal(healAmount + 1);
             Destroy(gameObject);
 
         }
-        
+        if (playerB != null)
+        {
+            playerB.heal(healAmount + 1);
+            Destroy(gameObject);
+
+        }
 
     }
 }

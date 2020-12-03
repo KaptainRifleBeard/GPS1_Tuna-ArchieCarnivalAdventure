@@ -25,7 +25,7 @@ public class PlayerB : MonoBehaviour
     public void DamageKnockback(Vector3 kbDir, float kbDis, int damageAmount)
     {
         transform.position += kbDir * kbDis;
-        //healthVisualB.HealthSystem.Damage(damageAmount);
+        healthVisualB.HealthSystem.Damage(damageAmount);
     }
 
     public Vector3 GetPosition()
@@ -42,8 +42,6 @@ public class PlayerB : MonoBehaviour
         if (other.gameObject.CompareTag("EnemyBullet"))
         {
             StartCoroutine(getDamageVFX());
-
-            //anim.Play("TakeDamageVFX");
         }
     }
 

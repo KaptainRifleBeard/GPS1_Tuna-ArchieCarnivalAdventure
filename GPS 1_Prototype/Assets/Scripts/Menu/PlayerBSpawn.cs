@@ -17,23 +17,24 @@ public class PlayerBSpawn : SelectPlayMode
 
     public void Start()
     {
-        randP = Random.Range(0, player.Length);
-        cPlayer = randP;
-
-        Debug.Log("randplayer2 = " + randP);
-        Debug.Log("currplayer2 = " + cPlayer);
-
         if (isDual)
         {
             Debug.Log("trigger dual");
 
             if (!WinLoseScreen.isRetryLevel)
             {
+                randP = Random.Range(0, player.Length);
+                cPlayer = randP;
+
+                Debug.Log("randplayer2 = " + randP);
+                Debug.Log("currplayer2 = " + cPlayer);
+
                 player[randP].transform.position = spawnpointB.transform.position;
-                
+
+                Debug.Log(player[cPlayer].name);
+                playerBRespawn = player[cPlayer];
             }
-            Debug.Log(player[cPlayer].name);
-            playerBRespawn = player[cPlayer];
+            
         }
         
     }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2912703912812856513}
   - component: {fileID: 3575300401771725119}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: player indicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 876953754675200695}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: ShootPosition (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 8376137213530712315}
   - component: {fileID: 3526382445633449830}
   - component: {fileID: 2347292693046421319}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: Archie_Right_Water Gun
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1415558411
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: f0c3d42968ff2894688b817a6a9ec259, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -274,10 +274,7 @@ MonoBehaviour:
   knockbackLength: 0.2
   isKnockbackRight: 0
   rend: {fileID: 191350890692293418}
-  up: {fileID: 21300000, guid: 33264ac66f04aa0439688d8c6d52372c, type: 3}
-  down: {fileID: 21300000, guid: d77329e2473411846b5bb154a9248392, type: 3}
-  left: {fileID: 21300000, guid: 3b4d41ae3cbf4a842aab025d78f76766, type: 3}
-  right: {fileID: 21300000, guid: f0c3d42968ff2894688b817a6a9ec259, type: 3}
+  direction: 0
   animator: {fileID: 2347292693046421319}
 --- !u!114 &3526382445633449830
 MonoBehaviour:

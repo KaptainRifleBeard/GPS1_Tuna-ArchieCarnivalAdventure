@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4792513932522591953}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: ShootPosition (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 4792513933652447636}
   - component: {fileID: 4792513933652447639}
   - component: {fileID: 1054534750013466582}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: Archie_Right_Nacho Cheese
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1415558411
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: b45a42a45c711b243903c51ce8152635, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -192,10 +192,7 @@ MonoBehaviour:
   knockbackLength: 0.2
   isKnockbackRight: 0
   rend: {fileID: 4792513933652447643}
-  up: {fileID: 21300000, guid: b2f2a5aff5382604a9799884211da5e7, type: 3}
-  down: {fileID: 21300000, guid: aae60a9a566f7854f91c6e197ef819dd, type: 3}
-  left: {fileID: 21300000, guid: 20c5cc443c7556447b7670e44bbcd177, type: 3}
-  right: {fileID: 21300000, guid: b45a42a45c711b243903c51ce8152635, type: 3}
+  direction: 0
   animator: {fileID: 1054534750013466582}
 --- !u!114 &4792513933652447639
 MonoBehaviour:
@@ -241,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6965910519518002452}
   - component: {fileID: 2986175864191313771}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: player indicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}

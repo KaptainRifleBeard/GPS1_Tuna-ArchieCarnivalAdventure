@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class healthVisual : MonoBehaviour
 {
+    public static healthVisualB healthB;
+
     public static healthSystem HealthSystem;
     [SerializeField] private Sprite heart0Sprite;
     [SerializeField] private Sprite heart1Sprite;
@@ -59,19 +61,42 @@ public class healthVisual : MonoBehaviour
 
     public void healthSystem_OnDead(object sender, System.EventArgs e)
     {
+        GameObject[] player = GameObject.FindGameObjectsWithTag("Player");
 
         Debug.Log("Dead!");
         p1IsDead = true;
-
-        if (p1IsDead == true)
+        if (SelectPlayMode.isDual == true)
         {
-
-            loseScreen.SetActive(true);            
-            if (WinLoseScreen.isRetryLevel == true)
+            foreach (GameObject p in player)
             {
-                p1IsDead = false;   
+                if (p.layer == 9)
+                {
+                    Destroy(p);
+                    if (p1IsDead == true && healthVisualB.p2IsDead == true)
+                    {
+                        loseScreen.SetActive(true);
+                        if (WinLoseScreen.isRetryLevel == true)
+                        {
+                            p1IsDead = false;
+                        }
+                    }
+                }
+
+            }
+            
+        }
+        else
+        {
+            if(p1IsDead)
+            {
+                loseScreen.SetActive(true);
+                if (WinLoseScreen.isRetryLevel == true)
+                {
+                    p1IsDead = false;
+                }
             }
         }
+        
     }
 
     private void healthSystem_OnDamaged(object sender, System.EventArgs e)

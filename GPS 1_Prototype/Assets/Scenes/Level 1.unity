@@ -18252,14 +18252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e1ac402a25e29946926966c33614cd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  storePoint: {fileID: 296601656}
-  player: []
-  spawnpoint: {fileID: 0}
-  randPlayer: 0
-  dart: {fileID: 6947847080659075361, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
-  uni: {fileID: 5102352043661919829, guid: 5a5c19829777fe94aa3114f719d0dfea, type: 3}
-  cheese: {fileID: 4792513933652447641, guid: 210e3e2a5cd16984d97a09389ad439b3, type: 3}
-  water: {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
 --- !u!1001 &296625794
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -59,35 +59,41 @@ public class healthVisualB : MonoBehaviour
 
     public void healthSystem_OnDead(object sender, System.EventArgs e)
     {
-        int y = SceneManager.GetActiveScene().buildIndex;
+        GameObject[] playerB = GameObject.FindGameObjectsWithTag("Player");
+
         Debug.Log("Dead!");
         p2IsDead = true;
 
-        if (p2IsDead == true)
+        if (SelectPlayMode.isDual == true)
         {
-
-            //To lose screen
-            if (y == 3)
+            foreach (GameObject p in playerB)
             {
-                SceneManager.LoadScene(6);
+                if (p.layer == 14)
+                {
+                    Destroy(p);
+                    if (healthVisual.p1IsDead == true && p2IsDead == true)
+                    {
+                        loseScreen.SetActive(true);
+                        if (WinLoseScreen.isRetryLevel == true)
+                        {
+                            p2IsDead = false;
+                        }
+                    }
+                }
             }
-            else if (y == 5)
+                
+            
+        }
+        else
+        {
+            if (p2IsDead)
             {
-                SceneManager.LoadScene(8);
+                loseScreen.SetActive(true);
+                if (WinLoseScreen.isRetryLevel == true)
+                {
+                    p2IsDead = false;
+                }
             }
-            else if (y == 4)
-            {
-                SceneManager.LoadScene(7);
-            }
-
-            //loseScreen.SetActive(true);
-            //if (WinLoseScreen.isRetryLevel == true)
-            //{
-
-            //}
-            //Destroy(GameObject.Find("Player"));
-
-
         }
     }
 

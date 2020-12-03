@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3084979549221026662}
   - component: {fileID: 3084979549221026663}
   - component: {fileID: 3084979549221026660}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tuna_Right_Cheese
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -176,7 +176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df77643258addef41809d3c6354f0396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: {fileID: 0}
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
   SetSpriteColor: {fileID: 3084979549221026659}
@@ -208,7 +207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3084979549756963770}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ShootPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3084979550871958579}
   - component: {fileID: 3084979550871958578}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: player indicator 2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

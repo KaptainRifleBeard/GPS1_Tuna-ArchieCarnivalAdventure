@@ -17,21 +17,22 @@ public class PlayerSpawn : SelectPlayMode
     public Sprite dart_icon, uni_icon, cheese_icon, water_icon;
 
     void Start()
-    {    
-        randPlayer = Random.Range(0, player.Length);    
-        currPlayer = randPlayer;
-
-        Debug.Log("randplayer1 = " + randPlayer);
-        Debug.Log("currplayer1 = " + currPlayer);    
+    {   
 
         if(!WinLoseScreen.isRetryLevel)
         {
-            player[randPlayer].transform.position = spawnpoint.transform.position;  
+            randPlayer = Random.Range(0, player.Length);
+            currPlayer = randPlayer;
 
+            Debug.Log("randplayer1 = " + randPlayer);
+            Debug.Log("currplayer1 = " + currPlayer);
+
+            player[randPlayer].transform.position = spawnpoint.transform.position;
+
+            Debug.Log(player[currPlayer].name);
+            playerRespawn = player[currPlayer];
         }
 
-        Debug.Log(player[currPlayer].name);
-        playerRespawn = player[currPlayer];
 
     }
 }

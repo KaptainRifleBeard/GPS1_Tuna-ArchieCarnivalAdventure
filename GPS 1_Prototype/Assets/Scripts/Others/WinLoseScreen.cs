@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class WinLoseScreen : MonoBehaviour
 {
     public static bool isRetryLevel;
+
     public static healthVisual health;
+    public static healthVisualB healthB;
 
     public GameObject loseScreen;
     public GameObject spawnpoint;
@@ -34,23 +36,39 @@ public class WinLoseScreen : MonoBehaviour
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
-        if (healthVisual.p1IsDead == true)
+        if(SelectPlayMode.isDual == true)
         {
-            PlayerSpawn.playerRespawn.transform.position = spawnpoint.transform.position;
-            isRetryLevel = true;
-            loseScreen.SetActive(false);
-            StartCoroutine(stopRetryLevel());
+            if (healthVisual.p1IsDead == true && healthVisualB.p2IsDead == true)
+            {
+                Application.LoadLevel(Application.loadedLevel);
 
-            Application.LoadLevel(Application.loadedLevel);
-            //healthVisual.HealthSystem.addHealth(6);
+                PlayerSpawn.playerRespawn.transform.position = spawnpoint.transform.position;
+                PlayerBSpawn.playerBRespawn.transform.position = spawnpoint.transform.position;
+
+                isRetryLevel = true;
+                loseScreen.SetActive(false);
+                StartCoroutine(stopRetryLevel());
+
+            }
         }
+        else if (SelectPlayMode.isDual == false)
+        {
+            if (healthVisual.p1IsDead == true)
+            {
+                Application.LoadLevel(Application.loadedLevel);
+
+                PlayerSpawn.playerRespawn.transform.position = spawnpoint.transform.position;
+                isRetryLevel = true;
+                loseScreen.SetActive(false);
+                StartCoroutine(stopRetryLevel());
+
+            }
+        }
+        
 
     }
 
 }
-
-
-
 
 
 //GameObject player = GameObject.FindGameObjectWithTag("Player");

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5065840110290096449}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: ShootPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 7192374669331144234}
   - component: {fileID: 742444481030679328}
   - component: {fileID: 1077803427856717338}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: Arche_Right_Dart
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0233333, y: 0.68666667}
+    oldSize: {x: 0.7675, y: 0.515}
     newSize: {x: 1.0233333, y: 0.68666667}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -192,10 +192,7 @@ MonoBehaviour:
   knockbackLength: 0.2
   isKnockbackRight: 0
   rend: {fileID: 8613118318411218338}
-  up: {fileID: -6600729284828056545, guid: a28be01366198ac4588951410405593e, type: 3}
-  down: {fileID: 3050286826593947450, guid: 373b1ff5a96378d4591f714d90a6ab21, type: 3}
-  left: {fileID: -5839437857142484270, guid: fa89d4ab1228df34794fb390bd6572ab, type: 3}
-  right: {fileID: 3799930955762541363, guid: 88bcff303d1094742807ef822162e957, type: 3}
+  direction: 0
   animator: {fileID: 1077803427856717338}
 --- !u!114 &742444481030679328
 MonoBehaviour:
@@ -241,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 279853169165998999}
   - component: {fileID: 7186997363630379615}
-  m_Layer: 9
+  m_Layer: 14
   m_Name: player indicator (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
