@@ -8,9 +8,10 @@ public class PlayerBSpawn : SelectPlayMode
 {
     public GameObject[] player;
     public GameObject spawnpointB;
+    public static GameObject playerBRespawn;
 
     public int randP = 0;
-    public int cPlayer = 0;
+    public static int cPlayer = 0;
 
     public Sprite dart_icon, uni_icon, cheese_icon, water_icon;
 
@@ -19,33 +20,23 @@ public class PlayerBSpawn : SelectPlayMode
         randP = Random.Range(0, player.Length);
         cPlayer = randP;
 
+        Debug.Log("randplayer2 = " + randP);
+        Debug.Log("currplayer2 = " + cPlayer);
+
         if (isDual)
-        {       
+        {
             Debug.Log("trigger dual");
-            player[randP].transform.position = spawnpointB.transform.position;
 
-            //if (cPlayer == 0)
-            //{
-            //    WeaponIcon2.image2.sprite = cheese_icon;
-
-            //}
-            //else if (cPlayer == 1)
-            //{
-            //    WeaponIcon2.image2.sprite = water_icon;
-
-            //}
+            if (!WinLoseScreen.isRetryLevel)
+            {
+                player[randP].transform.position = spawnpointB.transform.position;
+                
+            }
+            Debug.Log(player[cPlayer].name);
+            playerBRespawn = player[cPlayer];
         }
         
     }
 
-    void Update()
-    {
-        int y = SceneManager.GetActiveScene().buildIndex;
 
-        //if (healthVisualB.p2IsDead == true && y == 4)
-        //{
-        //    player[randP].transform.position = spawnpointB.transform.position;
-
-        //}
-    }
 }

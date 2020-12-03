@@ -14,13 +14,18 @@ public class WeaponIcon : MonoBehaviour
     {
         image = GetComponent<Image>();
 
-        //if (PlayerSpawn.randP == 0)
-        //{
-        //    image.sprite = cheese_icon;
-        //}
-        //if (PlayerSpawn.randP == 1)
-        //{
-        //    image.sprite = water_icon;
-        //}
+        if(PlayerSpawn.playerRespawn.name == "Tuna_Right_DartSheet")
+        {
+            image.sprite = dart_icon;
+        }
+        else if (PlayerSpawn.playerRespawn.name == "Tuna_Right_Unicorn")
+        {
+            image.sprite = uni_icon;
+        }
+        else if (PlayerSpawn.playerRespawn.name == "Tuna_Right_Cheese")
+        {
+            image.sprite = cheese_icon;
+        }
+
     }
 }

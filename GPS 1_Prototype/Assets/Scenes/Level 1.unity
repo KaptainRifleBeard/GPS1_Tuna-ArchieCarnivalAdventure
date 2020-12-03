@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 913195}
   - component: {fileID: 7642548755192054052}
   m_Layer: 5
-  m_Name: Throwing Dart icon
+  m_Name: WeaponIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e634b2f5ab7b14c4c838d351c617972f, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5376,6 +5376,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6801985081635333274, guid: 31f7fe3e87c4be14899656bdf9be884e, type: 3}
   m_PrefabInstance: {fileID: 1212274358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &222820658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4829234754718727834, guid: 0738d5172332cf147b81fd7105903399, type: 3}
+  m_PrefabInstance: {fileID: 7988522964286961214}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &223573254 stripped
 Transform:
@@ -35583,6 +35588,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
+--- !u!1 &1062269318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2501388723039364215, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
+  m_PrefabInstance: {fileID: 1077803427856717336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1066442711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8304869474179345339, guid: fb89904168a45b44ea14db80cb1c09d4, type: 3}
@@ -40591,6 +40601,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1301248728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3084979549221026666, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
+  m_PrefabInstance: {fileID: 3084979550089971805}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1301574483
 GameObject:
   m_ObjectHideFlags: 0
@@ -40730,7 +40745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7, y: -8.9999695}
+  m_AnchoredPosition: {x: 7, y: -8.999939}
   m_SizeDelta: {x: -685.64417, y: -166.88092}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1305049417
@@ -43177,18 +43192,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1411287633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7642548753926027179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 184d25cf2b058844c987fb64f538fa39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1413514510 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5098499015773249871, guid: 2b0680f60c21038498253e8c5f03d7f4, type: 3}
@@ -61224,7 +61227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6877729787819332183, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6877729787819332183, guid: 3c9334f22ef055f4eb4af966fa5397e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -61651,13 +61654,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9169036542916405953, guid: c8adbd864e4819e438443d567bf91152, type: 3}
+      propertyPath: player.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169036542916405953, guid: c8adbd864e4819e438443d567bf91152, type: 3}
       propertyPath: player.Array.data[0]
       value: 
       objectReference: {fileID: 4792513932336402698}
     - target: {fileID: 9169036542916405953, guid: c8adbd864e4819e438443d567bf91152, type: 3}
       propertyPath: player.Array.data[1]
       value: 
-      objectReference: {fileID: 8143154806285043622}
+      objectReference: {fileID: 1062269318}
+    - target: {fileID: 9169036542916405953, guid: c8adbd864e4819e438443d567bf91152, type: 3}
+      propertyPath: player.Array.data[2]
+      value: 
+      objectReference: {fileID: 222820658}
     - target: {fileID: 9169036542916405954, guid: c8adbd864e4819e438443d567bf91152, type: 3}
       propertyPath: m_Name
       value: Archie_SpawnPoint
@@ -61917,6 +61928,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4989735067196460581, guid: 2bccf93ec108cf641b284bc7cdef4780, type: 3}
+      propertyPath: player.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989735067196460581, guid: 2bccf93ec108cf641b284bc7cdef4780, type: 3}
       propertyPath: player.Array.data[0]
       value: 
       objectReference: {fileID: 267494524}
@@ -61924,6 +61939,10 @@ PrefabInstance:
       propertyPath: player.Array.data[1]
       value: 
       objectReference: {fileID: 5102352043637649350}
+    - target: {fileID: 4989735067196460581, guid: 2bccf93ec108cf641b284bc7cdef4780, type: 3}
+      propertyPath: player.Array.data[2]
+      value: 
+      objectReference: {fileID: 1301248728}
     - target: {fileID: 4989735067196460586, guid: 2bccf93ec108cf641b284bc7cdef4780, type: 3}
       propertyPath: m_Name
       value: Tuna_SpawnPoint
@@ -62030,7 +62049,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d3b50e3ee925e444c974a3c0edbc5bf3, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -62051,14 +62070,30 @@ GameObject:
   - component: {fileID: 7642548753926027176}
   - component: {fileID: 7642548753926027182}
   - component: {fileID: 7642548753926027177}
-  - component: {fileID: 1411287633}
+  - component: {fileID: 7642548753926027180}
   m_Layer: 5
-  m_Name: Cheese icon
+  m_Name: WeaponIcon2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7642548753926027180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7642548753926027179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184d25cf2b058844c987fb64f538fa39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dart_icon: {fileID: 21300000, guid: e634b2f5ab7b14c4c838d351c617972f, type: 3}
+  uni_icon: {fileID: 21300000, guid: 829100dcfc4fe2c4eabb62b1ad92d814, type: 3}
+  cheese_icon: {fileID: 21300000, guid: d3b50e3ee925e444c974a3c0edbc5bf3, type: 3}
+  water_icon: {fileID: 21300000, guid: 473121ccd67c3134794a47491f5cd804, type: 3}
 --- !u!222 &7642548753926027182
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -62083,71 +62118,6 @@ MonoBehaviour:
   uni_icon: {fileID: 21300000, guid: 829100dcfc4fe2c4eabb62b1ad92d814, type: 3}
   cheese_icon: {fileID: 21300000, guid: d3b50e3ee925e444c974a3c0edbc5bf3, type: 3}
   water_icon: {fileID: 21300000, guid: 473121ccd67c3134794a47491f5cd804, type: 3}
---- !u!1001 &7800904639147188754
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2347292693046421319, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 9aa17af058cecaa459dd841b43016e2f, type: 2}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 58.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -25.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.9711875
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_RootOrder
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2618565113730814945, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_Name
-      value: Archie_Right_Water Gun
-      objectReference: {fileID: 0}
-    - target: {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
 --- !u!1001 &7988522964286961214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62193,7 +62163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5425107615131111104, guid: 0738d5172332cf147b81fd7105903399, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5425107615131111104, guid: 0738d5172332cf147b81fd7105903399, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -62209,11 +62179,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0738d5172332cf147b81fd7105903399, type: 3}
---- !u!1 &8143154806285043622 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8143154804536991367, guid: 399b07bcfe64653408ee2d26589a8b30, type: 3}
-  m_PrefabInstance: {fileID: 7800904639147188754}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8866007779254473920
 PrefabInstance:
   m_ObjectHideFlags: 0
