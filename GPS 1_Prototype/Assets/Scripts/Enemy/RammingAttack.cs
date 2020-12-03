@@ -21,12 +21,14 @@ public class RammingAttack : MonoBehaviour
     public float stopRadius;
     public float rammingRadius;
 
+    //raycast
      
 
     void checkDistance()
     {
         if (Vector2.Distance(transform.position, target.transform.position) < followRadius)
         {
+            //addforce
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
         }
     }
@@ -53,6 +55,7 @@ public class RammingAttack : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Tilemap") || collision.gameObject.CompareTag("Barrier") || collision.gameObject.CompareTag("Stage"))
         {
+
             if (isFacingRight)
             {
                 isFacingRight = false;
@@ -101,7 +104,6 @@ public class RammingAttack : MonoBehaviour
         isRamming = true;
 
         players = GameObject.FindGameObjectsWithTag("Player");
-
 
         float distanceToClosestPlayer = Mathf.Infinity;
         GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
