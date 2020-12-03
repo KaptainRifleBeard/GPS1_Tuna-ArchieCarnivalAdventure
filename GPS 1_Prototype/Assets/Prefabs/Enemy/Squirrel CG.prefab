@@ -153,7 +153,9 @@ MonoBehaviour:
   - {fileID: 2323648173347776814, guid: 1bad0375dfab8944f8f3d25263d77bf3, type: 3}
   - {fileID: 8818107859876682882, guid: 21fa4cae7d5bc894aba507910fd39da9, type: 3}
   - {fileID: 5327312428992973655, guid: 2b16f94fc77adec458487e5e431510a1, type: 3}
-  dropItems: {fileID: 4502006490992129713, guid: b7add24eabcd6274190bddc388ffb2b1, type: 3}
+  dropItems:
+  - {fileID: 4502006490992129713, guid: b7add24eabcd6274190bddc388ffb2b1, type: 3}
+  - {fileID: 3773963557549178165, guid: d353df6bbebce72438193614011e1252, type: 3}
   health: 15
   animator: {fileID: 2889686111753656734}
   SetSpriteColor: {fileID: 4873296659191329507}

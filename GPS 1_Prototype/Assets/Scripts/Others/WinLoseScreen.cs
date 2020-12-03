@@ -25,27 +25,17 @@ public class WinLoseScreen : MonoBehaviour
 
     public IEnumerator stopRetryLevel()
     {
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.1f);
         Debug.Log("is retry = false");
         isRetryLevel = false;
     }
 
     public void RetryLevel()
     {
-        int y = SceneManager.GetActiveScene().buildIndex;
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
         if (healthVisual.p1IsDead == true)
         {
-            if(y == 3)
-            {
-                GameObject[] player1s = GameObject.FindGameObjectsWithTag("Player");
-                foreach (GameObject player in player1s)
-                {
-                    GameObject.Destroy(player);
-
-                }
-            }
             PlayerSpawn.playerRespawn.transform.position = spawnpoint.transform.position;
             isRetryLevel = true;
             loseScreen.SetActive(false);

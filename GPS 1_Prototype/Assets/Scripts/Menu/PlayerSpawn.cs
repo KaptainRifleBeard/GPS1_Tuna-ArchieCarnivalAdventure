@@ -22,14 +22,13 @@ public class PlayerSpawn : SelectPlayMode
         currPlayer = randPlayer;
 
         Debug.Log("randplayer = " + randPlayer);
-        Debug.Log("currplayer = " + currPlayer);
-        player[randPlayer].transform.position = spawnpoint.transform.position;
-        /*
+        Debug.Log("currplayer = " + currPlayer);    
+
         if(!WinLoseScreen.isRetryLevel)
         {
             player[randPlayer].transform.position = spawnpoint.transform.position;  
         }
-        */
+
 
         Debug.Log(player[currPlayer].name);
         playerRespawn = player[currPlayer];

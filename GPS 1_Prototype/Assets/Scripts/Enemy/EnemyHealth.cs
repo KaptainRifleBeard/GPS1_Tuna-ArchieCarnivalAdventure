@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public GameObject[] playerBullet;
-    public GameObject dropItems;
+    public GameObject[] dropItems;
 
     private int randNum;
     public int health;
@@ -66,14 +66,6 @@ public class EnemyHealth : MonoBehaviour
 
     void itemDrop()
     {
-        randNum = Random.Range(0, 100);
-        if (randNum > 0 && randNum <= 49)
-        {
-            Instantiate(dropItems, gameObject.transform.position, Quaternion.identity);
-
-        }
-
-        /*
         int itemNum;
         int randNum;
 
@@ -81,19 +73,19 @@ public class EnemyHealth : MonoBehaviour
         randNum = Random.Range(0, 101); // 100% total for determining loot chance;
         Debug.Log("Random Number is " + randNum);
 
-        
+        /*
         if (randNum > 40 && randNum <= 75) 
+        {
+            itemNum = 0; //num in item list
+            Instantiate(dropItems[itemNum], gameObject.transform.position, Quaternion.identity);
+
+        }*/
+        if (randNum > 0 && randNum <= 49)
         {
             itemNum = 1; //num in item list
             Instantiate(dropItems[itemNum], gameObject.transform.position, Quaternion.identity);
 
         }
-        if (randNum > 0 && randNum <= 49)
-        {
-            itemNum = 0; //num in item list
-
-        }
-        */
     }
 
 }
