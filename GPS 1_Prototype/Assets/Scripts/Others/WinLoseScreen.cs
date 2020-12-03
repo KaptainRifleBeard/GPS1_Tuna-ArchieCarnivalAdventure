@@ -40,6 +40,7 @@ public class WinLoseScreen : MonoBehaviour
             isRetryLevel = true;
             loseScreen.SetActive(false);
             StartCoroutine(stopRetryLevel());
+
             Application.LoadLevel(Application.loadedLevel);
             //healthVisual.HealthSystem.addHealth(6);
         }

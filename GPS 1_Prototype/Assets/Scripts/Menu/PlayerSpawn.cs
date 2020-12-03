@@ -33,9 +33,6 @@ public class PlayerSpawn : SelectPlayMode
         Debug.Log(player[currPlayer].name);
         playerRespawn = player[currPlayer];
 
-
-
-
         //if (currPlayer == 0)
         //{
         //    WeaponIcon.image.sprite = dart_icon;

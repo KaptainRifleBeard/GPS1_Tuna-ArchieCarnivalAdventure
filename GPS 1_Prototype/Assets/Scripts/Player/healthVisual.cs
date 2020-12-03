@@ -66,8 +66,7 @@ public class healthVisual : MonoBehaviour
         if (p1IsDead == true)
         {
 
-            loseScreen.SetActive(true); 
-
+            loseScreen.SetActive(true);            
             if (WinLoseScreen.isRetryLevel == true)
             {
                 p1IsDead = false;   
