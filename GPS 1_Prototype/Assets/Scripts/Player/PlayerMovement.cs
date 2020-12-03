@@ -32,20 +32,20 @@ public class PlayerMovement : MonoBehaviour
     public int direction;
     public Animator animator;
 
-    private AudioManager audio;
+    //private AudioManager audio;
 
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        audio = FindObjectOfType<AudioManager>();
+        //audio = FindObjectOfType<AudioManager>();
     }
 
     void Update()
     {
         if (Input.GetKeyDown(myShoot))
         {
-            //FindObjectOfType<AudioManager>().Play("PlayerShoot");
-            audio.Play("PlayerShoot");
+            FindObjectOfType<AudioManager>().Play("PlayerShoot");
+            //audio.Play("PlayerShoot");
             Debug.Log("ballClone");
 
             
