@@ -117,6 +117,9 @@ public class ShootingEnemy : MonoBehaviour
     {
         if (target != null)
         {
+            Vector3 dir = target.transform.position - transform.position;
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
             checkDistance();
             if (Vector2.Distance(target.transform.position, transform.position) < attackRadius)
             {

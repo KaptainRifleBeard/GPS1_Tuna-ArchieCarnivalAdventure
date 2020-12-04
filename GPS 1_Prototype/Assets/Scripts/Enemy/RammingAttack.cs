@@ -27,6 +27,10 @@ public class RammingAttack : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, target.transform.position) < followRadius)
         {
+            Vector3 dir = target.transform.position - transform.position;
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
             /*
             //transform.Rotate(Vector3.forward * rotateSpeed * Time.deltaTime);
             RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, distance);
