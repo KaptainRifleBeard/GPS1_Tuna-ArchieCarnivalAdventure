@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6, y: -96}
-  m_SizeDelta: {x: 76.17349, y: -26.261879}
+  m_AnchoredPosition: {x: 15, y: -119.3}
+  m_SizeDelta: {x: 59.35565, y: -42.10786}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &503943150
 MonoBehaviour:
@@ -207,7 +207,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1736451454}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Credits
+        m_MethodName: backToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8156719625717160803, guid: cb7ca3671c6369a428be1f1efb094b0b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 848e94d8335496f4abd3da3edba543bb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -587,7 +587,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 14dfa9b8ac44f884789077caee8a77e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a346425b1338ab34d873cd6017683027, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

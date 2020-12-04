@@ -49,4 +49,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("HowToPlay 2");
     }
+
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
 }
