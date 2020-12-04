@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -7569815142015956309}
   m_Layer: 0
   m_Name: Nacho cheese
-  m_TagString: PlayerBullet
+  m_TagString: CheeseBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

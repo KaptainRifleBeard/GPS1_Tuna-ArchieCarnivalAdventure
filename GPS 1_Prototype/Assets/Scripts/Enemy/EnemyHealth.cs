@@ -12,6 +12,12 @@ public class EnemyHealth : MonoBehaviour
     public Animator animator;
     public SpriteRenderer SetSpriteColor;
 
+
+    private void Start()
+    {
+        playerBullet = null;
+    }
+
     IEnumerator getDamageVFX()
     {
         for (int n = 0; n < 2; n++)
@@ -25,24 +31,34 @@ public class EnemyHealth : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-
         if (collision.gameObject.CompareTag("PlayerBullet"))
         {
             StartCoroutine(getDamageVFX());
-            health = health - 5;    //later change it to player bullet damage
-
-            if (health < 0)
-            {
-                FindObjectOfType<AudioManager>().Play("EnemyDeath");
-
-                CountKill.killAmount += 1;
-                Destroy(gameObject);
-                itemDrop();
-            }
+            health = health - 5;
+        }
+        if (collision.gameObject.CompareTag("CheeseBullet"))
+        {
+            StartCoroutine(getDamageVFX());
+            health = health - 10;
+        }
+        if (collision.gameObject.CompareTag("BubbleBullet"))
+        {
+            StartCoroutine(getDamageVFX());
+            health = health - 2;
         }
 
+        if (health <= 0)
+        {
+            FindObjectOfType<AudioManager>().Play("EnemyDeath");
+
+            CountKill.killAmount += 1;
+            Destroy(gameObject);
+            itemDrop();
+        }
 
     }
+
+
     void itemDrop()
     {
         int randNum = Random.Range(0, 100); // 100% total for determining loot chance;;
@@ -62,5 +78,6 @@ public class EnemyHealth : MonoBehaviour
 
         }
     }
+
 
 }

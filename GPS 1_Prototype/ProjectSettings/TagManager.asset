@@ -25,6 +25,8 @@ TagManager:
   - TicketScore
   - ToNextLevel
   - Props
+  - CheeseBullet
+  - BubbleBullet
   layers:
   - Default
   - TransparentFX
