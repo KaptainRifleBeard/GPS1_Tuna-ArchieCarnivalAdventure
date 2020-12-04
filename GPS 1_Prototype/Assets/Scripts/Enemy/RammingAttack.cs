@@ -20,6 +20,8 @@ public class RammingAttack : MonoBehaviour
     public float stopRadius;
     public float rammingRadius;
 
+    public bool isstop = false;
+    public bool isCollide = false;
 
     //raycast
 
@@ -27,9 +29,15 @@ public class RammingAttack : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, target.transform.position) < followRadius)
         {
+
             Vector3 dir = target.transform.position - transform.position;
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+            if(isstop == false)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
+            }
 
             /*
             //transform.Rotate(Vector3.forward * rotateSpeed * Time.deltaTime);
@@ -48,7 +56,6 @@ public class RammingAttack : MonoBehaviour
             }
             */
             //addforce
-            transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
 
         }
     }
@@ -78,6 +85,8 @@ public class RammingAttack : MonoBehaviour
         if (collision.gameObject.CompareTag("Tilemap") || collision.gameObject.CompareTag("Barrier") || collision.gameObject.CompareTag("Stage") ||
             collision.gameObject.CompareTag("Props"))
         {
+            isstop = true;
+            isCollide = true;
             if (isFacingRight)
             {
                 isFacingRight = false;
@@ -117,16 +126,20 @@ public class RammingAttack : MonoBehaviour
         isRamming = true;
     }
 
+    public IEnumerator startMoving()
+    {
+        yield return new WaitForSeconds(1f);
+        isstop = false;
+    }
+
 
 
 
     void Start()
     {
         //Physics2D.queriesStartInColliders = false;
-           RammingDelay = false;
+        RammingDelay = false;
         isRamming = true;
-
-        players = GameObject.FindGameObjectsWithTag("Player");
 
         float distanceToClosestPlayer = Mathf.Infinity;
         GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
@@ -159,10 +172,8 @@ public class RammingAttack : MonoBehaviour
         if (target != null)
         {
             checkDistance();
-
             if (RammingDelay == false && isRamming == true)
             {
-
                 enemySpeed = 4;
                 ramming();
             }
@@ -174,7 +185,7 @@ public class RammingAttack : MonoBehaviour
                 GetComponent<TouchEnemyGetDamage>().damageAmount = 0;
             }
 
-            if(isRamming)
+            if (isRamming)
             {
                 animator.SetBool("toRam", true);
             }
@@ -183,7 +194,15 @@ public class RammingAttack : MonoBehaviour
                 animator.SetBool("toRam", false);
             }
 
+
+            if(isstop && isCollide)
+            {
+                StartCoroutine(startMoving());
+            }
+
+
         }
     }
+
 }
 
