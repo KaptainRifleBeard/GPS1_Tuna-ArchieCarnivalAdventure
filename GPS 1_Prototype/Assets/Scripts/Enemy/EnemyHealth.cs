@@ -7,9 +7,7 @@ public class EnemyHealth : MonoBehaviour
     public GameObject[] playerBullet;
     public GameObject[] dropItems;
 
-    private int randNum;
     public int health;
-    bool walk = false;
 
     public Animator animator;
     public SpriteRenderer SetSpriteColor;
@@ -31,8 +29,6 @@ public class EnemyHealth : MonoBehaviour
         if (collision.gameObject.CompareTag("PlayerBullet"))
         {
             StartCoroutine(getDamageVFX());
-
-            walk = true;
             health = health - 5;    //later change it to player bullet damage
 
             if (health < 0)
@@ -44,26 +40,9 @@ public class EnemyHealth : MonoBehaviour
                 itemDrop();
             }
         }
-        else
-        {
-            walk = false; 
-
-        }
 
 
     }
-    public void Update()
-    {
-        if(walk)
-        {
-            //animator.SetBool("isGetDamage", true);
-        }
-        else
-        {
-           // animator.SetBool("isGetDamage", false);
-        }
-    }
-
     void itemDrop()
     {
         int randNum = Random.Range(0, 100); // 100% total for determining loot chance;;
