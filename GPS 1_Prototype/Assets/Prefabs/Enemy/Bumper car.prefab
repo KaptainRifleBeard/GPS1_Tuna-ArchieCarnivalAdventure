@@ -150,7 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players: []
   animator: {fileID: 435691570}
-  enemySpeed: 4
+  enemySpeed: 5
+  distance: 5
   isRamming: 1
   RammingDelay: 0
   isFacingRight: 0
@@ -222,7 +223,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478126117108005190}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ec39d834c24a319438c83a13b36c0d5d, type: 2}
   m_CullingMode: 0

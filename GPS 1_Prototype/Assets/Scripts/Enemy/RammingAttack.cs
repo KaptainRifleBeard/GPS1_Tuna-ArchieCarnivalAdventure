@@ -8,10 +8,9 @@ public class RammingAttack : MonoBehaviour
     GameObject target = null;
     public GameObject[] players;
     public Animator animator;
-
-    private float distance;
-
     public float enemySpeed;
+    private float rotateSpeed = 5f;
+    public float distance;
 
     public bool isRamming;
     public bool RammingDelay;
@@ -21,20 +20,38 @@ public class RammingAttack : MonoBehaviour
     public float stopRadius;
     public float rammingRadius;
 
+
     //raycast
-     
 
     void checkDistance()
     {
         if (Vector2.Distance(transform.position, target.transform.position) < followRadius)
         {
+            /*
+            //transform.Rotate(Vector3.forward * rotateSpeed * Time.deltaTime);
+            RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, distance);
+            if (hitInfo.collider != null)
+            {
+                Debug.DrawLine(transform.position, hitInfo.point, Color.red);
+                if(hitInfo.collider == target)
+                {
+                    transform.position = transform.forward * enemySpeed * Time.deltaTime;
+                }
+            }
+            else
+            {
+                Debug.DrawLine(transform.position, transform.position + transform.right * distance, Color.green);
+            }
+            */
             //addforce
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
+
         }
     }
 
     void ramming()
     {
+        
         if (isRamming == true)
         {
             GetComponent<TouchEnemyGetDamage>().damageAmount = 1;
@@ -45,6 +62,7 @@ public class RammingAttack : MonoBehaviour
                 transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
             }
         }
+        
     }
 
 
@@ -53,9 +71,9 @@ public class RammingAttack : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Tilemap") || collision.gameObject.CompareTag("Barrier") || collision.gameObject.CompareTag("Stage"))
+        if (collision.gameObject.CompareTag("Tilemap") || collision.gameObject.CompareTag("Barrier") || collision.gameObject.CompareTag("Stage") ||
+            collision.gameObject.CompareTag("Props"))
         {
-
             if (isFacingRight)
             {
                 isFacingRight = false;
@@ -100,7 +118,8 @@ public class RammingAttack : MonoBehaviour
 
     void Start()
     {
-        RammingDelay = false;
+        //Physics2D.queriesStartInColliders = false;
+           RammingDelay = false;
         isRamming = true;
 
         players = GameObject.FindGameObjectsWithTag("Player");
@@ -122,9 +141,19 @@ public class RammingAttack : MonoBehaviour
 
     void Update()
     {
+        /*
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, distance);
+        if (hitInfo.collider != null)
+        {
+            Debug.DrawLine(transform.position, hitInfo.point, Color.red);
+        }
+        else
+        {
+            Debug.DrawLine(transform.position, transform.position + transform.right * distance, Color.green);
+        }
+        */
         if (target != null)
         {
-
             checkDistance();
 
             if (RammingDelay == false && isRamming == true)
