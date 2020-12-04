@@ -37,7 +37,6 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        //audio = FindObjectOfType<AudioManager>();
     }
 
     void Update()
@@ -45,15 +44,10 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(myShoot))
         {
             FindObjectOfType<AudioManager>().Play("PlayerShoot");
-            //audio.Play("PlayerShoot");
-            //Debug.Log("ballClone");
-
             
             Debug.Log("isShoot");
             if (direction == 2)          
             {
-                Debug.Log("ballClone");
-
                 ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y + 1f), bulletSpawnPOS.rotation);
                 ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
 
@@ -71,7 +65,6 @@ public class PlayerMovement : MonoBehaviour
             }
             else if (direction == 1)
             {
-                Debug.Log("ballClone");
                 ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x + .5f, bulletSpawnPOS.position.y), bulletSpawnPOS.rotation);
 
             }
