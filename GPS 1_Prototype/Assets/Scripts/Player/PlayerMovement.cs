@@ -32,11 +32,34 @@ public class PlayerMovement : MonoBehaviour
     public int direction;
     public Animator animator;
 
-    //private AudioManager audio;
+    public bool canShoot;
+    private float timeBtwShoot;
+    public float startTimeBtwShoot;
+
+    public IEnumerator CheeseDelay()
+    {
+        canShoot = false;
+        yield return new WaitForSeconds(3f);
+        canShoot = true;
+    }
+    public IEnumerator BubbleDelay()
+    {
+        canShoot = false;
+        yield return new WaitForSeconds(.5f);
+        canShoot = true;
+    }
+    public IEnumerator DartDelay()
+    {
+        canShoot = false;
+        yield return new WaitForSeconds(1f);
+        canShoot = true;
+    }
 
     private void Start()
     {
+        timeBtwShoot = startTimeBtwShoot;
         rb = gameObject.GetComponent<Rigidbody2D>();
+        canShoot = true;
     }
 
     void Update()
@@ -44,30 +67,97 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(myShoot))
         {
             FindObjectOfType<AudioManager>().Play("PlayerShoot");
-            
+
             Debug.Log("isShoot");
-            if (direction == 2)          
+            if (direction == 2) // up  
             {
-                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y + 1f), bulletSpawnPOS.rotation);
-                ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
+                if (canShoot)
+                {
+                    ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y + 1f), bulletSpawnPOS.rotation);
+                    ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
+                    if (bulletPrefab.name == "Bullet")
+                    {
+                        StartCoroutine(DartDelay());
+                    }
+                    if (bulletPrefab.name == "Bubble")
+                    {
+                        StartCoroutine(BubbleDelay());
+                    }
+                    if (bulletPrefab.name == "Nacho cheese")
+                    {
+                        StartCoroutine(CheeseDelay());
+                    }
+
+                }
+
 
             }
-            else if (direction == 3)
+            else if (direction == 3) //down
             {
-                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y - 1.5f), bulletSpawnPOS.rotation);
-                ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
+                if (canShoot)
+                {
+                    ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y - 1.5f), bulletSpawnPOS.rotation);
+                    ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
+                    if (bulletPrefab.name == "Bullet")
+                    {
+                        StartCoroutine(DartDelay());
+                    }
+                    if (bulletPrefab.name == "Bubble")
+                    {
+                        StartCoroutine(BubbleDelay());
+                    }
+                    if (bulletPrefab.name == "Nacho cheese")
+                    {
+                        StartCoroutine(CheeseDelay());
+                    }
+
+                }
+               
+            }
+            else if (direction == 0) //left
+            {
+                if (canShoot)
+                {
+                    ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x - .5f, bulletSpawnPOS.position.y), bulletSpawnPOS.rotation);
+                    ballClone.transform.right = -transform.right.normalized;
+                    if (bulletPrefab.name == "Bullet")
+                    {
+                        StartCoroutine(DartDelay());
+                    }
+                    if (bulletPrefab.name == "Bubble")
+                    {
+                        StartCoroutine(BubbleDelay());
+                    }
+                    if (bulletPrefab.name == "Nacho cheese")
+                    {
+                        StartCoroutine(CheeseDelay());
+                    }
+
+                }
+                
+            }
+            else if (direction == 1) //right
+            {
+                if (canShoot)
+                {
+                    ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x + .5f, bulletSpawnPOS.position.y), bulletSpawnPOS.rotation);
+                    if (bulletPrefab.name == "Bullet")
+                    {
+                        StartCoroutine(DartDelay());
+                    }
+                    if (bulletPrefab.name == "Bubble")
+                    {
+                        StartCoroutine(BubbleDelay());
+                    }
+                    if (bulletPrefab.name == "Nacho cheese")
+                    {
+                        StartCoroutine(CheeseDelay());
+                    }
+
+                }
 
             }
-            else if (direction == 0)
-            {
-                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x - .5f, bulletSpawnPOS.position.y), bulletSpawnPOS.rotation);
-                ballClone.transform.right = -transform.right.normalized;
-            }
-            else if (direction == 1)
-            {
-                ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x + .5f, bulletSpawnPOS.position.y), bulletSpawnPOS.rotation);
 
-            }
             
         }
 
