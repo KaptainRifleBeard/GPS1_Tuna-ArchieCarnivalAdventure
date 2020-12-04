@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
     public IEnumerator CheeseDelay()
     {
         canShoot = false;
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         canShoot = true;
     }
     public IEnumerator BubbleDelay()
