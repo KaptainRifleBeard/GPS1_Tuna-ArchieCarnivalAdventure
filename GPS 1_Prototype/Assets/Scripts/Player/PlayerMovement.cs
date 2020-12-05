@@ -66,7 +66,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(myShoot))
         {
-            FindObjectOfType<AudioManager>().Play("PlayerShoot");
 
             Debug.Log("isShoot");
             if (direction == 2) // up  
@@ -75,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y + 1f), bulletSpawnPOS.rotation);
                     ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
+                    FindObjectOfType<AudioManager>().Play("PlayerShoot");
                     if (bulletPrefab.name == "Bullet")
                     {
                         StartCoroutine(DartDelay());
@@ -98,6 +98,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x, bulletSpawnPOS.position.y - 1.5f), bulletSpawnPOS.rotation);
                     ballClone.transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
+                    FindObjectOfType<AudioManager>().Play("PlayerShoot");
                     if (bulletPrefab.name == "Bullet")
                     {
                         StartCoroutine(DartDelay());
@@ -120,6 +121,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x - .5f, bulletSpawnPOS.position.y), bulletSpawnPOS.rotation);
                     ballClone.transform.right = -transform.right.normalized;
+                    FindObjectOfType<AudioManager>().Play("PlayerShoot");
                     if (bulletPrefab.name == "Bullet")
                     {
                         StartCoroutine(DartDelay());
@@ -140,7 +142,9 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (canShoot)
                 {
-                    ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x + .5f, bulletSpawnPOS.position.y), bulletSpawnPOS.rotation);
+                    ballClone = Instantiate(bulletPrefab, new Vector2(bulletSpawnPOS.position.x + .5f, bulletSpawnPOS.position.y), 
+                        bulletSpawnPOS.rotation);
+                    FindObjectOfType<AudioManager>().Play("PlayerShoot");
                     if (bulletPrefab.name == "Bullet")
                     {
                         StartCoroutine(DartDelay());
