@@ -26056,7 +26056,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &375029764
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31195,7 +31195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &534325619
 RectTransform:
   m_ObjectHideFlags: 0
@@ -62855,7 +62855,7 @@ PrefabInstance:
     - target: {fileID: 2259994838397980625, guid: 5fbb08bb04086d34f98056ac3de1d34a, type: 3}
       propertyPath: loseScreen
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1180351684}
     - target: {fileID: 6105696431749009194, guid: 5fbb08bb04086d34f98056ac3de1d34a, type: 3}
       propertyPath: m_Name
       value: 'p2HealthVisual '
@@ -68075,7 +68075,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1924253966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69848,7 +69848,7 @@ PrefabInstance:
     - target: {fileID: 5517424102586503288, guid: 4de506483d9a9dd4bb4df5abe70c1bdf, type: 3}
       propertyPath: loseScreen
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1180351684}
     - target: {fileID: 5517424102586503288, guid: 4de506483d9a9dd4bb4df5abe70c1bdf, type: 3}
       propertyPath: spawnpoint
       value: 

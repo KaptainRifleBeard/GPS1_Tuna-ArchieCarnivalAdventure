@@ -44,7 +44,7 @@ public class EnemyHealth : MonoBehaviour
         if (collision.gameObject.CompareTag("BubbleBullet"))
         {
             StartCoroutine(getDamageVFX());
-            health = health - 2;
+            health = health - 3;
         }
 
         if (health <= 0)
