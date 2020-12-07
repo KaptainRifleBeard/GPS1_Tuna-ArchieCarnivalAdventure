@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerB : MonoBehaviour
 {
+    public static healthSystemB HealthSystem;
+
     public GameObject bossBullet;
     public bool isBossBullet = false;
     public SpriteRenderer SetSpriteColor;
@@ -47,6 +49,6 @@ public class PlayerB : MonoBehaviour
 
     public void heal(int healAmount)
     {
-        healthVisual.HealthSystem.addHealth(healAmount);
+        healthVisualB.HealthSystem.addHealth(healAmount);
     }
 }

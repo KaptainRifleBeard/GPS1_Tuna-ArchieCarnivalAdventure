@@ -42,7 +42,6 @@ public class RandomSpawner : MonoBehaviour
     {
         if (isSpawn)
         {   
-            Debug.Log("enemy is spawn = true");
             int randEnemy = Random.Range(0, enemyPrefabs.Length);
             int randSP = Random.Range(0, spawnPoints.Length);
 

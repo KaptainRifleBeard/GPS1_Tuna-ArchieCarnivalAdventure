@@ -8503,6 +8503,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bccf93ec108cf641b284bc7cdef4780, type: 3}
+--- !u!1 &295513385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4989735067196460586, guid: 2bccf93ec108cf641b284bc7cdef4780, type: 3}
+  m_PrefabInstance: {fileID: 295513384}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &298489997
 GameObject:
   m_ObjectHideFlags: 0
@@ -56167,7 +56172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loseScreen: {fileID: 403960536}
-  spawnpoint: {fileID: 0}
+  spawnpoint: {fileID: 295513385}
 --- !u!114 &1100098154
 MonoBehaviour:
   m_ObjectHideFlags: 0

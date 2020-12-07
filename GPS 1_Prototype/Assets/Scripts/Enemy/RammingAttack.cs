@@ -143,7 +143,6 @@ public class RammingAttack : MonoBehaviour
 
         float distanceToClosestPlayer = Mathf.Infinity;
         GameObject[] allPlayers = GameObject.FindGameObjectsWithTag("Player");
-
         foreach (GameObject currentPlayer in allPlayers)
         {
             float distanceToPlayer = (currentPlayer.transform.position - this.transform.position).sqrMagnitude;

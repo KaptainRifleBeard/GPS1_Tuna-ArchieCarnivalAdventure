@@ -27,7 +27,6 @@ TagManager:
   - Props
   - CheeseBullet
   - BubbleBullet
-  - PlayerB
   layers:
   - Default
   - TransparentFX

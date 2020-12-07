@@ -66,8 +66,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(myShoot))
         {
-
-            Debug.Log("isShoot");
             if (direction == 2) // up  
             {
                 if (canShoot)

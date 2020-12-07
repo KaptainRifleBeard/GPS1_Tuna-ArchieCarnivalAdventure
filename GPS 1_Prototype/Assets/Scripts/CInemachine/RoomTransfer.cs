@@ -8,7 +8,7 @@ public class RoomTransfer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && !other.isTrigger)
+        if (other.CompareTag("Player") || other.CompareTag("Player2")  && !other.isTrigger)
         {
             virtualCamera.SetActive(true);
         }

@@ -55,7 +55,17 @@ public class Boss : MonoBehaviour
         if (other.gameObject.CompareTag("PlayerBullet"))
         {
             StartCoroutine(getDamageVFX());
-            takeDamage(5);
+            curHealth = curHealth - 5;
+        }
+        if (other.gameObject.CompareTag("CheeseBullet"))
+        {
+            StartCoroutine(getDamageVFX());
+            curHealth = curHealth - 10;
+        }
+        if (other.gameObject.CompareTag("BubbleBullet"))
+        {
+            StartCoroutine(getDamageVFX());
+            curHealth = curHealth - 3;
         }
 
     }
