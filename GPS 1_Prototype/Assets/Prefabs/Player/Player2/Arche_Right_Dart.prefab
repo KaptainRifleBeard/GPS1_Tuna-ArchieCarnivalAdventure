@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 1077803427856717338}
   m_Layer: 14
   m_Name: Arche_Right_Dart
-  m_TagString: Player
+  m_TagString: PlayerB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,6 +194,8 @@ MonoBehaviour:
   rend: {fileID: 8613118318411218338}
   direction: 0
   animator: {fileID: 1077803427856717338}
+  canShoot: 0
+  startTimeBtwShoot: 0
 --- !u!114 &742444481030679328
 MonoBehaviour:
   m_ObjectHideFlags: 0

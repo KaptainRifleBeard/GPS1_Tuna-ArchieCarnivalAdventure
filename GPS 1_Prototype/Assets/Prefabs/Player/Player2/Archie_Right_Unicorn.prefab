@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 7988522964286961216}
   m_Layer: 14
   m_Name: Archie_Right_Unicorn
-  m_TagString: Player
+  m_TagString: PlayerB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -276,6 +276,8 @@ MonoBehaviour:
   rend: {fileID: 636009935183916548}
   direction: 0
   animator: {fileID: 7988522964286961216}
+  canShoot: 0
+  startTimeBtwShoot: 0
 --- !u!114 &2407974712970996509
 MonoBehaviour:
   m_ObjectHideFlags: 0

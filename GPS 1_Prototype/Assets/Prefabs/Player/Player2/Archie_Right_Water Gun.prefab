@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 2347292693046421319}
   m_Layer: 14
   m_Name: Archie_Right_Water Gun
-  m_TagString: Player
+  m_TagString: PlayerB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -276,6 +276,8 @@ MonoBehaviour:
   rend: {fileID: 191350890692293418}
   direction: 0
   animator: {fileID: 2347292693046421319}
+  canShoot: 0
+  startTimeBtwShoot: 0
 --- !u!114 &3526382445633449830
 MonoBehaviour:
   m_ObjectHideFlags: 0

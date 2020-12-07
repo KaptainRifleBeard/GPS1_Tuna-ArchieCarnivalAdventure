@@ -142,7 +142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5102352043661919829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.803898, y: 51.357544, z: -6.54}
+  m_LocalPosition: {x: -7.661872, y: 19.60375, z: -6.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 783354101}
@@ -188,7 +188,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1415558411
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 100
   m_Sprite: {fileID: -2005775441489831848, guid: 36c9484a590f9af4d9498e706d833739, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -239,7 +239,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.25, y: 0.92}
+    oldSize: {x: 0.9375, y: 0.69}
     newSize: {x: 1.89, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -274,11 +274,10 @@ MonoBehaviour:
   knockbackLength: 0.2
   isKnockbackRight: 0
   rend: {fileID: 5102352043661919830}
-  up: {fileID: 8534235039065845517, guid: 1f79711d719da4f4bbd9a5b55e17e946, type: 3}
-  down: {fileID: -780322854029699893, guid: 2d162a89c0e3f7149ae28119d3e9b2bd, type: 3}
-  left: {fileID: -8644962180845862883, guid: 01885f110f20d3f4985d7a6d4b310533, type: 3}
-  right: {fileID: -2005775441489831848, guid: 36c9484a590f9af4d9498e706d833739, type: 3}
+  direction: 0
   animator: {fileID: 2735981600521951514}
+  canShoot: 0
+  startTimeBtwShoot: 0
 --- !u!114 &5952042256580595024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,7 +290,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df77643258addef41809d3c6354f0396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: {fileID: 0}
   bossBullet: {fileID: 8912686505539658171, guid: a43fe182a2dd97943ac6196661068034, type: 3}
   isBossBullet: 0
   SetSpriteColor: {fileID: 5102352043661919830}
