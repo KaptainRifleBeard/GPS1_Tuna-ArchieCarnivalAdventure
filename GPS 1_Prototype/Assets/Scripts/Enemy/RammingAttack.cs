@@ -30,9 +30,9 @@ public class RammingAttack : MonoBehaviour
         if (Vector2.Distance(transform.position, target.transform.position) < followRadius)
         {
 
-            Vector3 dir = target.transform.position - transform.position;
-            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            //Vector3 dir = target.transform.position - transform.position;
+            //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
             if(isstop == false)
             {

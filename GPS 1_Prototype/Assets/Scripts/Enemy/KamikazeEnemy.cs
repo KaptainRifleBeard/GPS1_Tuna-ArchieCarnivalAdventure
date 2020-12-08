@@ -27,14 +27,14 @@ public class KamikazeEnemy : MonoBehaviour
 
             if (isFacingRight)
             {
-                angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                //angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
                 transform.Translate(2 * enemySpeed * Time.deltaTime, 0, 0);
                 transform.localScale = new Vector2(1, 1);  //(1, 1) -> refer to enemy's scale in transform
             }
             else
             {
-                angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                //angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
                 transform.Translate(-2 * enemySpeed * Time.deltaTime, 0, 0);
                 transform.localScale = new Vector2(-1, 1); //flip enemy

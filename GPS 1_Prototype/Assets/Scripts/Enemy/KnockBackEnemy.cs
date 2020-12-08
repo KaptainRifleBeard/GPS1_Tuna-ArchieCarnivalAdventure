@@ -87,9 +87,9 @@ public class KnockBackEnemy : MonoBehaviour
     {
         if (target != null)
         {
-            Vector3 dir = target.transform.position - transform.position;
-            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            //Vector3 dir = target.transform.position - transform.position;
+            //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
             checkDistance();
 
             if (Vector2.Distance(transform.position, target.transform.position) < stopRadius)
