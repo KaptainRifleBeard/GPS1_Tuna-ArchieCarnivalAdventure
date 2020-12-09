@@ -300,6 +300,7 @@ MonoBehaviour:
   healthBar: {fileID: 4982495625743206674}
   maxHealth: 300
   curHealth: 0
+  SetSpriteColor: {fileID: 6715540346553841644}
 --- !u!114 &8104499612459988548
 MonoBehaviour:
   m_ObjectHideFlags: 0
