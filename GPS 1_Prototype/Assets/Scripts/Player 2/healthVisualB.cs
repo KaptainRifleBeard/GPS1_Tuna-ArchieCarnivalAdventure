@@ -13,8 +13,8 @@ public class healthVisualB : MonoBehaviour
     private healthSystemB healthSystem1; //curently not using , for private only
 
     healthSystemB hs;
-    public static bool p2IsDead = false;
-    public GameObject loseScreen;
+    //public static bool p2IsDead = false;
+    //public GameObject loseScreen;
 
     private void Awake()
     {
@@ -24,7 +24,7 @@ public class healthVisualB : MonoBehaviour
     {
         healthSystemB hs = new healthSystemB(3); // number of maximum heart 
 
-        p2IsDead = false;
+        //p2IsDead = false;
         SetHealthSystem(hs);
     }
     public void SetHealthSystem(healthSystemB hs)
@@ -59,6 +59,7 @@ public class healthVisualB : MonoBehaviour
 
     public void healthSystem_OnDead(object sender, System.EventArgs e)
     {
+        /*
         GameObject[] playerB = GameObject.FindGameObjectsWithTag("Player");
 
         Debug.Log("Dead!");
@@ -95,6 +96,7 @@ public class healthVisualB : MonoBehaviour
                 }
             }
         }
+        */
     }
 
     private void healthSystem_OnDamaged(object sender, System.EventArgs e)

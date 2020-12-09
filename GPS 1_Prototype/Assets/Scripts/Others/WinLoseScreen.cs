@@ -38,7 +38,7 @@ public class WinLoseScreen : MonoBehaviour
 
         if(SelectPlayMode.isDual == true)
         {
-            if (healthVisual.p1IsDead == true && healthVisualB.p2IsDead == true)
+            if (HeartSystem.p1IsDead == true && HeartSystemB.p2IsDead == true)
             {
                 Application.LoadLevel(Application.loadedLevel);
 
@@ -53,7 +53,7 @@ public class WinLoseScreen : MonoBehaviour
         }
         else if (SelectPlayMode.isDual == false)
         {
-            if (healthVisual.p1IsDead == true)
+            if (HeartSystem.p1IsDead == true)
             {
                 Application.LoadLevel(Application.loadedLevel);
 

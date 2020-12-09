@@ -57,8 +57,8 @@ public class RandomSpawner : MonoBehaviour
                 blockExit.SetActive(false);
             }
         }
-
-        if (WinLoseScreen.isRetryLevel == true && healthVisual.p1IsDead == true)
+            
+        if (WinLoseScreen.isRetryLevel == true && HeartSystem.p1IsDead == true)
         {
             numbersEnemy = Random.Range(3, 6);
             Debug.Log("enemy is spawn = false");

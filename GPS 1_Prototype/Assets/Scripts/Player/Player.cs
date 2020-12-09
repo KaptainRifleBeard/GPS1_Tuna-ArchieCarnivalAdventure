@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public static healthSystem HealthSystem;
-    public static int health = 6;
 
     public GameObject bossBullet;
     public bool isBossBullet = false;   
@@ -30,13 +29,11 @@ public class Player : MonoBehaviour
     public void DamageKnockback(Vector3 kbDir, float kbDis, int damageAmount)
     {
         transform.position += kbDir * kbDis;
-        healthVisual.HealthSystem.Damage(damageAmount);
-        health -= damageAmount;
-        Debug.Log(damageAmount + "damage");
+        //healthVisual.HealthSystem.Damage(damageAmount);
         //Health.takeDamage(damageAmount);
     }
 
-    public Vector3 GetPosition()
+    public Vector3 GetPosition()    
     {
         return transform.position;
     }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HeartSystem : MonoBehaviour
+public class HeartSystemB : MonoBehaviour
 {
-    public static bool p1IsDead = false;
+    public static bool p2IsDead = false;
     public GameObject loseScreen;
 
     private int maxHeartAmount = 3;
@@ -26,9 +26,9 @@ public class HeartSystem : MonoBehaviour
 
     void checkHealthAmount()
     {
-        for(int i = 0; i < maxHeartAmount; i++)
+        for (int i = 0; i < maxHeartAmount; i++)
         {
-            if(startHeart <= i)
+            if (startHeart <= i)
             {
                 healthImage[i].enabled = false;
             }
@@ -45,16 +45,16 @@ public class HeartSystem : MonoBehaviour
         bool empty = false;
         int i = 0;
 
-        foreach(Image image in healthImage)
+        foreach (Image image in healthImage)
         {
-            if(empty)
+            if (empty)
             {
                 image.sprite = healthSprite[0];
             }
             else
             {
                 i++;
-                if(currentHealth >= i * healthPerHeart)
+                if (currentHealth >= i * healthPerHeart)
                 {
                     image.sprite = healthSprite[healthSprite.Length - 1];
                 }
@@ -64,12 +64,12 @@ public class HeartSystem : MonoBehaviour
                     int heartPerImage = healthPerHeart / (healthSprite.Length - 1);
                     int imageIndex = currHealth / heartPerImage;
                     image.sprite = healthSprite[imageIndex];
-                    empty = true;       
+                    empty = true;
                 }
             }
         }
     }
-                    
+
     public void takeDamage(int amount)
     {
         Debug.Log("take damage" + amount);
@@ -88,44 +88,44 @@ public class HeartSystem : MonoBehaviour
 
     private void Update()
     {
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
-            GameObject[] player = GameObject.FindGameObjectsWithTag("Player");
+            GameObject[] playerB = GameObject.FindGameObjectsWithTag("Player");
 
             Debug.Log("Dead!");
-            p1IsDead = true;
+            p2IsDead = true;
+
             if (SelectPlayMode.isDual == true)
             {
-                foreach (GameObject p in player)
+                foreach (GameObject p in playerB)
                 {
-                    if (p.layer == 9)
+                    if (p.layer == 14)
                     {
                         Destroy(p);
-                        if (p1IsDead == true && HeartSystemB.p2IsDead == true)
+                        if (HeartSystem.p1IsDead == true && p2IsDead == true)
                         {
                             loseScreen.SetActive(true);
                             if (WinLoseScreen.isRetryLevel == true)
                             {
-                                p1IsDead = false;
+                                p2IsDead = false;
                             }
                         }
                     }
-
                 }
+
 
             }
             else
             {
-                if (p1IsDead)
+                if (p2IsDead)
                 {
                     loseScreen.SetActive(true);
                     if (WinLoseScreen.isRetryLevel == true)
                     {
-                        p1IsDead = false;
+                        p2IsDead = false;
                     }
                 }
             }
-            Debug.Log("Player die");
         }
     }
 

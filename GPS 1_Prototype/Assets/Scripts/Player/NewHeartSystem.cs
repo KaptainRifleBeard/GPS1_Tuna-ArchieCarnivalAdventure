@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NewHeartSystem : Player
 {
@@ -10,6 +11,6 @@ public class NewHeartSystem : Player
 
     void Update()
     {
-
+        
     }
 }

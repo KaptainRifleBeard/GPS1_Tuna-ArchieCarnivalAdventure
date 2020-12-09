@@ -9,12 +9,12 @@ public class CamraTarget : MonoBehaviour
     public void changeCam()
     {
         if (SelectPlayMode.isDual == true)
-        {
-            if (healthVisual.p1IsDead == true && healthVisualB.p2IsDead == false)
+        {       
+            if (HeartSystem.p1IsDead == true && HeartSystemB.p2IsDead == false)
             {
                 cam.transform.position = new Vector3(PlayerBSpawn.playerBRespawn.transform.position.x, PlayerBSpawn.playerBRespawn.transform.position.y, -100);
             }
-            else if (healthVisual.p1IsDead == false && healthVisualB.p2IsDead == true)
+            else if (HeartSystem.p1IsDead == false && HeartSystemB.p2IsDead == true)
             {
                 cam.transform.position = new Vector3(PlayerSpawn.playerRespawn.transform.position.x, PlayerSpawn.playerRespawn.transform.position.y, -100);
             }

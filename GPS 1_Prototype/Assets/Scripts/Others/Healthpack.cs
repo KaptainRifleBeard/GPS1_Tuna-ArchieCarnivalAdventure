@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Healthpack : MonoBehaviour
 {
-    [SerializeField] private int healAmount = 0;
+    public int healAmount;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -14,13 +14,13 @@ public class Healthpack : MonoBehaviour
         if (player != null)
         {
             Debug.Log("Add HEALTH");
-            player.heal(healAmount + 1);
+            collision.GetComponent<HeartSystem>().healHealth(healAmount);
             Destroy(gameObject);
 
         }
         if (playerB != null)
         {
-            playerB.heal(healAmount + 1);
+            collision.GetComponent<HeartSystemB>().healHealth(healAmount);
             Destroy(gameObject);
 
         }

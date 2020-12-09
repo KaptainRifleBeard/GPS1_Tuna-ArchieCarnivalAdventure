@@ -13,7 +13,7 @@ public class healthVisual : MonoBehaviour
     [SerializeField] private Sprite heart2Sprite;
     private List<HeartImage> heartImageList;
 
-    public static bool p1IsDead = false;
+    //public static bool p1IsDead = false;
     healthSystem hs;
     public GameObject loseScreen;
 
@@ -23,7 +23,7 @@ public class healthVisual : MonoBehaviour
     }
     private void Start()
     {
-        p1IsDead = false;
+        //p1IsDead = false;
 
         healthSystem hs = new healthSystem(3); // number of maximum heart
         SetHealthSystem(hs);
@@ -61,6 +61,7 @@ public class healthVisual : MonoBehaviour
 
     public void healthSystem_OnDead(object sender, System.EventArgs e)
     {
+        /*
         GameObject[] player = GameObject.FindGameObjectsWithTag("Player");
 
         Debug.Log("Dead!");
@@ -96,7 +97,7 @@ public class healthVisual : MonoBehaviour
                 }
             }
         }
-        
+        */
     }
 
     private void healthSystem_OnDamaged(object sender, System.EventArgs e)
