@@ -66502,6 +66502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthBar
       objectReference: {fileID: 0}
+    - target: {fileID: 2522305226844011233, guid: 816f9525fffe1c848850eb918077b002, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816f9525fffe1c848850eb918077b002, type: 3}
 --- !u!1001 &3084979550089971805
@@ -66896,7 +66900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517424102586503294, guid: 4de506483d9a9dd4bb4df5abe70c1bdf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4de506483d9a9dd4bb4df5abe70c1bdf, type: 3}
