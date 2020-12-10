@@ -9,10 +9,11 @@ public class UI : MonoBehaviour
 
     private void Start()
     {
-        if(SelectPlayMode.isDual == true)
+        if (SelectPlayMode.isDual == true)
         {
             ui.SetActive(true);
             ui2.SetActive(true);
+
         }
         else
         {

@@ -250,25 +250,6 @@ public class PlayerMovement : MonoBehaviour
             knockbackCount -= Time.deltaTime;
         }
 
-
-
-        //if (Input.anyKey == true)
-        //{
-        //    anim.SetFloat("moveX", rb.velocity.x);
-        //    anim.SetFloat("moveY", rb.velocity.y);
-        //}
-        //else
-        //{
-        //    anim.SetFloat("lastMoveX", rb.velocity.x);
-        //    anim.SetFloat("lastMoveY", rb.velocity.y);
-        //}
-
-        //if (force == 0)
-        //{
-        //    anim.SetFloat("lastMoveX", rb.velocity.x);
-        //    anim.SetFloat("lastMoveY", rb.velocity.y);
-
-        //}
     }
 
 }

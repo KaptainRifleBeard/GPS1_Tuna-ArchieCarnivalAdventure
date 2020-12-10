@@ -101,7 +101,7 @@ public class HeartSystemB : MonoBehaviour
                 {
                     if (p.layer == 14)
                     {
-                        Destroy(p);
+                        p.SetActive(false);
                         if (HeartSystem.p1IsDead == true && p2IsDead == true)
                         {
                             loseScreen.SetActive(true);

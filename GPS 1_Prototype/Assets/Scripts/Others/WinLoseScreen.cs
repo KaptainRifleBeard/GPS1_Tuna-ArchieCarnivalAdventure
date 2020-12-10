@@ -28,19 +28,20 @@ public class WinLoseScreen : MonoBehaviour
     public IEnumerator stopRetryLevel()
     {
         yield return new WaitForSeconds(0.1f);
-        Debug.Log("is retry = false");
         isRetryLevel = false;
     }
 
     public void RetryLevel()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
         if(SelectPlayMode.isDual == true)
         {
-            if (HeartSystem.p1IsDead == true && HeartSystemB.p2IsDead == true)
+            if (healthVisual.p1IsDead == true && healthVisualB.p2IsDead == true)
             {
                 Application.LoadLevel(Application.loadedLevel);
+                //Scene scene = SceneManager.GetActiveScene();
+                //SceneManager.LoadScene(scene.name);
+
 
                 PlayerSpawn.playerRespawn.transform.position = spawnpoint.transform.position;
                 PlayerBSpawn.playerBRespawn.transform.position = spawnpoint.transform.position;
@@ -53,9 +54,11 @@ public class WinLoseScreen : MonoBehaviour
         }
         else if (SelectPlayMode.isDual == false)
         {
-            if (HeartSystem.p1IsDead == true)
+            if (healthVisual.p1IsDead == true)
             {
                 Application.LoadLevel(Application.loadedLevel);
+                //Scene scene = SceneManager.GetActiveScene();
+               //SceneManager.LoadScene(scene.name);
 
                 PlayerSpawn.playerRespawn.transform.position = spawnpoint.transform.position;
                 isRetryLevel = true;
@@ -68,7 +71,26 @@ public class WinLoseScreen : MonoBehaviour
 
     }
 
+    /*
+    public void Update()
+    {
+        if (HeartSystem.p1IsDead == true)
+        {
+            loseScreen.SetActive(true);
+            if(isRetryLevel)
+            {
+                loseScreen.SetActive(false);
+                HeartSystem.p1IsDead = false;
+                StartCoroutine(stopRetryLevel());
+
+
+            }
+        }
+
+    }
+    */
 }
+
 
 
 //GameObject player = GameObject.FindGameObjectWithTag("Player");

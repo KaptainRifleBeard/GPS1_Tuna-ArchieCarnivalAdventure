@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 4792513933652447636}
   - component: {fileID: 4792513933652447639}
   - component: {fileID: 1054534750013466582}
-  - component: {fileID: 3110592667893847759}
   m_Layer: 14
   m_Name: Archie_Right_Nacho Cheese
   m_TagString: Player
@@ -231,29 +230,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3110592667893847759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4792513933652447641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89c4b817e81aeb0419b578262a752805, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loseScreen: {fileID: 0}
-  startHeart: 3
-  currentHealth: 0
-  healthImage:
-  - {fileID: 6895060433837506809, guid: 0a22c09473b90de4c8379767160f70f9, type: 3}
-  - {fileID: 5574277533063112067, guid: 745a71ce5801d1841a4d0cd342612493, type: 3}
-  - {fileID: 8547766228405916341, guid: 120e5ecb2aca8e74daeb2ee3ac5f0932, type: 3}
-  healthSprite:
-  - {fileID: 21300000, guid: 6b10516fed6469b42941099ba3cef565, type: 3}
-  - {fileID: 21300000, guid: 1db1cc5cc9cd7c54385728eb02ec6f73, type: 3}
-  - {fileID: 21300000, guid: 90e713e58ff12af408233b7b9e983a0c, type: 3}
 --- !u!1 &7211694331618893738
 GameObject:
   m_ObjectHideFlags: 0

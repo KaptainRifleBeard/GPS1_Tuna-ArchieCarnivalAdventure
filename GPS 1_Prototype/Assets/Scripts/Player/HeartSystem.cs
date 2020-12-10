@@ -5,30 +5,34 @@ using UnityEngine.UI;
 
 public class HeartSystem : MonoBehaviour
 {
-    public static bool p1IsDead = false;
     public GameObject loseScreen;
+    public static bool p1IsDead = false;
 
     private int maxHeartAmount = 3;
     public int startHeart = 3;
 
-    public int currentHealth;
+    public static int currentHealth;
     private int maxHealth;
     private int healthPerHeart = 2;
 
     public Image[] healthImage;
     public Sprite[] healthSprite;
+    
+
     void Start()
     {
-        currentHealth = startHeart * healthPerHeart;
+        
+        p1IsDead = false;
+        currentHealth = startHeart * healthPerHeart; 
         maxHealth = maxHeartAmount * healthPerHeart;
         checkHealthAmount();
     }
 
     void checkHealthAmount()
     {
-        for(int i = 0; i < maxHeartAmount; i++)
+        for (int i = 0; i < maxHeartAmount; i++)
         {
-            if(startHeart <= i)
+            if (startHeart <= i)
             {
                 healthImage[i].enabled = false;
             }
@@ -57,17 +61,17 @@ public class HeartSystem : MonoBehaviour
                 if(currentHealth >= i * healthPerHeart)
                 {
                     image.sprite = healthSprite[healthSprite.Length - 1];
-                }
+                }   
                 else
                 {
                     int currHealth = (int)(healthPerHeart - (healthPerHeart * i - currentHealth));
-                    int heartPerImage = healthPerHeart / (healthSprite.Length - 1);
+                    int heartPerImage = healthPerHeart / (healthSprite.Length - 1);     
                     int imageIndex = currHealth / heartPerImage;
                     image.sprite = healthSprite[imageIndex];
                     empty = true;       
                 }
             }
-        }
+        }   
     }
                     
     public void takeDamage(int amount)
@@ -76,7 +80,7 @@ public class HeartSystem : MonoBehaviour
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, startHeart * healthPerHeart);
         UpdateHeart();
-    }
+    }   
 
     public void healHealth(int amount)
     {
@@ -88,11 +92,20 @@ public class HeartSystem : MonoBehaviour
 
     private void Update()
     {
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
-            GameObject[] player = GameObject.FindGameObjectsWithTag("Player");
+            Debug.Log(p1IsDead);
 
-            Debug.Log("Dead!");
+            p1IsDead = true;
+            loseScreen.SetActive(true);
+
+            if (WinLoseScreen.isRetryLevel)
+            {
+                Debug.Log(p1IsDead);
+                p1IsDead = false;
+            }
+
+            /*
             p1IsDead = true;
             if (SelectPlayMode.isDual == true)
             {
@@ -100,7 +113,7 @@ public class HeartSystem : MonoBehaviour
                 {
                     if (p.layer == 9)
                     {
-                        Destroy(p);
+                        p.SetActive(false);
                         if (p1IsDead == true && HeartSystemB.p2IsDead == true)
                         {
                             loseScreen.SetActive(true);
@@ -118,15 +131,17 @@ public class HeartSystem : MonoBehaviour
             {
                 if (p1IsDead)
                 {
+                    Debug.Log("Player die");
+
                     loseScreen.SetActive(true);
                     if (WinLoseScreen.isRetryLevel == true)
                     {
-                        p1IsDead = false;
+                        p1IsDead = false;   
                     }
                 }
-            }
-            Debug.Log("Player die");
+            }*/
         }
+
     }
 
 

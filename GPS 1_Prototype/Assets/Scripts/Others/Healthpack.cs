@@ -14,13 +14,17 @@ public class Healthpack : MonoBehaviour
         if (player != null)
         {
             Debug.Log("Add HEALTH");
-            collision.GetComponent<HeartSystem>().healHealth(healAmount);
+            //collision.GetComponent<HeartSystem>().healHealth(healAmount);
+            collision.GetComponent<Player>().heal(healAmount);
+
             Destroy(gameObject);
 
         }
         if (playerB != null)
         {
-            collision.GetComponent<HeartSystemB>().healHealth(healAmount);
+            //collision.GetComponent<HeartSystemB>().healHealth(healAmount);
+            collision.GetComponent<PlayerB>().heal(healAmount);
+
             Destroy(gameObject);
 
         }

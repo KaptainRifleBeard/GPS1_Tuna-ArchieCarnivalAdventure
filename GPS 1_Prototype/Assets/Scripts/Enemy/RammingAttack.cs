@@ -29,16 +29,19 @@ public class RammingAttack : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, target.transform.position) < followRadius)
         {
+            transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
 
             //Vector3 dir = target.transform.position - transform.position;
             //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
-            if(isstop == false)
+            /*
+            if (isstop == false)
             {
+                
                 transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
             }
-
+            */
             /*
             //transform.Rotate(Vector3.forward * rotateSpeed * Time.deltaTime);
             RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, distance);
@@ -85,8 +88,8 @@ public class RammingAttack : MonoBehaviour
         if (collision.gameObject.CompareTag("Tilemap") || collision.gameObject.CompareTag("Barrier") || collision.gameObject.CompareTag("Stage") ||
             collision.gameObject.CompareTag("Props"))
         {
-            isstop = true;
-            isCollide = true;
+            //isstop = true;
+            //isCollide = true;
             if (isFacingRight)
             {
                 isFacingRight = false;
@@ -126,12 +129,13 @@ public class RammingAttack : MonoBehaviour
         isRamming = true;
     }
 
+    /*
     public IEnumerator startMoving()
     {
         yield return new WaitForSeconds(1f);
         isstop = false;
     }
-
+    */
 
 
 
@@ -193,12 +197,12 @@ public class RammingAttack : MonoBehaviour
                 animator.SetBool("toRam", false);
             }
 
-
+            /*
             if(isstop && isCollide)
             {
                 StartCoroutine(startMoving());
             }
-
+            */
 
         }
     }

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class healthVisual : MonoBehaviour
 {
     public static healthVisualB healthB;
+    public static bool p1IsDead = false;
 
     public static healthSystem HealthSystem;
     [SerializeField] private Sprite heart0Sprite;
@@ -61,7 +62,7 @@ public class healthVisual : MonoBehaviour
 
     public void healthSystem_OnDead(object sender, System.EventArgs e)
     {
-        /*
+        
         GameObject[] player = GameObject.FindGameObjectsWithTag("Player");
 
         Debug.Log("Dead!");
@@ -97,7 +98,7 @@ public class healthVisual : MonoBehaviour
                 }
             }
         }
-        */
+        
     }
 
     private void healthSystem_OnDamaged(object sender, System.EventArgs e)
