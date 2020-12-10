@@ -21,7 +21,7 @@ public class RestartMenu : MonoBehaviour
     }
     public void restartFromBoss()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+        SceneManager.LoadScene(7);
     
     }
 }

@@ -59,7 +59,7 @@ public class healthVisualB : MonoBehaviour
 
     public void healthSystem_OnDead(object sender, System.EventArgs e)
     {
-        
+        int y = SceneManager.GetActiveScene().buildIndex;
         GameObject[] playerB = GameObject.FindGameObjectsWithTag("Player");
 
         Debug.Log("Dead!");
@@ -73,13 +73,24 @@ public class healthVisualB : MonoBehaviour
                 {
                     //Destroy(p);
                     p.SetActive(false);
-                    if (healthVisual.p1IsDead == true && p2IsDead == true)
+
+
+                    //if both die
+                    if (p2IsDead == true && healthVisual.p1IsDead == true)
                     {
-                        loseScreen.SetActive(true);
-                        if (WinLoseScreen.isRetryLevel == true)
+                        if (y == 7)//is is in boss level
                         {
-                            p2IsDead = false;
+                            SceneManager.LoadScene(10);
                         }
+                        else
+                        {
+                            loseScreen.SetActive(true);
+                            if (WinLoseScreen.isRetryLevel == true)
+                            {
+                                p2IsDead = false;
+                            }
+                        }
+
                     }
                 }
             }
@@ -90,10 +101,18 @@ public class healthVisualB : MonoBehaviour
         {
             if (p2IsDead)
             {
-                loseScreen.SetActive(true);
-                if (WinLoseScreen.isRetryLevel == true)
+                if (y == 7)
                 {
-                    p2IsDead = false;
+                    SceneManager.LoadScene(10);
+                }
+                else
+                {
+                    loseScreen.SetActive(true);
+                    if (WinLoseScreen.isRetryLevel == true)
+                    {
+
+                        p2IsDead = false;
+                    }
                 }
             }
         }

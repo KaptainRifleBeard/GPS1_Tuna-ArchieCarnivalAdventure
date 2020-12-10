@@ -62,7 +62,7 @@ public class healthVisual : MonoBehaviour
 
     public void healthSystem_OnDead(object sender, System.EventArgs e)
     {
-        
+        int y = SceneManager.GetActiveScene().buildIndex;
         GameObject[] player = GameObject.FindGameObjectsWithTag("Player");
 
         Debug.Log("Dead!");
@@ -77,11 +77,19 @@ public class healthVisual : MonoBehaviour
                     //Destroy(p);
                     if (p1IsDead == true && healthVisualB.p2IsDead == true)
                     {
-                        loseScreen.SetActive(true);
-                        if (WinLoseScreen.isRetryLevel == true)
+                        if(y == 7)
                         {
-                            p1IsDead = false;
+                            SceneManager.LoadScene(10);
                         }
+                        else
+                        {
+                            loseScreen.SetActive(true);
+                            if (WinLoseScreen.isRetryLevel == true)
+                            {
+                                p1IsDead = false;
+                            }
+                        }
+                        
                     }
                 }
 
@@ -92,11 +100,20 @@ public class healthVisual : MonoBehaviour
         {
             if(p1IsDead)
             {
-                loseScreen.SetActive(true);
-                if (WinLoseScreen.isRetryLevel == true)
+                if (y == 7)
                 {
-                    p1IsDead = false;
+                    SceneManager.LoadScene(10);
                 }
+                else
+                {
+                    loseScreen.SetActive(true);
+                    if (WinLoseScreen.isRetryLevel == true)
+                    {
+
+                        p1IsDead = false;
+                    }
+                }
+                
             }
         }
         
