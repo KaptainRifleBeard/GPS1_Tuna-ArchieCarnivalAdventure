@@ -14,6 +14,7 @@ public class KnockBackEnemy : MonoBehaviour
     public float attackRadius;
 
     public GameObject bullet;
+    GameObject b;
 
     public float startTimeBtwShoot;
     private float timeBtwShoot;
@@ -80,6 +81,39 @@ public class KnockBackEnemy : MonoBehaviour
 
     }
 
+    void shoot()
+    {
+        relativePoint = transform.InverseTransformPoint(target.transform.position);
+        if (relativePoint.x < 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+        {
+            //left
+            b = Instantiate(bullet, new Vector2(shootPos.position.x - .5f, shootPos.position.y), shootPos.rotation);
+            b.transform.right = -transform.right.normalized;
+            b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+        }
+        if (relativePoint.x > 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+        {
+            //right
+            b = Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
+            b.transform.right = transform.right.normalized;
+            b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+
+        }
+        if (relativePoint.y > 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+        {
+            //down
+            b = Instantiate(bullet, new Vector2(shootPos.position.x - .2f, shootPos.position.y), shootPos.rotation);
+            b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+
+        }
+        if (relativePoint.y < 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+        {
+            //up
+            b = Instantiate(bullet, new Vector2(shootPos.position.x - .2f, shootPos.position.y + .1f), shootPos.rotation);
+            b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+        }
+    }
+
     void Update()
     {
         if (target != null)
@@ -95,10 +129,13 @@ public class KnockBackEnemy : MonoBehaviour
                 if (timeBtwShoot <= 0)
                 {
                     FindObjectOfType<AudioManager>().Play("CottonShoot");
+                    shoot();
 
-                    GameObject b =Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
-                    b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
 
+                    //b =Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
+                    //b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+
+               
                     timeBtwShoot = startTimeBtwShoot;  //shoot delay
                 }
                 else
@@ -123,7 +160,6 @@ public class KnockBackEnemy : MonoBehaviour
             if (relativePoint.y > 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
             {
                 //rend.sprite = down;
-
                 animator.SetFloat("Vertical", 1);
                 animator.SetFloat("Horizontal", 0);
 

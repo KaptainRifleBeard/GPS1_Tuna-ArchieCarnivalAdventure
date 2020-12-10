@@ -10,7 +10,6 @@ public class PlayerSpawn : SelectPlayMode
     public static GameObject playerRespawn;
 
     public GameObject spawnpoint;
-    public GameObject restartpoint;
 
     public int randPlayer = 0;
     public static int currPlayer = 0;

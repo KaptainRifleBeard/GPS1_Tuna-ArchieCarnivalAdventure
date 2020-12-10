@@ -16,6 +16,7 @@ public class ShootingEnemy : MonoBehaviour
     public float attackRadius;
 
     public GameObject bullet;
+    GameObject b;
 
     public float startTimeBtwShoot;
     private float timeBtwShoot;
@@ -93,8 +94,12 @@ public class ShootingEnemy : MonoBehaviour
                 {
                     FindObjectOfType<AudioManager>().Play("CorkGunShoot");
 
-                    GameObject b = Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
-                    b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+                    shoot();
+
+
+                    //b =Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
+                    //b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+
                     timeBtwShoot = startTimeBtwShoot;  //shoot delay
 
                 }
@@ -135,6 +140,43 @@ public class ShootingEnemy : MonoBehaviour
 
             }
 
+        }
+    }
+
+
+    void shoot()
+    {
+        relativePoint = transform.InverseTransformPoint(target.transform.position);
+        if (relativePoint.x < 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+        {
+            //left
+            b = Instantiate(bullet, new Vector2(shootPos.position.x - 1.5f, shootPos.position.y), shootPos.rotation);
+            b.transform.right = -transform.right.normalized;
+            b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+        }
+        if (relativePoint.x > 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+        {
+            //right
+            b = Instantiate(bullet, shootPos.transform.position, Quaternion.identity);
+            b.transform.right = transform.right.normalized;
+            b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+
+        }
+        if (relativePoint.y > 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+        {
+            //down
+            b = Instantiate(bullet, new Vector2(shootPos.position.x - 1.5f, shootPos.position.y + 0.5f), shootPos.rotation);
+            b.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
+
+            b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
+
+        }
+        if (relativePoint.y < 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+        {
+            //up
+            b = Instantiate(bullet, new Vector2(shootPos.position.x - 1.5f, shootPos.position.y - .5f), shootPos.rotation);
+            b.transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
+            b.GetComponent<Rigidbody2D>().velocity = (target.transform.position - b.transform.position).normalized * 10;
         }
     }
 }

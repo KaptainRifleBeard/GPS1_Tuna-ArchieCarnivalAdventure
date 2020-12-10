@@ -8,7 +8,7 @@ public class RammingAttack : MonoBehaviour
     public GameObject[] players;
     public Animator animator;
     public float enemySpeed;
-    private float rotateSpeed = 5f;
+
     public float distance;
 
     public bool isRamming;
