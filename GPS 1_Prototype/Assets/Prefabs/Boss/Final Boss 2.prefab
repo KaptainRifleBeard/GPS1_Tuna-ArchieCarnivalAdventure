@@ -298,7 +298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boss: {fileID: 5509125654289213871}
   healthBar: {fileID: 4982495625743206674}
-  maxHealth: 300
+  maxHealth: 50
   curHealth: 0
   SetSpriteColor: {fileID: 6715540346553841644}
 --- !u!114 &8104499612459988548

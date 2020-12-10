@@ -33,14 +33,25 @@ public class WinLoseScreen : MonoBehaviour
 
     public void RetryLevel()
     {
+        GameObject[] allPlayer = GameObject.FindGameObjectsWithTag("Player");
 
-        if(SelectPlayMode.isDual == true)
+        if (SelectPlayMode.isDual == true)
         {
             if (healthVisual.p1IsDead == true && healthVisualB.p2IsDead == true)
             {
                 Application.LoadLevel(Application.loadedLevel);
                 //Scene scene = SceneManager.GetActiveScene();
                 //SceneManager.LoadScene(scene.name);
+                if (healthVisual.p1IsDead == true)
+                {
+                    PlayerSpawn.playerRespawn.SetActive(true);
+
+                }
+                if (healthVisualB.p2IsDead == true)
+                {
+                    PlayerBSpawn.playerBRespawn.SetActive(true);
+
+                }
 
 
                 PlayerSpawn.playerRespawn.transform.position = spawnpoint.transform.position;
@@ -58,7 +69,8 @@ public class WinLoseScreen : MonoBehaviour
             {
                 Application.LoadLevel(Application.loadedLevel);
                 //Scene scene = SceneManager.GetActiveScene();
-               //SceneManager.LoadScene(scene.name);
+                //SceneManager.LoadScene(scene.name);
+                PlayerSpawn.playerRespawn.SetActive(true);
 
                 PlayerSpawn.playerRespawn.transform.position = spawnpoint.transform.position;
                 isRetryLevel = true;

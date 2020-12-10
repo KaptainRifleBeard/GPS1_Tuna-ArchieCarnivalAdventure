@@ -73,7 +73,8 @@ public class healthVisual : MonoBehaviour
             {
                 if (p.layer == 9)
                 {
-                    Destroy(p);
+                    p.SetActive(false);
+                    //Destroy(p);
                     if (p1IsDead == true && healthVisualB.p2IsDead == true)
                     {
                         loseScreen.SetActive(true);

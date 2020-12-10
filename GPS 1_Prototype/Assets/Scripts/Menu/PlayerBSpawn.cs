@@ -34,6 +34,10 @@ public class PlayerBSpawn : SelectPlayMode
                 Debug.Log(player[cPlayer].name);
                 playerBRespawn = player[cPlayer];
             }
+            else
+            {
+
+            }
             
         }
         
