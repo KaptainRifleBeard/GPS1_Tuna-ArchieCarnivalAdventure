@@ -52,17 +52,17 @@ public class Boss : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("PlayerBullet") || other.gameObject.CompareTag("PlayerBullet(Clone)"))
+        if (other.gameObject.CompareTag("PlayerBullet"))
         {
             StartCoroutine(getDamageVFX());
             takeDamage(5);
         }
-        if (other.gameObject.CompareTag("CheeseBullet") || other.gameObject.CompareTag("CheeseBullet(Clone)"))
+        if (other.gameObject.CompareTag("CheeseBullet"))
         {
             StartCoroutine(getDamageVFX());
             takeDamage(10);
         }
-        if (other.gameObject.CompareTag("BubbleBullet")|| other.gameObject.CompareTag("BubbleBullet(Clone)"))
+        if (other.gameObject.CompareTag("BubbleBullet"))
         {
             StartCoroutine(getDamageVFX());
             takeDamage(3);
