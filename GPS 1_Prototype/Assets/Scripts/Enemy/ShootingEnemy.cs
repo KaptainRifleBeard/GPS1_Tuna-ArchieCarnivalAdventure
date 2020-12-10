@@ -6,12 +6,8 @@ using UnityEngine;
 
 public class ShootingEnemy : MonoBehaviour
 {
-    //public Transform target;
     public GameObject[] players;
     GameObject target = null;
-    public Animator animator;
-
-
     public Transform shootPos;
 
     public float enemySpeed;
@@ -24,39 +20,23 @@ public class ShootingEnemy : MonoBehaviour
     public float startTimeBtwShoot;
     private float timeBtwShoot;
 
-
-    private float distance;
-    SpriteRenderer up, down;
-
-    private void RotateTowards(Vector2 target)
-    {
-        var offset = -90f;
-        Vector2 direction = target - (Vector2)transform.position;
-        direction.Normalize();
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(Vector3.forward * (angle + offset));
-    }
+    public Animator animator;
+    public Vector2 relativePoint;
 
     void checkDistance()
     {
 
         if (Vector2.Distance(transform.position, target.transform.position) > stopRadius)
         {
-            animator.SetBool("isAttack", true);
-
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
         }
         else if (Vector2.Distance(transform.position, target.transform.position) > retreatRadius && 
                  Vector2.Distance(transform.position, target.transform.position) < stopRadius)
         {
-            animator.SetBool("isAttack", false);
-
             transform.position = this.transform.position;
         }
         else if (Vector2.Distance(transform.position, target.transform.position) < retreatRadius)
         {
-            animator.SetBool("isAttack", false);
-
             transform.position = Vector3.MoveTowards(transform.position, target.transform.position, -enemySpeed * 2 * Time.deltaTime);
         }
 
@@ -97,20 +77,6 @@ public class ShootingEnemy : MonoBehaviour
         }
 
 
-        //for (int i = 0; i < players.Length; i++)
-        //{
-        //    Debug.Log(players[i]);
-        //    distance = Vector2.Distance(this.transform.position, players[i].transform.position);
-
-        //    if (distance < retreatRadius)
-        //    {
-        //        target = players[i].transform;
-        //        retreatRadius = distance;
-        //    }
-        //}
-
-
-
     }
 
     void Update()
@@ -138,6 +104,35 @@ public class ShootingEnemy : MonoBehaviour
                 }
 
                 
+            }
+
+            relativePoint = transform.InverseTransformPoint(target.transform.position);
+            if (relativePoint.x < 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = left;
+                animator.SetFloat("Vertical", 0);
+                animator.SetFloat("Horizontal", -1);
+            }
+            if (relativePoint.x > 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = right;
+                animator.SetFloat("Vertical", 0);
+                animator.SetFloat("Horizontal", 1);
+            }
+            if (relativePoint.y > 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = down;
+
+                animator.SetFloat("Vertical", 1);
+                animator.SetFloat("Horizontal", 0);
+
+            }
+            if (relativePoint.y < 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = up;
+                animator.SetFloat("Vertical", -1);
+                animator.SetFloat("Horizontal", 0);
+
             }
 
         }

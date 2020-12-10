@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-    
 using UnityEngine;
 
 public class RammingAttack : MonoBehaviour
@@ -20,8 +19,10 @@ public class RammingAttack : MonoBehaviour
     public float stopRadius;
     public float rammingRadius;
 
-    public bool isstop = false;
-    public bool isCollide = false;
+
+    public Vector2 relativePoint;
+    public SpriteRenderer rend;
+    public Sprite up,down,left,right;
 
     //raycast
 
@@ -31,17 +32,7 @@ public class RammingAttack : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
 
-            //Vector3 dir = target.transform.position - transform.position;
-            //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-
-            /*
-            if (isstop == false)
-            {
-                
-                transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
-            }
-            */
+           
             /*
             //transform.Rotate(Vector3.forward * rotateSpeed * Time.deltaTime);
             RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, distance);
@@ -88,8 +79,6 @@ public class RammingAttack : MonoBehaviour
         if (collision.gameObject.CompareTag("Tilemap") || collision.gameObject.CompareTag("Barrier") || collision.gameObject.CompareTag("Stage") ||
             collision.gameObject.CompareTag("Props"))
         {
-            //isstop = true;
-            //isCollide = true;
             if (isFacingRight)
             {
                 isFacingRight = false;
@@ -129,15 +118,7 @@ public class RammingAttack : MonoBehaviour
         isRamming = true;
     }
 
-    /*
-    public IEnumerator startMoving()
-    {
-        yield return new WaitForSeconds(1f);
-        isstop = false;
-    }
-    */
-
-
+    
 
     void Start()
     {
@@ -161,17 +142,7 @@ public class RammingAttack : MonoBehaviour
 
     void Update()
     {
-        /*
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.right, distance);
-        if (hitInfo.collider != null)
-        {
-            Debug.DrawLine(transform.position, hitInfo.point, Color.red);
-        }
-        else
-        {
-            Debug.DrawLine(transform.position, transform.position + transform.right * distance, Color.green);
-        }
-        */
+        
         if (target != null)
         {
             checkDistance();
@@ -188,21 +159,34 @@ public class RammingAttack : MonoBehaviour
                 GetComponent<TouchEnemyGetDamage>().damageAmount = 0;
             }
 
-            if (isRamming)
-            {
-                animator.SetBool("toRam", true);
-            }
-            else
-            {
-                animator.SetBool("toRam", false);
-            }
 
-            /*
-            if(isstop && isCollide)
+            relativePoint = transform.InverseTransformPoint(target.transform.position);
+            if (relativePoint.x < 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
             {
-                StartCoroutine(startMoving());
+                //rend.sprite = left;
+                animator.SetFloat("Vertical", 0);
+                animator.SetFloat("Horizontal", -1);
             }
-            */
+            if (relativePoint.x > 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = right;
+                animator.SetFloat("Vertical", 0);
+                animator.SetFloat("Horizontal", 1);
+            }
+            if (relativePoint.y > 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = down;
+                animator.SetFloat("Vertical", -1);
+                animator.SetFloat("Horizontal", 0);
+                
+                
+            }
+            if (relativePoint.y < 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = up;
+                animator.SetFloat("Vertical", 1);
+                animator.SetFloat("Horizontal", 0);
+            }
 
         }
     }

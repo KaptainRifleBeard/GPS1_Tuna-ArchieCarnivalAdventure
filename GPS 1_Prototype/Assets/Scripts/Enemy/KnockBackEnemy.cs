@@ -21,24 +21,22 @@ public class KnockBackEnemy : MonoBehaviour
     public float distance;
 
     public Animator animator;
+    public Vector2 relativePoint;
 
 
     void checkDistance()
     {
         if (Vector2.Distance(transform.position, target.transform.position) > stopRadius)
         {
-            animator.SetBool("isWalk", true);
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
         }
         else if (Vector2.Distance(transform.position, target.transform.position) > retreatRadius &&
                  Vector2.Distance(transform.position, target.transform.position) < stopRadius)
         {
-            animator.SetBool("isWalk", false);
             transform.position = this.transform.position;
         }
         else if (Vector2.Distance(transform.position, target.transform.position) < retreatRadius)
         {
-            animator.SetBool("isWalk", true);
             transform.position = Vector3.MoveTowards(transform.position, target.transform.position, -enemySpeed * 2 * Time.deltaTime);
         }
 
@@ -81,7 +79,6 @@ public class KnockBackEnemy : MonoBehaviour
         }
 
     }
-    public Vector2 dir;
 
     void Update()
     {
@@ -109,7 +106,36 @@ public class KnockBackEnemy : MonoBehaviour
                     timeBtwShoot -= Time.deltaTime;
                 }
             }
-            
+
+            relativePoint = transform.InverseTransformPoint(target.transform.position);
+            if (relativePoint.x < 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = left;
+                animator.SetFloat("Vertical", 0);
+                animator.SetFloat("Horizontal", -1);
+            }
+            if (relativePoint.x > 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = right;
+                animator.SetFloat("Vertical", 0);
+                animator.SetFloat("Horizontal", 1);
+            }
+            if (relativePoint.y > 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = down;
+
+                animator.SetFloat("Vertical", 1);
+                animator.SetFloat("Horizontal", 0);
+
+            }
+            if (relativePoint.y < 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = up;
+                animator.SetFloat("Vertical", -1);
+                animator.SetFloat("Horizontal", 0);
+                
+            }
+
 
         }
     }

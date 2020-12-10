@@ -16,13 +16,15 @@ public class KamikazeEnemy : MonoBehaviour
     protected Vector3 direction;
 
     public Animator animator;
+    public Vector2 relativePoint;
+
     void checkDistance()
     {
         if (Vector2.Distance(transform.position, target.transform.position) < attackRadius)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
         }
-        else
+        /*else
         {
 
             if (isFacingRight)
@@ -39,7 +41,7 @@ public class KamikazeEnemy : MonoBehaviour
                 transform.Translate(-2 * enemySpeed * Time.deltaTime, 0, 0);
                 transform.localScale = new Vector2(-1, 1); //flip enemy
             }
-        }
+        }*/
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -95,16 +97,43 @@ public class KamikazeEnemy : MonoBehaviour
     {
         if (target != null)
         {
-            Vector3 dir = target.transform.position - transform.position;
-            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            //Vector3 dir = target.transform.position - transform.position;
+            //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
             checkDistance();
             if(isKamikaze)
             {
                 kamikaze();
             }
 
+            relativePoint = transform.InverseTransformPoint(target.transform.position);
+            if (relativePoint.x < 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = left;
+                animator.SetFloat("Vertical", 0);
+                animator.SetFloat("Horizontal", -1);
+            }
+            if (relativePoint.x > 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = right;
+                animator.SetFloat("Vertical", 0);
+                animator.SetFloat("Horizontal", 1);
+            }
+            if (relativePoint.y > 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = down;
 
+                animator.SetFloat("Vertical", 1);
+                animator.SetFloat("Horizontal", 0);
+
+            }
+            if (relativePoint.y < 0 && Mathf.Abs(relativePoint.x) < Mathf.Abs(relativePoint.y))
+            {
+                //rend.sprite = up;
+                animator.SetFloat("Vertical", -1);
+                animator.SetFloat("Horizontal", 0);
+
+            }
 
         }
     }

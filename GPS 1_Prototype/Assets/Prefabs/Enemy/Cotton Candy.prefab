@@ -184,7 +184,7 @@ MonoBehaviour:
   startTimeBtwShoot: 2
   distance: 0
   animator: {fileID: 1071224273}
-  dir: {x: 0, y: 0}
+  relativePoint: {x: 0, y: 0}
 --- !u!114 &1705503264492024353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,7 +207,6 @@ MonoBehaviour:
   - {fileID: 648459723619087532, guid: 6ee8ab0ad60b128498f544f294326d5c, type: 3}
   - {fileID: 1273353260515769873, guid: 44cb1d413a1c9b94b918a3f1e1f1d653, type: 3}
   health: 20
-  animator: {fileID: 1071224273}
   SetSpriteColor: {fileID: 1705503264492024355}
 --- !u!95 &1071224273
 Animator:

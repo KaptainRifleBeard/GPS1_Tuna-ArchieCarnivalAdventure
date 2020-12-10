@@ -4103,7 +4103,7 @@ Transform:
   - {fileID: 788386735}
   - {fileID: 241015704}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &180578077 stripped
 Transform:
@@ -24754,11 +24754,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2568920336892274364, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.661872
+      value: 54.6
       objectReference: {fileID: 0}
     - target: {fileID: 2568920336892274364, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.60375
+      value: -27.5
       objectReference: {fileID: 0}
     - target: {fileID: 2568920336892274364, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24782,7 +24782,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2568920336892274364, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2568920336892274364, guid: c0a992c56c9b9e942a5e4c34d0440440, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -52678,6 +52678,10 @@ PrefabInstance:
       propertyPath: healthImage.Array.data[2]
       value: 
       objectReference: {fileID: 997601895}
+    - target: {fileID: 3084979549221026657, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3084979549221026658, guid: 2bd76e5cb6f77894eb910b4ea586d9ab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.26

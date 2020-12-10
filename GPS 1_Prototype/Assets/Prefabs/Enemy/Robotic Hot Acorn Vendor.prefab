@@ -157,7 +157,6 @@ MonoBehaviour:
   - {fileID: 648459723619087532, guid: 6ee8ab0ad60b128498f544f294326d5c, type: 3}
   - {fileID: 1273353260515769873, guid: 44cb1d413a1c9b94b918a3f1e1f1d653, type: 3}
   health: 10
-  animator: {fileID: 1928797449}
   SetSpriteColor: {fileID: 8345169510538593443}
 --- !u!114 &8345169510538593447
 MonoBehaviour:
@@ -177,6 +176,7 @@ MonoBehaviour:
   attackRadius: 5
   isFacingRight: 0
   animator: {fileID: 1928797449}
+  relativePoint: {x: 0, y: 0}
 --- !u!114 &8345169510538593446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,7 +198,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8345169510538593497}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b758327d2ac91bc4aa0ccaf31192fd3a, type: 2}
   m_CullingMode: 0

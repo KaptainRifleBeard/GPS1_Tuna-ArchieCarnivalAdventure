@@ -9,7 +9,6 @@ public class EnemyHealth : MonoBehaviour
 
     public int health;
 
-    public Animator animator;
     public SpriteRenderer SetSpriteColor;
 
 

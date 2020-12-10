@@ -83,7 +83,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.76, y: 2.8}
+  m_Size: {x: 0.72, y: 0.55846155}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -128,7 +128,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.72, y: 0.55846155}
-    newSize: {x: 3.76, y: 2.8}
+    newSize: {x: 0.72, y: 0.55846155}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -158,7 +158,6 @@ MonoBehaviour:
   - {fileID: 648459723619087532, guid: 6ee8ab0ad60b128498f544f294326d5c, type: 3}
   - {fileID: 1273353260515769873, guid: 44cb1d413a1c9b94b918a3f1e1f1d653, type: 3}
   health: 15
-  animator: {fileID: 2889686111753656734}
   SetSpriteColor: {fileID: 4873296659191329507}
 --- !u!114 &2065724728100411040
 MonoBehaviour:
@@ -173,7 +172,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   players: []
-  animator: {fileID: 2889686111753656734}
   shootPos: {fileID: 7737384143131024973}
   enemySpeed: 5
   retreatRadius: 3
@@ -181,6 +179,8 @@ MonoBehaviour:
   attackRadius: 4
   bullet: {fileID: 858264659239609202, guid: 2bfc8d24217a5fa41a353629e929e910, type: 3}
   startTimeBtwShoot: 2
+  animator: {fileID: 2889686111753656734}
+  relativePoint: {x: 0, y: 0}
 --- !u!95 &2889686111753656734
 Animator:
   serializedVersion: 3
@@ -218,7 +218,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.72, y: 0.55846155}
-    newSize: {x: 3.76, y: 2.8}
+    newSize: {x: 0.72, y: 0.55846155}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
