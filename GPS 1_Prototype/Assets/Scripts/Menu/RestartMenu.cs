@@ -21,8 +21,47 @@ public class RestartMenu : MonoBehaviour
     }
     public void restartFromBoss()
     {
-        SceneManager.LoadScene(7);
-    
+        //SceneManager.LoadScene(7);
+        if (SelectPlayMode.isDual == true)
+        {
+            if (healthVisual.p1IsDead == true && healthVisualB.p2IsDead == true)
+            {
+                Application.LoadLevel(7);
+                //Scene scene = SceneManager.GetActiveScene();
+                //SceneManager.LoadScene(scene.name);
+                if (healthVisual.p1IsDead == true)
+                {
+                    PlayerSpawn.playerRespawn.SetActive(true);
+
+                }
+                if (healthVisualB.p2IsDead == true)
+                {
+                    PlayerBSpawn.playerBRespawn.SetActive(true);
+
+                }
+
+
+                PlayerSpawn.playerRespawn.transform.position = new Vector3(-119.8f, 28.3f, -5.50f);
+                PlayerBSpawn.playerBRespawn.transform.position = new Vector3(-119.8f, 28.3f, -5.50f);
+
+
+            }
+        }
+        else if (SelectPlayMode.isDual == false)
+        {
+            if (healthVisual.p1IsDead == true)
+            {
+                Application.LoadLevel(7);
+                //Scene scene = SceneManager.GetActiveScene();
+                //SceneManager.LoadScene(scene.name);
+                PlayerSpawn.playerRespawn.SetActive(true);
+
+                PlayerSpawn.playerRespawn.transform.position = new Vector3(-119.8f, 28.3f, -5.50f);
+
+
+            }
+        }
+
     }
 }
 
